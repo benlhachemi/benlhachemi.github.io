@@ -32,7 +32,7 @@ export default function RootLayout({
       lang="en"
       className={cn("h-full", "antialiased", geistSans.variable, geistMono.variable, "font-sans", inter.variable)}
     >
-      <body className="max-w-5xl mx-auto min-h-screen bg-background text-foreground">
+      <body className="max-w-5xl mx-auto min-h-screen bg-background text-foreground px-4">
         <ThemeProvider>
           <Navbar />
           <main className="py-8">
