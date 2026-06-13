@@ -1,12 +1,6 @@
-import { GithubLogo } from "@/components/logos/GithubLogo"
-import { ShadcnLogo } from "@/components/logos/ShadcnLogo"
-import { YouTubeLogo } from "@/components/logos/YouTubeLogo"
 import { ProjectCard, ProjectCardProps } from "@/components/ProjectCard"
-import { Button } from "@/components/ui/button"
-import { Globe } from "lucide-react"
-import Image from "next/image"
-import Link from "next/link"
 import { Metadata } from "next/types"
+import ProjectsContent from '@/content/projects/index.mdx'
 
 export const metadata: Metadata = {
   title: "Projects",
@@ -29,24 +23,7 @@ const projects: ProjectCardProps[] = [
 export default function Page() {
   return (
     <div className="space-y-16">
-      <div className="space-y-4 max-w-sm">
-        <h1 className="text-4xl font-semibold">Projects</h1>
-        <p className="text-muted-foreground">
-          Some of my projects. Things I've built, shipped, and learned from.
-        </p>
-      </div>
-
-      {projects.map(project => (
-        <ProjectCard
-          key={project.title}
-          date={project.date}
-          image={project.image}
-          links={project.links}
-          shortDescription={project.shortDescription}
-          techStack={project.techStack}
-          title={project.title}
-        />
-      ))}
+      <ProjectsContent />
     </div>
   )
 }

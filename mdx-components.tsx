@@ -1,5 +1,6 @@
 import type { MDXComponents } from 'mdx/types'
 import NextImage, { ImageProps } from 'next/image'
+import { ProjectCard } from './components/ProjectCard'
 
 const components = {
   table: ({ children }) => (
@@ -51,6 +52,16 @@ const components = {
     />
   ),
   hr: () => <hr className="my-8 border-border" />,
+  ProjectCard: (props) => (
+    <ProjectCard
+      date={props.date}
+      image={props.image}
+      links={props.links}
+      shortDescription={props.shortDescription}
+      techStack={props.techStack}
+      title={props.title}
+    />
+  )
 } satisfies MDXComponents
 
 export function useMDXComponents(): MDXComponents {
