@@ -7,7 +7,7 @@ import { Globe } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
-type TechStack = "shadcn" | "react" | "tailwindcss" | "nextjs" | "nestjs"
+type TechStack = string
 type ProjectLink = {
   type: "github" | "website" | "youtube";
   url: string;

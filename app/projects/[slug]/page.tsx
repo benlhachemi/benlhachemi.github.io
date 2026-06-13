@@ -1,18 +1,13 @@
-import { projects, getProjectBySlug } from "@/lib/project-data"
+import { getProjectBySlug, getProjectSlugs } from "@/lib/project-data"
+import { projectRegistry } from "@/lib/project-registry"
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { ArrowLeft } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
-import ComsepContent from '@/content/projects/comsep.mdx'
-
-const mdxContent: Record<string, React.ComponentType> = {
-  comsep: ComsepContent,
-}
-
 export async function generateStaticParams() {
-  return projects.map((p) => ({ slug: p.slug }))
+  return getProjectSlugs().map((slug) => ({ slug }))
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -27,7 +22,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
   const project = getProjectBySlug(slug)
   if (!project) notFound()
 
-  const Content = mdxContent[slug]
+  const Content = projectRegistry[slug]
   if (!Content) notFound()
 
   return (

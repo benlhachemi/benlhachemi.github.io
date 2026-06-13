@@ -2,7 +2,7 @@ import type { MDXComponents } from 'mdx/types'
 import NextImage, { ImageProps } from 'next/image'
 import { ProjectCard } from './components/ProjectCard'
 
-const components = {
+export const components = {
   table: ({ children }) => (
     <div className="my-6 w-full overflow-x-auto rounded-lg border border-border">
       <table className="w-full text-left text-sm">{children}</table>
