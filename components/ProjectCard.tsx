@@ -14,6 +14,7 @@ type ProjectLink = {
 }
 
 export interface ProjectCardProps {
+  slug: string;
   title: string;
   shortDescription: string;
   techStack: TechStack[];
@@ -45,7 +46,7 @@ const getLinkIcon = (link: ProjectLink) => {
   }
 }
 
-export function ProjectCard({ title, className, shortDescription, techStack, links, image, date }: ProjectCardProps) {
+export function ProjectCard({ title, slug, className, shortDescription, techStack, links, image, date }: ProjectCardProps) {
   return (
     <div className={cn("w-full rounded-none shadow-xs bg-card", className)}>
       <Image
@@ -83,9 +84,11 @@ export function ProjectCard({ title, className, shortDescription, techStack, lin
             ))}
           </div>
 
-          <Button variant="default" size="default" className="rounded-none">
-            More Info
-          </Button>
+          <Link href={`/projects/${slug}`}>
+            <Button variant="default" size="default" className="rounded-none cursor-pointer">
+              More Info
+            </Button>
+          </Link>
         </div>
       </div>
     </div>

@@ -60,6 +60,7 @@ const components = {
       shortDescription={props.shortDescription}
       techStack={props.techStack}
       title={props.title}
+      slug={props.slug}
     />
   )
 } satisfies MDXComponents
