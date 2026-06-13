@@ -48,7 +48,7 @@ const getLinkIcon = (link: ProjectLink) => {
 
 export function ProjectCard({ title, slug, className, shortDescription, techStack, links, image, date }: ProjectCardProps) {
   return (
-    <div className={cn("w-full rounded-none shadow-xs bg-card", className)}>
+    <div className={cn("w-full rounded-none shadow-xs bg-card border", className)}>
       <Image
         src={image}
         alt="Project image"
