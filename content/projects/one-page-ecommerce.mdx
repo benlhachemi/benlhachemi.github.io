@@ -1,0 +1,54 @@
+---
+title: One-page e-commerce
+shortDescription: Single-page e-commerce storefront with WhatsApp ordering for a Moroccan business.
+techStack: [nextjs, typescript, tailwindcss]
+links:
+  - type: github
+    url: https://github.com/benlhachemi/onepage-ecommerce-shop.git
+  - type: youtube
+    url: https://youtu.be/1HzFYpmx_zs
+image: /images/one-page-ecommerce.png
+date: Apr 2023
+---
+
+### **Project Summary**
+
+- **Date:** April 2023
+- **Description:** Single-page e-commerce storefront (catalog + WhatsApp ordering) for a Moroccan business. Products and categories are managed via a Strapi headless CMS and statically generated with Next.js at build time.
+
+### Motivation
+
+Create a simple, no-backend-maintenance product catalog where customers browse products and place orders directly via WhatsApp - a common commerce pattern in Morocco. No cart, no payments, no auth. Just browse-and-chat.
+
+### Links
+
+Github repo: https://github.com/benlhachemi/onepage-ecommerce-shop.git
+
+YouTube tutorial: https://youtu.be/1HzFYpmx_zs
+
+### **Tech Stack**
+
+| **Category** | **Technology** |
+| --- | --- |
+| Framework | Next.js 13 (Pages Router) |
+| Language | TypeScript |
+| Styling | Tailwind CSS + daisyUI |
+| CMS | Strapi (headless, Railway-hosted) |
+| Data Fetching | SSG + ISR (revalidate: 60s) via Axios |
+| Linting | ESLint (next/core-web-vitals) |
+
+### **Key Features**
+
+- Static-generated product catalog grouped by categories
+- WhatsApp ordering - each product card links to wa.me with pre-filled product name
+- Mobile-first responsive grid (1-4 columns)
+- Cover image, avatar, and page title managed via CMS
+- Incremental Static Regeneration (ISR) - content updates within 60s without rebuild
+
+### **What I Learned**
+
+- Integrating a headless CMS (Strapi) with Next.js static generation
+- Using ISR (revalidate) to balance freshness with build-time performance
+- Building a "WhatsApp commerce" flow as an alternative to traditional checkout
+- Structuring a Next.js Pages Router project with TypeScript types for API data
+- Working with Tailwind CSS grid layouts and daisyUI components

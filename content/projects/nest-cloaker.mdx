@@ -1,0 +1,43 @@
+---
+title: Nest Cloaker
+shortDescription: Affiliate marketing URL cloaking API with device fingerprinting and network filtering.
+techStack: [nestjs, typescript, mongodb]
+links:
+  - type: github
+    url: https://github.com/benlhachemi/nest-cloaker.git
+image: /images/nest-cloaker.png
+date: Apr 2023
+---
+
+### **Project Summary**
+
+- **Date:** April 2023
+- **Description:** Affiliate marketing URL cloaking API built with NestJS. Each link has configurable filters (quick + advanced) that validate incoming visitors via device fingerprinting and network data. Real human traffic is redirected to the monetization offer page; bots, reviewers, and competitors are served a harmless white page instead.
+
+### Motivation
+
+Keep affiliate offers hidden from ad network reviewers, competitors, and bots - only real users see the redirect. Bypass affiliate program terms that prohibit direct linking.
+
+### Links
+
+Github repo: https://github.com/benlhachemi/nest-cloaker.git
+
+### **Tech Stack**
+
+NestJS 9, TypeScript, MongoDB + Mongoose, MaxMind GeoIP2 (ISP + Country DBs), class-validator, Helmet, Throttler, express-mongo-sanitize
+
+### **Key Features**
+
+- **Quick filters:** block bots, mobile-only, block direct traffic, block all traffic
+- **Advanced filters:** geo (country), language, referrer/source, OS, browser, timezone, ISP/ASO/ASN, IP, URL queries, scheduling
+- **Bot/browser fingerprinting** - detects headless browsers and automation by analyzing hardwareConcurrency, deviceMemory, screen resolution, connection RTT, touch points, pixel ratio, FCP, FPS, audio, WebGL, and 30+ other signals
+- **Network filtering** - auto-blacklists datacenter IPs (AWS, GCP, Azure, DigitalOcean, etc.) via MaxMind ISP DB
+- **IP middleware** resolves visitor network data (ASN, ASO, ISP, org, country) before validation
+- Request logging to MongoDB
+
+### **What I Learned**
+
+- Building a multi-layered decision engine with fast-fail validation
+- Browser fingerprinting heuristics for distinguishing real users from headless browsers
+- Integrating MaxMind GeoIP2 for ISP-level and country-level network lookups
+- Structuring a NestJS app with middleware, nested MongoDB schemas, and module exports

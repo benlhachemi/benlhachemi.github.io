@@ -1,0 +1,46 @@
+---
+title: Arduino NodeJs
+shortDescription: IoT web controller bridging Node.js with Arduino via serial communication.
+techStack: [nextjs, nodejs, express, react]
+links:
+  - type: github
+    url: https://github.com/benlhachemi/arduino-nodejs.git
+image: /images/arduino-nodejs.png
+date: Jan 2023
+---
+
+### **Project Summary**
+
+- **Date:** January 5, 2023
+- **Description:** An IoT web controller that bridges a Node.js Express backend with an Arduino board via serial communication (Johnny-Five/Firmata), exposing REST endpoints to control an LED on digital pin 8, with a skeleton Next.js + Material UI frontend for browser-based control.
+
+### Motivation
+
+A project that was mandatory in engineering school (4th year). The goal was to connect the physical world (Arduino + sensors) with the web (Node.js, React). Demonstrates full-stack IoT capabilities.
+
+### Links
+
+Github repo: https://github.com/benlhachemi/arduino-nodejs.git
+
+### **Tech Stack**
+
+- **Backend:** Node.js, Express 4.18, Johnny-Five 2.1, Nodemon
+- **Frontend:** Next.js 13, React 18, Material UI 5, Axios, Emotion
+- **Hardware:** Arduino (StandardFirmata firmware over USB/COM6), LED on digital pin 8
+
+### **Key Features**
+
+- REST API to turn an LED on/off (GET /allumer-led, GET /eteindre-led)
+- Server waits for Arduino hardware readiness before accepting requests
+- Next.js frontend with MUI button (stub - ready for API integration)
+- Hot-reload backend via Nodemon
+
+### **What I Learned**
+
+- IoT basics: controlling hardware from JavaScript via Johnny-Five/Firmata
+- Serial communication between Node.js and Arduino over USB
+- REST API design mapping HTTP endpoints to hardware actions
+- Full-stack integration: hardware - Node.js API - React frontend
+- Setting up Material UI with Next.js
+- Handling asynchronous hardware readiness before starting a server
+- Structuring a monorepo with backend + client applications

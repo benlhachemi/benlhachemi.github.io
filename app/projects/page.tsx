@@ -1,6 +1,5 @@
 import { getProjects } from "@/lib/project-data"
 import { ProjectCard } from "@/components/ProjectCard"
-import ProjectsContent from '@/content/projects/index.mdx'
 import { Metadata } from "next/types"
 
 export const metadata: Metadata = {

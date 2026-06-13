@@ -1,0 +1,50 @@
+---
+title: CPADominator
+shortDescription: Full-stack SaaS for creating content-locked landing pages used in CPA/affiliate marketing.
+techStack: [nextjs, typescript, tailwindcss, mongodb]
+links: []
+image: /images/cpadominator.png
+date: Mar 2022
+---
+
+### **Project Summary**
+
+- **Date:** 03/21/2022 - 2022-08-26
+- **Description:** A full-stack SaaS platform for creating and managing content-locked landing pages ("niches") used in CPA/affiliate marketing. Users build themed landing pages (app installs, codes and coupons, accounts, coin generators), gate content behind offers, and monetize via CPA networks. Built with Next.js 12 + MongoDB, evolved from Strapi CMS to a monolith and then to a separate client/server architecture.
+
+### Motivation
+
+This is my first SaaS built ever, and the first time I worked with a teammate on the same project. The idea of this project came when my co-founder and I were working as affiliate marketers at Ogads; we were creating affiliate landing pages to promote CPA offers manually using HTML, CSS, and JavaScript. But other non-tech affiliate marketers didn't have the coding skills to create custom landing pages, so we knew there was a need for this. So we have built this solution specifically for non-tech affiliate marketers to create themed CPA landing pages without needing technical or design skills.
+
+### Links
+
+### **Tech Stack**
+
+| **Layer** | **Technology** |
+| --- | --- |
+| **Framework** | Next.js 12.1.0 (Pages Router) |
+| **Frontend** | React 17, Tailwind CSS 3, Material UI 5 |
+| **Backend** | Next.js API Routes (monolith) then later refactored into separate client/ + server/ |
+| **Database** | MongoDB + Mongoose (early prototype used Strapi v4 CMS) |
+| **Auth** | JWT (15min) + refresh tokens (24h, httpOnly cookies, rotation), Google OAuth, bcrypt |
+| **Email** | Mailgun / Nodemailer (email verification) |
+| **SMS** | Twilio (phone verification, partial) |
+| **Security** | reCAPTCHA v2, browser fingerprinting, CORS origin validation, server-side Google ID token verification |
+
+### **Key Features**
+
+- **Full auth system** - local (email/password) + Google OAuth, JWT/refresh-token rotation with httpOnly cookies, email verification (Mailgun), phone verification (Twilio), reCAPTCHA protection
+- **Niche (LP) CRUD** - create, edit, delete, search, activate/deactivate landing pages with typed fields (app-install, codes and coupons, accounts, coins-generator), keywords, icons, languages (8), videos, custom paths
+- **Dashboard** - overview, analytics (placeholder), billing (placeholder), niche grid with search, import/export, sidebar navigation
+- **Pricing tiers** - Free (subdomain+SSL, hosting, 3 niches) / Premium ($9.99/mo: unlimited niches, pre-built library, hack-proof generator, import/export)
+- **Multi-step registration** - form, email confirmation (4-digit code), phone confirmation, account suspended handling
+- **Session management** - encrypted localStorage with browser fingerprint, automatic token refresh via useSession hook
+
+### **What I Learned**
+
+- **Auth architecture**: Implementing secure JWT + refresh-token rotation with httpOnly cookies and a client-side React hook that auto-refreshes tokens before expiry using browser fingerprinting for session integrity.
+- **Backend evolution**: Started with Strapi v4 headless CMS as external backend, migrated to Next.js API Routes + MongoDB monolith, later refactored into separate client/ + server/ apps.
+- **Full-stack SaaS patterns**: Building a product with user management, subscription tiers, dashboard routing with catch-all routes, multi-step registration flows, and server-side rendering considerations.
+- **Security hardening**: Server-side Google OAuth token verification, reCAPTCHA validation, CORS origin checks, JWT payload decoding/validation, and preventing user modification of protected fields in CRUD operations.
+- **Content locking business model**: Understanding how niche landing pages, content lockers, and CPA offer walls work together for monetization.
+- **Git branching as experimentation**: The 18+ branches explored parallel ideas (analytics, hosting, refactoring, new templates, next-auth migration, Strapi integration, subdomain routing, new UI templates).

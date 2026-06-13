@@ -1,0 +1,53 @@
+---
+title: RandomCall
+shortDescription: Full-stack random 1-on-1 video chat app like Omegle/Chatroulette with WebSocket matchmaking.
+techStack: [nextjs, nestjs, typescript, tailwindcss, shadcn, docker, redis]
+links:
+  - type: github
+    url: https://github.com/benlhachemi/randomcall.git
+  - type: youtube
+    url: https://youtu.be/FamZMfLIYag
+image: /images/randomcall.png
+date: Apr 2024
+---
+
+### **Project Summary**
+
+- **Date:** April 2024
+- **Description:** RandomCall is a full-stack random 1-on-1 video chat application (like Omegle/Chatroulette). Users connect via WebSocket, get matched through a Redis-backed Bull queue, and are placed into a video call room powered by ZegoCloud.
+
+### Motivation
+
+This one a paid sponsorship on my YouTube channel from ZegoCloud. I was asked to create an app to demonstrate ZegoCloud video-call service, so I built a tutorial project to demonstrate real-time WebSocket matchmaking and queue-based user pairing.
+
+### Links
+
+Github repo: https://github.com/benlhachemi/randomcall.git
+
+YouTube Tutorial: https://youtu.be/FamZMfLIYag
+
+### **Tech Stack**
+
+- **Frontend:** Next.js 14 (React 18, TypeScript), Tailwind CSS, shadcn/ui, Lucide Icons, Animate.css
+- **Backend:** NestJS 10 (TypeScript), Socket.IO (WebSocket)
+- **Video:** ZegoUIKit Prebuilt (ZegoCloud SDK)
+- **Queue/Database:** Bull (Redis job queue), Redis via Docker
+- **Infrastructure:** Docker Compose (Redis + RedisInsight)
+
+### **Key Features**
+
+- **Random Matchmaking** - users are queued via Bull/Redis and paired when two are available
+- **WebSocket Real-Time Communication** - Socket.IO handles handshake, matchmaking events, and room assignment
+- **1-on-1 Video Calls** - powered by ZegoUIKit Prebuilt (mute, camera toggle, screen share, end call)
+- **Animated UI State Machine** - multi-step flow: NOT_STARTED - CONNECTING - CONNECTED - SEARCHING - SEARCH_DONE - room
+- **Dockerized Redis** - one-command setup with RedisInsight for visual queue inspection
+- **Fully Anonymous** - no authentication, users identified by UUID + socket ID
+
+### **What I Learned**
+
+- Docker-compose
+- Building a real-time WebSocket server with NestJS and Socket.IO
+- Implementing a queue-based matchmaking system using Bull and Redis
+- Integrating a third-party video SDK (ZegoUIKit) into a React/Next.js app
+- Managing state transitions in a real-time application with multiple connection phases
+- Structuring a full-stack TypeScript monorepo with decoupled frontend/backend services

@@ -1,0 +1,53 @@
+---
+title: Brand Name Generator
+shortDescription: AI-powered brand name generator using fine-tuned GPT-3.5 with domain and social handle checking.
+techStack: [nextjs, typescript, tailwindcss, shadcn, framer-motion]
+links:
+  - type: website
+    url: https://brand-name-generator.vercel.app/
+image: /images/brand-name-generator.png
+date: Sep 2023
+---
+
+### **Project Summary**
+
+- **Date:** September 12, 2023
+- **Description:** An AI-powered brand name generator built with Next.js 13 and OpenAI's fine-tuned GPT-3.5. Users describe their project idea and get 40 unique brand name suggestions with domain availability, social handle checks, and scoring metrics.
+
+### Motivation
+
+This was an attempt to build a profitable SaaS. I have built this full-stack Next.js 13 app router project integrating OpenAI's API for structured output, with shadcn/ui, Radix UI primitives, Lottie animations, and LLM output sanitization.
+
+### Links
+
+Live Demo: https://brand-name-generator.vercel.app/
+
+### **Tech Stack**
+
+- **Framework:** Next.js 13.4 (App Router, experimental Server Actions)
+- **Language:** TypeScript 5.2
+- **Styling:** Tailwind CSS 3.3 + tailwindcss-animate + animate.css
+- **UI:** shadcn/ui (20+ Radix UI primitives: Sheet, Dialog, NavigationMenu, Popover, Command, etc.)
+- **AI:** OpenAI Node SDK v4.8 - fine-tuned gpt-3.5-turbo-0613
+- **Animations:** lottie-react, typewriter-effect, react-text-gradients
+- **Icons:** lucide-react, react-icons
+- **Linting:** ESLint 8 (airbnb + typescript + prettier)
+
+### **Key Features**
+
+1. **AI Brand Name Generator** - Generates 40 names + TLD rankings from a short project description via fine-tuned GPT-3.5
+2. **Name Detail Sheet** - Slide-out panel with explanation, domains, social handles, and 12 scoring metrics
+3. **Brand Name Checker** - (UI demo) Input a name to check against best-practice metrics
+4. **Typewriter placeholders** - Cycling example hints in search inputs
+5. **Lottie animations** - Animated illustrations on the home and checker pages
+6. **LLM output cleaning pipeline** - JSON repair + dedup/filtering (length, special chars, error messages)
+
+### **What I Learned**
+
+- Full-stack Next.js 13 App Router patterns (route groups, layouts, API routes)
+- OpenAI API integration with a custom fine-tuned model for structured JSON output
+- Prompt engineering for LLM-structured responses + regex-based JSON repair for malformed output
+- Building accessible UI with shadcn/ui and Radix UI primitives
+- Lottie animations in React
+- Custom typewriter effect implementation
+- What not to do: hardcoding API keys, leaving placeholder components unconnected, duplicating routes

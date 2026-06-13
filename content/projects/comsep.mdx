@@ -1,0 +1,58 @@
+---
+title: Comsep
+shortDescription: AI-powered domain name generator with real-time WHOIS availability checking.
+techStack: [nextjs, typescript, tailwindcss, mongodb, nextauth, shadcn]
+links:
+  - type: website
+    url: https://domain-name-generator-iota.vercel.app/
+image: /images/comsep.png
+date: Nov 2024
+---
+
+### **Project Summary**
+
+- **Date:** Nov 25, 2024
+- **Description:** AI-powered domain name generator SaaS. Users describe their business idea, and the app uses Google Gemini to generate unique, brandable name suggestions (neologisms with suffixes), then checks real-time WHOIS availability across .com, .ai, .io, .co TLDs.
+
+### Motivation
+
+This was another attempt to build a profitable SaaS. The idea of the app was to help entrepreneurs and businesses quickly find creative, available domain names that match their brand identity, without manual brainstorming and tedious WHOIS lookups.
+
+### Links
+
+Live Demo: https://domain-name-generator-iota.vercel.app/
+
+### **Tech Stack**
+
+- **Framework:** Next.js 14 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS + NextUI component library
+- **Database/ORM:** MongoDB + Prisma
+- **Auth:** NextAuth.js (Google OAuth + email/password with bcryptjs)
+- **AI:** Google Gemini (gemini-1.5-flash-8b) via LangChain
+- **Domain checking:** whoiser library for WHOIS lookups
+- **Payments:** LemonSqueezy (one-time $29 for 2,000 tokens)
+- **Animations:** Framer Motion
+- **Monitoring:** Sentry
+- **Analytics:** Microsoft Clarity, Google Analytics (react-ga4)
+- **Theme:** next-themes (dark/light mode)
+
+### **Key Features**
+
+- AI generates 20+ unique brandable names from a business description
+- Real-time WHOIS availability check for .com, .ai, .io, .co domains
+- Token-based usage system (10 free on signup, $29 for 2,000 more)
+- Authentication via Google OAuth or email/password
+- One-time payment processing via LemonSqueezy (lifetime membership model)
+- Parallax scrolling landing page with 3-step process
+- Dark/light theme toggle
+- Responsive design across all devices
+
+### **What I Learned**
+
+- Integrating Google Gemini with LangChain for structured JSON output (domain name generation)
+- Real-time WHOIS domain availability checking at scale
+- Building a token-gated SaaS with Prisma + MongoDB
+- Implementing NextAuth.js with both credential and OAuth providers
+- Processing payments and handling webhooks with LemonSqueezy
+- Setting up Sentry for full-stack error monitoring

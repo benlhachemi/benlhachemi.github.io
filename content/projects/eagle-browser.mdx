@@ -1,0 +1,48 @@
+---
+title: Eagle Browser
+shortDescription: RESTful API for managing browser profiles with proxy, fingerprint, and data directory configuration.
+techStack: [nodejs, express, mongodb]
+links:
+  - type: github
+    url: https://github.com/benlhachemi/eagle-browser
+image: /images/eagle-browser.png
+date: Mar 2023
+---
+
+### **Project Summary**
+
+- **Date:** March 2023
+- **Description:** A RESTful API backend for managing browser profiles with proxy, fingerprint, and data directory configuration (the core backend for an anti-detect/multi-account browser management system).
+
+### Motivation
+
+Managing multiple social accounts using the same browser fingerprint has the risk of accounts being suspended. So the goal was to build a clean, layered backend for managing multiple isolated browser environments, each with its own proxy settings, fingerprint parameters (CPU, memory, user agent), and profile data directory.
+
+### Links
+
+Github repo: https://github.com/benlhachemi/eagle-browser
+
+### **Tech Stack**
+
+- **Runtime:** Node.js, Express 4, Mongoose 7, MongoDB
+- **Security:** Helmet, express-rate-limit, xss-clean, hpp, express-mongo-sanitize
+- **Validation:** express-validator, Joi
+- **Dev:** ESLint + Airbnb style, nodemon, Yarn
+- **Config:** dotenv
+
+### **Key Features**
+
+- CRUD API for browser profiles (name, proxy, dataDir, fingerprints)
+- Layered architecture: routes - controllers - services - models
+- Security middleware stack (Helmet, rate limiting, NoSQL/XSS/HPP protection)
+- Auto-discovery route registration
+- Input validation via express-validator
+
+### **What I Learned**
+
+- Structuring a production-grade Express.js API with separation of concerns
+- MongoDB/Mongoose schema design for nested objects (proxy, fingerprints)
+- Implementing security best practices: rate limiting, input sanitization, HTTP headers
+- Middleware patterns (global, route-level, guard stubs)
+- Request validation strategies and common pitfalls (mismatched validators vs schema)
+- How anti-detect browsers model browser profiles with fingerprints and proxies
