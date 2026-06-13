@@ -2,13 +2,9 @@
 
 import { cn } from '@/lib/utils'
 import { usePathname } from 'next/navigation'
-import { GithubLogo } from './logos/GithubLogo'
 import { Button } from './ui/button'
-import { XLogo } from './logos/XLogo'
-import { YouTubeLogo } from './logos/YouTubeLogo'
 import { useTheme } from 'next-themes'
 import { Menu, Moon, Sun } from 'lucide-react'
-import { LinkedInLogo } from './logos/LinkedInLogo'
 import { Sheet, SheetContent, SheetTrigger } from './ui/sheet'
 
 const links = [
@@ -17,13 +13,7 @@ const links = [
   { name: 'Services', href: '/services' },
   { name: 'Projects', href: '/projects' },
   { name: 'Blog', href: '/blog' },
-]
-
-const buttons = [
-  { icon: GithubLogo, href: 'https://github.com/benlhachemi', title: 'GitHub' },
-  { icon: YouTubeLogo, href: 'https://youtube.com/@souhail4dev', title: 'YouTube' },
-  { icon: XLogo, href: 'https://x.com/souhail_dev', title: 'Twitter' },
-  { icon: LinkedInLogo, href: 'https://linkedin.com/in/souhail-benlhachemi', title: 'LinkedIn' },
+  { name: 'Contact', href: '/contact' },
 ]
 
 export function Navbar() {
@@ -32,7 +22,7 @@ export function Navbar() {
 
   return (
     <nav className="w-full flex items-center justify-between py-4 border-b">
-      <a href="/" title="Home" className="text-lg font-semibold flex items-baseline gap-1">
+      <a href="/" title="Home" className="text-lg font-semibold flex items-baseline gap-0.5">
         Souhail Benlhachemi
         <span className="size-1.5 bg-primary" />
       </a>
@@ -49,25 +39,15 @@ export function Navbar() {
           ))}
         </ul>
 
-        <div className='flex items-center justify-center gap-1.5'>
-          {buttons.map((button) => (
-            <a key={button.href} href={button.href} target="_blank" rel="noopener noreferrer" title={button.title}>
-              <Button variant="outline" size="icon-sm">
-                <button.icon />
-              </Button>
-            </a>
-          ))}
-
-          <Button variant="outline" size="icon-sm" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} title="Toggle theme">
-            {theme === 'dark' ? <Sun /> : <Moon />}
-          </Button>
-        </div>
+        <Button variant="ghost" className="text-muted-foreground" size="icon-sm" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} title="Toggle theme">
+          {theme === 'dark' ? <Sun /> : <Moon />}
+        </Button>
       </div>
 
       {/* Mobile burger menu */}
       <Sheet>
         <SheetTrigger className="md:hidden">
-          <Button variant="outline" size="icon-sm">
+          <Button variant="ghost" size="icon-sm">
             <Menu />
           </Button>
         </SheetTrigger>
@@ -85,19 +65,9 @@ export function Navbar() {
 
             <hr className="border-border" />
 
-            <div className='flex items-center gap-1.5'>
-              {buttons.map((button) => (
-                <a key={button.href} href={button.href} target="_blank" rel="noopener noreferrer" title={button.title}>
-                  <Button variant="outline" size="icon-sm">
-                    <button.icon />
-                  </Button>
-                </a>
-              ))}
-
-              <Button variant="outline" size="icon-sm" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} title="Toggle theme">
-                {theme === 'dark' ? <Sun /> : <Moon />}
-              </Button>
-            </div>
+            <Button variant="ghost" className="text-muted-foreground" size="icon-sm" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} title="Toggle theme">
+              {theme === 'dark' ? <Sun /> : <Moon />}
+            </Button>
           </div>
         </SheetContent>
       </Sheet>
