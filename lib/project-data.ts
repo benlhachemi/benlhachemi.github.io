@@ -46,6 +46,7 @@ export function getProjects(): ProjectMeta[] {
   return getProjectSlugs()
     .map(slug => parseProjectMdx(slug))
     .filter((p): p is ProjectMeta => p !== null)
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 }
 
 export function getProjectBySlug(slug: string): ProjectMeta | undefined {
