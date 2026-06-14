@@ -26,6 +26,7 @@ export default function Page() {
             key={project.slug}
             date={project.date}
             image={project.image}
+            logo={project.logo}
             links={project.links}
             shortDescription={project.shortDescription}
             techStack={project.techStack}

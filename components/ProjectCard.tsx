@@ -20,6 +20,7 @@ export interface ProjectCardProps {
   techStack: TechStack[];
   links: ProjectLink[];
   image: string;
+  logo?: string;
   date: string;
   className?: string;
 }
@@ -46,16 +47,27 @@ const getLinkIcon = (link: ProjectLink) => {
   }
 }
 
-export function ProjectCard({ title, slug, className, shortDescription, techStack, links, image, date }: ProjectCardProps) {
+export function ProjectCard({ title, slug, className, shortDescription, techStack, links, image, logo, date }: ProjectCardProps) {
   return (
     <div className={cn("w-full rounded-none shadow-xs bg-card border", className)}>
-      <Image
-        src={image}
-        alt="Project image"
-        className="w-full h-48 object-cover"
-        width={600}
-        height={400}
-      />
+      <div className="relative">
+        <Image
+          src={image}
+          alt="Project image"
+          className="w-full h-48 object-cover"
+          width={600}
+          height={400}
+        />
+        {logo && (
+          <Image
+            src={logo}
+            alt={`${title} logo`}
+            width={40}
+            height={40}
+            className="absolute bottom-0 left-6 translate-y-1/3 size-12 object-cover rounded-lg drop-shadow-md"
+          />
+        )}
+      </div>
 
       <div className="space-y-4 p-6">
         {/* Title */}

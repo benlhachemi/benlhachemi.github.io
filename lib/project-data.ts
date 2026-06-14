@@ -14,6 +14,7 @@ export interface ProjectMeta {
   techStack: string[];
   links: ProjectLink[];
   image: string;
+  logo?: string;
   date: string;
 }
 
@@ -31,6 +32,7 @@ function parseProjectMdx(slug: string): ProjectMeta | null {
     techStack: data.techStack ?? [],
     links: data.links ?? [],
     image: data.image ?? '',
+    logo: data.logo ?? undefined,
     date: data.date ?? '',
   }
 }

@@ -21,7 +21,7 @@ export function Navbar() {
   const { theme, setTheme } = useTheme()
 
   return (
-    <nav className="w-full flex items-center justify-between py-4 border-b">
+    <nav className="w-full flex items-center justify-between py-4 border-b sticky top-0 z-40 bg-background">
       <a href="/" title="Home" className="text-lg font-semibold flex items-baseline gap-0.5">
         Souhail Benlhachemi
         <span className="size-1.5 bg-primary" />
