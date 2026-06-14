@@ -26,6 +26,7 @@ import pizzaslice from '@/content/projects/pizzaslice.mdx'
 import quotex_auto_trader from '@/content/projects/quotex-auto-trader.mdx'
 import randomcall from '@/content/projects/randomcall.mdx'
 import react_node_auth from '@/content/projects/react-node-auth.mdx'
+import root_ui_v1 from '@/content/projects/root-ui-v1.mdx'
 import root_ui from '@/content/projects/root-ui.mdx'
 import youtube_cheater from '@/content/projects/youtube-cheater.mdx'
 
@@ -57,8 +58,9 @@ export const projectRegistry: Record<string, React.ComponentType> = {
   'quotex-auto-trader': quotex_auto_trader,
   'randomcall': randomcall,
   'react-node-auth': react_node_auth,
+  'root-ui-v1': root_ui_v1,
   'root-ui': root_ui,
   'youtube-cheater': youtube_cheater,
 }
 
-export const projectSlugs: string[] = ['arduino-nodejs', 'berrypoints', 'bestshape', 'brand-name-generator', 'clipzr', 'comsep', 'cpa-analytics', 'cpadominator', 'cpavid', 'dailyhabit', 'dofus-marchand-bot', 'eagle-browser', 'era-js', 'fingerprint-js', 'fox-wallpapers', 'framist', 'kolors', 'lme', 'modifio', 'nest-cloaker', 'next-saas-landing-page', 'nextjs-tailwind-portfolio', 'one-page-ecommerce', 'pizzaslice', 'quotex-auto-trader', 'randomcall', 'react-node-auth', 'root-ui', 'youtube-cheater']
+export const projectSlugs: string[] = ['arduino-nodejs', 'berrypoints', 'bestshape', 'brand-name-generator', 'clipzr', 'comsep', 'cpa-analytics', 'cpadominator', 'cpavid', 'dailyhabit', 'dofus-marchand-bot', 'eagle-browser', 'era-js', 'fingerprint-js', 'fox-wallpapers', 'framist', 'kolors', 'lme', 'modifio', 'nest-cloaker', 'next-saas-landing-page', 'nextjs-tailwind-portfolio', 'one-page-ecommerce', 'pizzaslice', 'quotex-auto-trader', 'randomcall', 'react-node-auth', 'root-ui-v1', 'root-ui', 'youtube-cheater']

@@ -1,45 +1,47 @@
 ---
 title: Clipzr
-shortDescription: Platform for separating concerns in modern web apps
+shortDescription: Windows screen recorder with smooth cursor movements.
 techStack: [nestjs, shadcn]
 links:
-  - type: github
-    url: /
+  - type: website
+    url: https://clipzr.com
 image: /images/clipzr.png
-date: Mar 2025
+date: Mar 2026
 ---
+# Clipzr
 
-### **Project Summary**
+### Project Summary
 
-- **Date:** March, 2025
-- **Description:** Comsep is a comprehensive platform built to streamline and separate concerns in modern web applications. It demonstrates clean architecture patterns and robust backend design.
+- **Date:** Mar 2026
+- **Description:** Create beautiful, high-quality screen recordings on Windows with smooth cursor movements. Screen Studio alternative for Windows. Export up to 60 fps and Full HD.
 
 ### Motivation
 
-This project was built to explore domain-driven design patterns and practice building scalable applications with NestJS.
+[Screen Studio](https://screen.studio/) is an amazing app, but it’s only available for Mac, and it’s paid. So I have built this free alternative for Windows users.
 
 ### Links
 
-GitHub repo: https://github.com/benlhachemi/comsep
+- Download: https://clipzr.com 
 
 ### **Tech Stack**
 
-- **Framework:** NestJS + Next.js + TypeScript
-- **Styling:** Tailwind CSS, shadcn/ui
-- **Database:** PostgreSQL with Prisma ORM
-- **Authentication:** JWT-based auth
-- **Tooling:** ESLint, Prettier
+- Tauri v2 to create native desktop app
+- Rust for mouse tracking
+- ffmpeg for recording
+- react for UI
+- KonvaJS: canvas API (for preview)
+- mediabunny for stitching and exporting (amazing library)
 
 ### **Key Features**
 
-- **Separation of Concerns:** Clean modular architecture with distinct service layers
-- **RESTful API:** Well-designed endpoints with proper error handling
-- **Responsive UI:** Mobile-first design system
-- **Authentication:** Secure user authentication and authorization
+- 60 fps export
+- free (unlimited export)
+- smaller bundle size (compared to other screen recorders - 80mb)
+- fast export time
 
 ### **What I Learned**
 
-- Domain-driven design in practice
-- NestJS module architecture and dependency injection
-- Building maintainable API layers
-- Prisma ORM patterns and database design
+- How to track cursor movements
+- ffmpeg commands & params
+- Draw cursor using KonvaJs
+- How to create rust functions and call them from react side

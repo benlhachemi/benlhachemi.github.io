@@ -1,6 +1,6 @@
 ---
 title: Kolors
-shortDescription: Color palette generator for design systems with with primitive shades and semantic mappings.
+shortDescription: Color palette generator for design systems with primitive shades and semantic mappings.
 techStack: [nextjs, react, typescript, tailwindcss, zustand, shadcn, motion]
 links:
   - type: website
@@ -10,6 +10,7 @@ links:
 image: /images/kolors.png
 date: Dec 2025
 ---
+# Kolors
 
 ### Project Summary
 
@@ -22,38 +23,28 @@ To provide design system engineers with a fast, visual tool for scaffolding a co
 
 ### Links
 
-Live demo: https://www.kolors.dev/
-
-Github repo: https://github.com/benlhachemi/colors.git
+- Live demo: https://www.kolors.dev/
+- Github repo: https://github.com/benlhachemi/colors.git
 
 ### Tech Stack
 
 * **Framework:** Next.js 16 (App Router), React 19
-* **Language:** TypeScript (strict)
-* **Package Manager:** Bun
-* **Styling:** Tailwind CSS v4, PostCSS
-* **State:** Zustand v5 (4 stores: tabs, base colors, color roles, export)
-* **Color Science:** chroma-js, culori (WCAG contrast), hsluv (perceptual uniformity), @ctrl/tinycolor
-* **UI:** Radix UI (Dialog, Popover, Tabs, etc.), react-colorful, lucide-react, motion (Framer Motion)
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS, PostCSS
+* **State:** Zustand
+* **UI:** Shadcn, lucide-react, motion
 * **Syntax Highlighting:** Shiki
+* **Package Manager:** Bun
 * **Analytics:** Google Analytics 4, Microsoft Clarity
 
 ### Key Features
 
 * 8 base color pickers (Neutral, Primary, Secondary, Info, Success, Warning, Danger, Magic) with automatic 11-shade generation (50-950)
-* Dual shade generation modes: linear (HSL) and perceived (HSLuv) for perceptual uniformity
 * Semantic token mapping across 3 categories (Background, Border, Text) with hover/active/subtle variants
 * 12 pre-built brand palettes (Shopify, Claude, YouTube, Twitch, Stripe, etc.)
 * Multi-format export: CSS custom properties, Tailwind v4 @theme block, JSON design tokens
-* WCAG-aware text color selection
-* Token inspector popover for auditing all generated tokens
-* Mobile-responsive with animated UI (motion + Radix UI)
 
 ### What I Learned
 
-* Sophisticated color science: anchor-based lightness distribution for even shade generation, HSLuv for perceptually uniform spaces, and WCAG contrast calculations
-* Clean store architecture with Zustand (interface + implementation separation)
-* Code generation via template literals (CSS, Tailwind, JSON)
-* Client-side Shiki for syntax-highlighted code previews with line numbers
-* Radix UI + Motion composition pattern for accessible, animated UI components
-* Designing a self-dogfooding token system - the app uses the same design token format it generates
+* Colors semantic & primitive tokens for design systems.
+* Shiki for syntax-highlighted code previews
