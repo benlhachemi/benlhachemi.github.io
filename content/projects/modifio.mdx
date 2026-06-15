@@ -1,7 +1,7 @@
 ---
 title: Modifio
-shortDescription: Free, unlimited in-browser multimedia converter powered by FFmpeg WASM.
-techStack: [nextjs, typescript, tailwindcss, shadcn]
+shortDescription: Client-side file converter powered by FFmpeg WASM.
+techStack: [nextjs, typescript, tailwindcss, shadcn, ffmpeg, wasm]
 links:
   - type: website
     url: https://modifio.vercel.app/
@@ -10,10 +10,12 @@ links:
   - type: youtube
     url: https://youtu.be/ypYw6Cm6cUk
 image: /images/modifio.png
+logo: /images/modifio-logo.svg
 date: Sep 2023
 ---
+# Modifio
 
-### **Project Summary**
+### Project Summary
 
 - **Date:** Sep, 2023
 - **Description:** Free, unlimited in-browser multimedia converter powered by FFmpeg WASM. Users drag-and-drop files, select target formats, and convert everything locally - private by design.
@@ -24,17 +26,17 @@ Build a zero-server file converter to demonstrate that complex media processing 
 
 ### Links
 
-Github repo: https://github.com/benlhachemi/modifio
+- Github repo: https://github.com/benlhachemi/modifio
 
-Live demo: https://modifio.vercel.app/
+- Live demo: https://modifio.vercel.app/
 
-YouTube tutorial: https://youtu.be/ypYw6Cm6cUk
+- YouTube tutorial: https://youtu.be/ypYw6Cm6cUk
 
-### **Tech Stack**
+### Tech Stack
 
 Next.js 13 (App Router), TypeScript, Tailwind CSS, shadcn/ui, @ffmpeg/ffmpeg (WASM), react-dropzone, next-themes, Lucide React
 
-### **Key Features**
+### Key Features
 
 - **Client-side conversion** - FFmpeg WASM runs in-browser; files never leave the machine
 - **Multi-format support** - Images (JPG, PNG, WEBP, GIF, BMP, SVG, ICO, TIFF...), Video (MP4, AVI, MKV, MOV, WEBM, 3GP...), Audio (MP3, WAV, OGG, AAC, FLAC, M4A...)
@@ -43,7 +45,7 @@ Next.js 13 (App Router), TypeScript, Tailwind CSS, shadcn/ui, @ffmpeg/ffmpeg (WA
 - **Sequential batch conversion** - Files processed one at a time with individual + bulk download
 - **Responsive + accessible** - shadcn/ui primitives, mobile hamburger menu, keyboard-friendly
 
-### **What I Learned**
+### What I Learned
 
 - Loading and interacting with FFmpeg via WebAssembly in the browser (singleton pattern, CDN blob loading, virtual filesystem read/write)
 - Managing complex UI state per upload item (conversion status, error handling, progress feedback)

@@ -7,26 +7,27 @@ links:
     url: https://github.com/benlhachemi/randomcall.git
   - type: youtube
     url: https://youtu.be/FamZMfLIYag
-image: /images/randomcall.png
+image: /images/randomcall.jpg
 date: Apr 2024
 ---
+# Randomcall
 
-### **Project Summary**
+### Project Summary
 
-- **Date:** April 2024
+- **Date:** Apr 2024
 - **Description:** RandomCall is a full-stack random 1-on-1 video chat application (like Omegle/Chatroulette). Users connect via WebSocket, get matched through a Redis-backed Bull queue, and are placed into a video call room powered by ZegoCloud.
 
 ### Motivation
 
-This one a paid sponsorship on my YouTube channel from ZegoCloud. I was asked to create an app to demonstrate ZegoCloud video-call service, so I built a tutorial project to demonstrate real-time WebSocket matchmaking and queue-based user pairing.
+This was a paid sponsorship on my YouTube channel from ZegoCloud. I was asked to create an app to demonstrate ZegoCloud video-call service, so I built a tutorial project to demonstrate real-time WebSocket matchmaking and queue-based user pairing.
 
 ### Links
 
-Github repo: https://github.com/benlhachemi/randomcall.git
+- Github repo: https://github.com/benlhachemi/randomcall.git
 
-YouTube Tutorial: https://youtu.be/FamZMfLIYag
+- YouTube Tutorial: https://youtu.be/FamZMfLIYag
 
-### **Tech Stack**
+### Tech Stack
 
 - **Frontend:** Next.js 14 (React 18, TypeScript), Tailwind CSS, shadcn/ui, Lucide Icons, Animate.css
 - **Backend:** NestJS 10 (TypeScript), Socket.IO (WebSocket)
@@ -34,7 +35,7 @@ YouTube Tutorial: https://youtu.be/FamZMfLIYag
 - **Queue/Database:** Bull (Redis job queue), Redis via Docker
 - **Infrastructure:** Docker Compose (Redis + RedisInsight)
 
-### **Key Features**
+### Key Features
 
 - **Random Matchmaking** - users are queued via Bull/Redis and paired when two are available
 - **WebSocket Real-Time Communication** - Socket.IO handles handshake, matchmaking events, and room assignment
@@ -43,7 +44,7 @@ YouTube Tutorial: https://youtu.be/FamZMfLIYag
 - **Dockerized Redis** - one-command setup with RedisInsight for visual queue inspection
 - **Fully Anonymous** - no authentication, users identified by UUID + socket ID
 
-### **What I Learned**
+### What I Learned
 
 - Docker-compose
 - Building a real-time WebSocket server with NestJS and Socket.IO

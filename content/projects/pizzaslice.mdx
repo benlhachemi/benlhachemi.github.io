@@ -6,12 +6,14 @@ links:
   - type: website
     url: https://pizzaslice-zeta.vercel.app/
 image: /images/pizzaslice.png
+logo: /images/pizzaslice-logo.png
 date: Jan 2025
 ---
+# PizzaSlice
 
-### **Project Summary**
+### Project Summary
 
-- **Date:** January 2025
+- **Date:** Jan 2025
 - **Description:** ProductHunt for indie game developers. A platform that lets users browse, filter, and discover indie games through video previews, with community features like weekly battles, hall of fame, and user submissions.
 
 ### Motivation
@@ -20,25 +22,18 @@ I have discovered from some reddit communities that indie game developers strugl
 
 ### Links
 
-Live demo: https://pizzaslice-zeta.vercel.app/
+- Live demo: https://pizzaslice-zeta.vercel.app/
 
 ### **Tech Stack**
 
-Next.js 15 (App Router, Turbopack), TypeScript, Tailwind CSS, Contentful (headless CMS), Framer Motion, Lenis, NextUI, Prisma + MongoDB, NextAuth (Google/Discord OAuth), shadcn/ui, Lucide React
+- Next.js 15 (App Router, Turbopack), TypeScript, Tailwind CSS
+- Prisma + MongoDB
+- NextAuth (Google/Discord OAuth), 
+- shadcn/ui, Lucide React
 
 ### **Key Features**
 
-- **Video-first browsing**: Swipe through indie games with embedded YouTube/video player
-- **Rich filters**: Price, genre, platform, tags, OS, file size, viewpoint, mode, theme
-- **Steam integration**: Direct Steam store links with price cards
-- **Community reviews**: Aggregated reviews from Steam, Reddit, and Itch.io
 - **Battle of the Week**: Weekly voting competitions for user-submitted games
 - **Hall of Fame**: Historical winners ranked by votes with trophy badges
 - **User authentication**: Google and Discord OAuth via NextAuth
 - **Game submissions**: Multi-field form for users to submit games
-- **Infinite lazy loading**: Client-side pagination via Contentful API
-- **Dark theme with animations**: Smooth scrolling, glassmorphism UI, custom SVG cursors
-
-### **What I Learned**
-
-Building a production-grade Next.js app with hybrid SSR/CSR data fetching (Contentful + API routes), implementing a full auth flow with OAuth providers and middleware-protected routes, designing complex animation systems with Framer Motion (staggered lists, slide transitions), managing state across a multi-branch architecture (main vs. feature-heavy vercel-prod), and integrating a headless CMS with a Prisma/MongoDB backend for community-driven features.
