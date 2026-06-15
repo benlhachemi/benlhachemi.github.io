@@ -54,7 +54,7 @@ export function ProjectCard({ title, slug, className, shortDescription, techStac
         <Image
           src={image}
           alt="Project image"
-          className="w-full h-48 object-cover"
+          className="w-full h-56 object-cover"
           width={600}
           height={400}
         />
