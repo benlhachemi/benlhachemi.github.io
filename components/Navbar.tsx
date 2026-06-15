@@ -11,6 +11,7 @@ const links = [
   { name: 'About', href: '/' },
   { name: 'LLMs.txt', href: '/llms.txt' },
   { name: 'Services', href: '/services' },
+  { name: 'CV', href: '/services' },
   { name: 'Projects', href: '/projects' },
   { name: 'Blog', href: '/blog' },
   { name: 'Contact', href: '/contact' },
