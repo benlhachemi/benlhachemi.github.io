@@ -19,7 +19,7 @@ export function Footer() {
   const [isCopied, setIsCopied] = useState<boolean>(false)
 
   const handleCopyEmail = () => {
-    navigator.clipboard.writeText('souhail4dev@gmail.com')
+    navigator.clipboard.writeText('benlhachemisouhail@gmail.com')
     setIsCopied(true)
     setTimeout(() => setIsCopied(false), 2000)
   }
@@ -36,7 +36,7 @@ export function Footer() {
 
       <p className="text-sm text-muted-foreground flex items-center gap-1.5">
         <Mail className="size-4" />
-        souhail4dev@gmail.com
+        benlhachemisouhail@gmail.com
 
         <div className="w-8 flex items-center justify-start text-primary">
           {isCopied ? 'Copied!' : (
