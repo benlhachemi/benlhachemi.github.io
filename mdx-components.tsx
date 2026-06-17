@@ -1,6 +1,8 @@
 import type { MDXComponents } from 'mdx/types'
 import NextImage, { ImageProps } from 'next/image'
 import { ProjectCard } from './components/ProjectCard'
+import { Button } from './components/ui/button'
+import Link from 'next/link'
 
 export const components = {
   table: ({ children }) => (
@@ -62,7 +64,13 @@ export const components = {
       title={props.title}
       slug={props.slug}
     />
-  )
+  ),
+  Button: ({ children, ...props }) => (
+    <Button {...props}>{children}</Button>
+  ),
+  Link: ({ children, ...props }) => (
+    <Link {...props}>{children}</Link>
+  ),
 } satisfies MDXComponents
 
 export function useMDXComponents(): MDXComponents {
