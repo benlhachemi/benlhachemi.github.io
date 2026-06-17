@@ -11,6 +11,7 @@ import cpavid from '@/content/projects/cpavid.mdx'
 import dailyhabit from '@/content/projects/dailyhabit.mdx'
 import dofus_marchand_bot from '@/content/projects/dofus-marchand-bot.mdx'
 import eagle_browser from '@/content/projects/eagle-browser.mdx'
+import edumation from '@/content/projects/edumation.mdx'
 import era_js from '@/content/projects/era-js.mdx'
 import fingerprint_js from '@/content/projects/fingerprint-js.mdx'
 import fox_wallpapers from '@/content/projects/fox-wallpapers.mdx'
@@ -43,6 +44,7 @@ export const projectRegistry: Record<string, React.ComponentType> = {
   'dailyhabit': dailyhabit,
   'dofus-marchand-bot': dofus_marchand_bot,
   'eagle-browser': eagle_browser,
+  'edumation': edumation,
   'era-js': era_js,
   'fingerprint-js': fingerprint_js,
   'fox-wallpapers': fox_wallpapers,
@@ -63,4 +65,4 @@ export const projectRegistry: Record<string, React.ComponentType> = {
   'youtube-cheater': youtube_cheater,
 }
 
-export const projectSlugs: string[] = ['arduino-nodejs', 'berrypoints', 'bestshape', 'brand-name-generator', 'clipzr', 'comsep', 'cpa-analytics', 'cpadominator', 'cpavid', 'dailyhabit', 'dofus-marchand-bot', 'eagle-browser', 'era-js', 'fingerprint-js', 'fox-wallpapers', 'framist', 'kolors', 'lme', 'modifio', 'nest-cloaker', 'next-saas-landing-page', 'nextjs-tailwind-portfolio', 'one-page-ecommerce', 'pizzaslice', 'quotex-auto-trader', 'randomcall', 'react-node-auth', 'root-ui-v1', 'root-ui', 'youtube-cheater']
+export const projectSlugs: string[] = ['arduino-nodejs', 'berrypoints', 'bestshape', 'brand-name-generator', 'clipzr', 'comsep', 'cpa-analytics', 'cpadominator', 'cpavid', 'dailyhabit', 'dofus-marchand-bot', 'eagle-browser', 'edumation', 'era-js', 'fingerprint-js', 'fox-wallpapers', 'framist', 'kolors', 'lme', 'modifio', 'nest-cloaker', 'next-saas-landing-page', 'nextjs-tailwind-portfolio', 'one-page-ecommerce', 'pizzaslice', 'quotex-auto-trader', 'randomcall', 'react-node-auth', 'root-ui-v1', 'root-ui', 'youtube-cheater']

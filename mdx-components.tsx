@@ -1,8 +1,18 @@
 import type { MDXComponents } from 'mdx/types'
 import NextImage, { ImageProps } from 'next/image'
-import { ProjectCard } from './components/ProjectCard'
+import { ProjectCard as ProjectCardComponent, type ProjectCardProps } from './components/ProjectCard'
 import { Button } from './components/ui/button'
+import { projectMetadata } from './lib/project-metadata'
 import Link from 'next/link'
+
+function resolveProjectCard(props: Record<string, unknown>) {
+  if (props.slug && !props.title && !props.shortDescription) {
+    const meta = projectMetadata[props.slug as string]
+    if (meta) return <ProjectCardComponent {...(meta as unknown as ProjectCardProps)} />
+    return null
+  }
+  return <ProjectCardComponent {...(props as unknown as ProjectCardProps)} />
+}
 
 export const components = {
   table: ({ children }) => (
@@ -54,17 +64,7 @@ export const components = {
     />
   ),
   hr: () => <hr className="my-8 border-border" />,
-  ProjectCard: (props) => (
-    <ProjectCard
-      date={props.date}
-      image={props.image}
-      links={props.links}
-      shortDescription={props.shortDescription}
-      techStack={props.techStack}
-      title={props.title}
-      slug={props.slug}
-    />
-  ),
+  ProjectCard: resolveProjectCard,
   Button: ({ children, ...props }) => (
     <Button {...props}>{children}</Button>
   ),
