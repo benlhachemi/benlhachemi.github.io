@@ -1,8 +1,10 @@
 {
   "name": "souhail-portfolio",
+  "homepage": "https://benlhachemi.github.io",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "deploy": "gh-pages -d out",
     "dev": "bun run generate-registry && next dev",
     "build": "bun run generate-registry && next build",
     "start": "next start",
@@ -46,6 +48,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   },
