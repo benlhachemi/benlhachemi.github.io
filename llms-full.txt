@@ -4,6 +4,16 @@
 
 Souhail is a full-stack engineer with 3+ years of experience shipping SaaS platforms, desktop apps, automation tools, and component libraries and 6+ years coding. Former indie founder (20+ projects). Currently part-time technical co-founder at Octolead. Open to remote engineering roles.
 
+## Sitemap
+
+- [Full content](https://benlhachemi.github.io/llms-full.txt): Complete text of the entire website
+- [About](https://benlhachemi.github.io/llms/about.txt): Background, tech stack, experience, philosophy, and featured projects
+- [Projects](https://benlhachemi.github.io/llms/projects.txt): All projects (short version)
+- [Services](https://benlhachemi.github.io/llms/services.txt): Available services and what Souhail offers
+- [Contact](https://benlhachemi.github.io/llms/contact.txt): How to get in touch
+- [CV](https://benlhachemi.github.io/cv.pdf): CV in PDF format
+
+
 ## About
 
 TL;DR
@@ -143,6 +153,15 @@ I'm available and actively looking for:
 
 
 [Explore more projects](/projects)
+
+## 📕 Education
+
+### 2022 - 2024 | M.Eng. Computer Science, Software Engineering
+International University of Agadir, Morocco
+
+### 2017 - 2020 | B.S. Computer Science, Software Engineering
+Ibn Zohr University, Agadir, Morocco
+
 
 ## 🧠 My Engineering Philosophy
 - **Build → Iterate → Loop:** I start with implementing ideas as simply as possible, get it to work first with minimal setup, then iterate and improve.

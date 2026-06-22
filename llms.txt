@@ -1,8 +1,6 @@
 # Souhail Benlhachemi
 
-> Full-stack Product Engineer based in Agadir, Morocco — building products from idea to production using the JS/TS ecosystem.
-
-Souhail is a full-stack engineer with 3+ years of experience shipping SaaS platforms, desktop apps, automation tools, and component libraries and 6+ years coding. Former indie founder (20+ projects). Currently part-time technical co-founder at Octolead. Open to remote engineering roles.
+> Full-stack Product Engineer based in Agadir, Morocco.
 
 ## Sitemap
 
@@ -48,11 +46,3 @@ List of all projects by details
 - [LME](https://benlhachemi.github.io/projects/lme.txt): Full-stack CMS for a university research laboratory with admin dashboard.
 - [React Node Auth](https://benlhachemi.github.io/projects/react-node-auth.txt): Full-stack MERN authentication app with Passport.js local strategy, session-based auth, and a React frontend.
 - [Quotex Auto Trader](https://benlhachemi.github.io/projects/quotex-auto-trader.txt): Chrome extension to automate trading actions on the Quotex platform.
-
-## Contact
-
-- Email: benlhachemisouhail@gmail.com
-- LinkedIn: https://www.linkedin.com/in/souhail-benlhachemi
-- GitHub: https://github.com/benlhachemi
-- Twitter/X: https://x.com/souhail_dev
-- YouTube: https://youtube.com/@souhail4dev
