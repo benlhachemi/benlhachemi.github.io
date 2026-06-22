@@ -37,6 +37,9 @@ export default function RootLayout({
       suppressHydrationWarning
       className={cn("h-full", "antialiased", geistSans.variable, geistMono.variable, "font-sans", inter.variable)}
     >
+      <head>
+        <meta name="google-site-verification" content="0lj7KAPWRdFLw2tAiZd6rQfk9ZnUd4HIuL25ej_mgIc" />
+      </head>
       <body className="max-w-5xl mx-auto flex flex-col min-h-screen bg-background text-foreground px-4">
         <ThemeProvider>
           <Navbar />
