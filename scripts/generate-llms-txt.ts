@@ -22,7 +22,7 @@ const projects = slugs.map(slug => {
 }).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 
 const projectLines = projects
-  .map(p => `- [${p.title}](${homepage}/llms.txt/projects/${p.slug}): ${p.shortDescription}`)
+  .map(p => `- [${p.title}](${homepage}/llms/projects/${p.slug}.txt): ${p.shortDescription}`)
   .join('\n')
 
 const content = `# Souhail Benlhachemi
@@ -34,10 +34,10 @@ Souhail is a full-stack engineer with 3+ years of experience shipping SaaS platf
 ## Sitemap
 
 - [Full content](${homepage}/llms-full.txt): Complete text of the entire website
-- [About](${homepage}/llms.txt/about): Background, tech stack, experience, philosophy, and featured projects
-- [Projects](${homepage}/llms.txt/projects): All projects (short version)
-- [Services](${homepage}/llms.txt/services): Available services and what Souhail offers
-- [Contact](${homepage}/llms.txt/contact): How to get in touch
+- [About](${homepage}/llms/about.txt): Background, tech stack, experience, philosophy, and featured projects
+- [Projects](${homepage}/llms/projects.txt): All projects (short version)
+- [Services](${homepage}/llms/services.txt): Available services and what Souhail offers
+- [Contact](${homepage}/llms/contact.txt): How to get in touch
 - [CV](${homepage}/cv.pdf): CV in PDF format
 
 ## Projects

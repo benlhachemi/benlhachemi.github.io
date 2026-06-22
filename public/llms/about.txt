@@ -1,0 +1,188 @@
+TL;DR
+
+  Copy-paste this prompt into an LLM to get a quick summary of this site:
+
+    Read https://benlhachemi.github.io/llms.txt and give me a summary
+
+
+
+
+
+
+    Souhail Benlhachemi
+
+
+      Available for Remote Work
+
+
+  Fullstack Product Engineer | Building products from idea to production
+
+
+
+
+
+
+      🕒 GMT +1
+      📍 Agadir, Morocco
+
+
+
+
+    I'm a full-stack engineer with experience across the entire product lifecycle. I build projects using the JS/TS ecosystem with a focus on UI/UX, clean architecture, and user-centered design.
+
+    Over the past three years, I've built and shipped more than 20 projects as an indie founder: SaaS platforms, desktop apps, component libraries, automation tools, and more.
+
+    I work with React, Next.js, Tailwind, NestJS, MongoDB, Docker, and more. But beyond the tech stack, I also think a lot about the product itself and how users experience it.
+
+    I'm open to new remote opportunities that value engineers who ship, think about the product, and take ownership. Whether that's a frontend, backend, or full-stack role, I'm comfortable in all three and happy to go where I'm needed most.
+
+
+      🕒 GMT +1
+      📍 Agadir, Morocco
+
+
+
+
+
+  View Projects
+  View PDF CV
+  Contact Me
+
+
+---
+
+## 🖼️ Background
+### Affiliate Marketer (2020 → 2023)
+I started my career in affiliate marketing at [Ogads](https://ogads.com), where I relied heavily on software to solve business problems and optimize conversions.
+
+I built landing pages, tracking systems, browser fingerprinting tools and automation pipelines.
+
+Over time I realized what I actually enjoyed wasn't driving traffic, it was building the tools. That interest eventually led me to transition into building my own products and becoming an independent founder full-time.
+
+### Independent Founder (2023 → 2026)
+
+For three years, I focused on building my own products. I launched more than [20 projects](/projects), ranging from small experiments to full production applications.
+
+Working alone taught me much more than programming. I learned about design, product decisions, deployment, analytics, marketing, and user feedback.
+
+One of the most valuable lessons from this period was understanding that successful products require more than great engineering. Distribution, sales, and customer acquisition are equally important parts of building a successful business. Basically a separate full-time job. Trying to do both at the same level is genuinely hard.
+
+### Now: Looking to Join a Team
+
+My strongest skill is turning ideas into working products and owning the technical execution from idea to production.
+
+After several years of building independently, I'm looking to bring that experience into a collaborative engineering environment. I enjoy solving technical problems, shipping useful software, and working through ambiguity, but I've learned that my strengths are most valuable when focused on engineering and product execution.
+
+I bring three years of experience building real applications, a strong sense of ownership, and a founder's mindset.
+
+I'm looking for an opportunity where I can contribute immediately, and continue growing as an engineer while helping build products that matter.
+
+## 💻 Currently
+
+### Part-time technical co-founder of Octolead
+
+I'm currently helping build Octolead, a LinkedIn AI lead generation platform.
+
+I still love building products and being part of something from the start. I just prefer doing it as the technical partner, while my business co-founder owns the distribution & growth side.
+
+It's a part-time commitment and doesn't affect my availability for for full-time opportunities.
+
+### Open to new remote opportunities
+
+I'm available and actively looking for:
+
+- Frontend, backend, or full-stack roles
+- Product engineering roles at early-stage startups
+- Freelance JS/TS projects
+
+## 🛠️ Tech Stack
+
+| Category | Tools |
+|----------|-------|
+| **Languages** | TypeScript, JavaScript |
+| **Frontend** | React, NextJS, Tailwind CSS |
+| **Backend** | NestJS, MongoDB, Postgres, Redis |
+| **Desktop/Automation** | TauriJS, Puppeteer, Chrome extensions |
+| **AI/LLM** | LangChain, OpenCode |
+| **DevOps** | Git, Turborepo, Docker, Sentry, Grafana |
+
+## 💪 Technical Strengths
+
+### Frontend Architecture
+- Design systems
+- State management
+- Performance optimization
+
+### Backend Systems
+- API design
+- Database modeling
+- Background jobs
+- Headless Browser Automation
+
+### Product Infrastructure
+- Monitoring
+- Analytics
+- Error tracking
+
+## ⭐ Featured Projects
+
+
+
+
+
+
+
+
+
+
+  Explore more projects
+
+
+## 🧠 My Engineering Philosophy
+- **Build → Iterate → Loop:** I start with implementing ideas as simply as possible, get it to work first with minimal setup, then iterate and improve.
+
+- **Clean architecture by default**: Strong folder structures, single responsibility components, self-documenting code, and clean variable naming are non-negotiable.
+
+- **UI/UX is a core feature:** Micro-interactions, accessibility, and polish aren't "nice-to-haves", they are half of the product (or even the product in some cases).
+
+- **Learn by doing:** I prefer to learn by building real products over tutorials or courses.
+
+- **AI coding agents:** IMO, every software engineer should learn how to integrate AI into their workflow. Why? Because if used properly, it will save lot of time.
+
+## 🔁 My Workflow
+
+1. Understand the problem
+2. Explore all possible solutions
+3. Analyze and compare those solutions by cost, feasibility, and technical complexity
+4. Build & Ship MVP
+5. Collect feedback and data
+6. Iterate based on what I learn
+
+## 🤝 Working With Me
+
+You might enjoy working with me if you're looking for someone who:
+
+- Can take an idea and turn it into a working product
+- Is comfortable working independently and async
+- Thinks about both the code and the user experience
+- Moves quickly and takes ownership of their work
+
+I may not be the best fit if:
+
+- Your stack is completely outside the JavaScript ecosystem
+- You need a senior engineer with years of team and code review experience
+- You're looking for a dedicated DevOps or infrastructure specialist
+
+## 📬 Let's Build Something
+
+If you'd like to work together, let's talk.
+
+**Best way to reach me:** [benlhachemisouhail@gmail.com](mailto:benlhachemisouhail@gmail.com)
+
+Or connect with me on:
+- **LinkedIn:** https://www.linkedin.com/in/souhail-benlhachemi
+- **Twitter/X:** https://x.com/souhail_dev
+
+Other links:
+- **YouTube:** https://youtube.com/@souhail4dev
+- **GitHub:** https://github.com/benlhachemi
