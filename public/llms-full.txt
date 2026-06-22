@@ -1,0 +1,1678 @@
+# Souhail Benlhachemi
+
+> Full-stack Product Engineer based in Agadir, Morocco — building products from idea to production using the JS/TS ecosystem.
+
+Souhail is a full-stack engineer with 3+ years of experience shipping SaaS platforms, desktop apps, automation tools, and component libraries and 6+ years coding. Former indie founder (20+ projects). Currently part-time technical co-founder at Octolead. Open to remote engineering roles.
+
+## About
+
+TL;DR
+
+  Copy-paste this prompt into an LLM to get a quick summary of this site:
+
+    Read https://benlhachemi.github.io/llms.txt and give me a summary
+
+
+
+
+
+
+    Souhail Benlhachemi
+
+
+      Available for Remote Work
+
+
+  Fullstack Product Engineer | Building products from idea to production
+
+
+
+
+
+
+      🕒 GMT +1
+      📍 Agadir, Morocco
+
+
+
+
+    I'm a full-stack engineer with experience across the entire product lifecycle. I build projects using the JS/TS ecosystem with a focus on UI/UX, clean architecture, and user-centered design.
+
+    Over the past three years, I've built and shipped more than 20 projects as an indie founder: SaaS platforms, desktop apps, component libraries, automation tools, and more.
+
+    I work with React, Next.js, Tailwind, NestJS, MongoDB, Docker, and more. But beyond the tech stack, I also think a lot about the product itself and how users experience it.
+
+    I'm open to new remote opportunities that value engineers who ship, think about the product, and take ownership. Whether that's a frontend, backend, or full-stack role, I'm comfortable in all three and happy to go where I'm needed most.
+
+
+      🕒 GMT +1
+      📍 Agadir, Morocco
+
+
+
+
+
+  [View Projects](/projects)
+  [View PDF CV](/cv.pdf)
+  [Contact Me](/contact)
+
+
+---
+
+## 🖼️ Background
+### Affiliate Marketer (2020 → 2023)
+I started my career in affiliate marketing at [Ogads](https://ogads.com), where I relied heavily on software to solve business problems and optimize conversions.
+
+I built landing pages, tracking systems, browser fingerprinting tools and automation pipelines.
+
+Over time I realized what I actually enjoyed wasn't driving traffic, it was building the tools. That interest eventually led me to transition into building my own products and becoming an independent founder full-time.
+
+### Independent Founder (2023 → 2026)
+
+For three years, I focused on building my own products. I launched more than [20 projects](/projects), ranging from small experiments to full production applications.
+
+Working alone taught me much more than programming. I learned about design, product decisions, deployment, analytics, marketing, and user feedback.
+
+One of the most valuable lessons from this period was understanding that successful products require more than great engineering. Distribution, sales, and customer acquisition are equally important parts of building a successful business. Basically a separate full-time job. Trying to do both at the same level is genuinely hard.
+
+### Now: Looking to Join a Team
+
+My strongest skill is turning ideas into working products and owning the technical execution from idea to production.
+
+After several years of building independently, I'm looking to bring that experience into a collaborative engineering environment. I enjoy solving technical problems, shipping useful software, and working through ambiguity, but I've learned that my strengths are most valuable when focused on engineering and product execution.
+
+I bring three years of experience building real applications, a strong sense of ownership, and a founder's mindset.
+
+I'm looking for an opportunity where I can contribute immediately, and continue growing as an engineer while helping build products that matter.
+
+## 💻 Currently
+
+### Part-time technical co-founder of Octolead
+
+I'm currently helping build Octolead, a LinkedIn AI lead generation platform.
+
+I still love building products and being part of something from the start. I just prefer doing it as the technical partner, while my business co-founder owns the distribution & growth side.
+
+It's a part-time commitment and doesn't affect my availability for for full-time opportunities.
+
+### Open to new remote opportunities
+
+I'm available and actively looking for:
+
+- Frontend, backend, or full-stack roles
+- Product engineering roles at early-stage startups
+- Freelance JS/TS projects
+
+## 🛠️ Tech Stack
+
+| Category | Tools |
+|----------|-------|
+| **Languages** | TypeScript, JavaScript |
+| **Frontend** | React, NextJS, Tailwind CSS |
+| **Backend** | NestJS, MongoDB, Postgres, Redis |
+| **Desktop/Automation** | TauriJS, Puppeteer, Chrome extensions |
+| **AI/LLM** | LangChain, OpenCode |
+| **DevOps** | Git, Turborepo, Docker, Sentry, Grafana |
+
+## 💪 Technical Strengths
+
+### Frontend Architecture
+- Design systems
+- State management
+- Performance optimization
+
+### Backend Systems
+- API design
+- Database modeling
+- Background jobs
+- Headless Browser Automation
+
+### Product Infrastructure
+- Monitoring
+- Analytics
+- Error tracking
+
+## ⭐ Featured Projects
+
+
+  - **Root UI v2 (Shadcn)** (*Apr 2026*): Premium Shadcn Components, Blocks and Themes.
+  - **BerryPoints** (*Oct 2025*): Reward-based advertising platform where users earn money by completing offers.
+  - **CPAVid** (*Sep 2024*): Automated YouTube video creation and uploading system using Remotion and Puppeteer.
+  - **Clipzr** (*Mar 2026*): Windows screen recorder with smooth cursor movements.
+  - **Edumation** (*Mai 2024*): AI-powered educational assistant platform for students and educators.
+
+
+[Explore more projects](/projects)
+
+## 🧠 My Engineering Philosophy
+- **Build → Iterate → Loop:** I start with implementing ideas as simply as possible, get it to work first with minimal setup, then iterate and improve.
+
+- **Clean architecture by default**: Strong folder structures, single responsibility components, self-documenting code, and clean variable naming are non-negotiable.
+
+- **UI/UX is a core feature:** Micro-interactions, accessibility, and polish aren't "nice-to-haves", they are half of the product (or even the product in some cases).
+
+- **Learn by doing:** I prefer to learn by building real products over tutorials or courses.
+
+- **AI coding agents:** IMO, every software engineer should learn how to integrate AI into their workflow. Why? Because if used properly, it will save lot of time.
+
+## 🔁 My Workflow
+
+1. Understand the problem
+2. Explore all possible solutions
+3. Analyze and compare those solutions by cost, feasibility, and technical complexity
+4. Build & Ship MVP
+5. Collect feedback and data
+6. Iterate based on what I learn
+
+## 🤝 Working With Me
+
+You might enjoy working with me if you're looking for someone who:
+
+- Can take an idea and turn it into a working product
+- Is comfortable working independently and async
+- Thinks about both the code and the user experience
+- Moves quickly and takes ownership of their work
+
+I may not be the best fit if:
+
+- Your stack is completely outside the JavaScript ecosystem
+- You need a senior engineer with years of team and code review experience
+- You're looking for a dedicated DevOps or infrastructure specialist
+
+## 📬 Let's Build Something
+
+If you'd like to work together, let's talk.
+
+**Best way to reach me:** [benlhachemisouhail@gmail.com](mailto:benlhachemisouhail@gmail.com)
+
+Or connect with me on:
+- **LinkedIn:** https://www.linkedin.com/in/souhail-benlhachemi
+- **Twitter/X:** https://x.com/souhail_dev
+
+Other links:
+- **YouTube:** https://youtube.com/@souhail4dev
+- **GitHub:** https://github.com/benlhachemi
+
+## Services
+
+SERVICES
+
+## Contact
+
+# Contact
+
+## LinkedIn: https://www.linkedin.com/in/souhail-benlhachemi
+## Twitter: https://x.com/souhail_dev
+## Email: benlhachemisouhail@gmail.com
+
+## Projects
+
+## DailyHabit
+> May 2026
+Habit tracker app, runs 100% client-side
+**Tech Stack:** nextjs, shadcn, tailwindcss, rxdb, motion, lottie
+**Links:**
+- github: https://github.com/benlhachemi/daily-habit
+- youtube: https://youtu.be/U6cd310jHC8
+- website: https://daily-habit-umber.vercel.app/
+---
+# DailyHabit
+
+### Project Summary
+
+- **Date:** May, 2026
+- **Description:** DailyHabit is a beautiful, feature-rich habit tracking application designed to help users build and maintain daily habits through an intuitive interface and powerful analytics.
+
+### Motivation
+
+This is a small project to practice building apps with AI Coding Agents while also promoting [Root UI](/projects/root-ui).
+
+### Links
+
+- Live demo: https://daily-habit-umber.vercel.app/
+
+- GitHub repo: https://github.com/benlhachemi/daily-habit
+
+- YouTube tutorial: https://youtu.be/U6cd310jHC8
+
+### **Tech Stack**
+
+- **Framework:** Next.js 16 + React 19 + TypeScript 5
+- **Styling:** Tailwind CSS 4, Shadcn (Base UI)
+- **Database:** RxDB
+- **Animations:** Motion, Lottie React, canvas-confetti
+- **Tooling:** Bun, ESLint, PostCSS
+
+### **Key Features**
+
+- **Habit Management:** Create custom habits with goals, units, emojis, and 11 color options; daily tracking with satisfying interactions; archive system
+- **Analytics Dashboard:** Streak tracking, completion rates, progress charts, historical trends
+- **UX:** Dark/light theme (next-themes), responsive design, keyboard navigation, celebration animations on completion
+- **Data Privacy:** 100% local storage via RxDB (no accounts, no cloud, fully offline)
+
+### **What I Learned**
+
+- How to build apps using AI Coding Agents
+- Browser IndexedDB using RxDB
+
+## Root UI v2 (Shadcn)
+> Apr 2026
+Premium Shadcn Components, Blocks and Themes.
+**Tech Stack:** nextjs, shadcn, tailwindcss, storybook
+**Links:**
+- website: https://root-ui.com
+---
+# Root UI v2 (Shadcn)
+
+### Project Summary
+
+- **Date:** April, 2026
+- **Description:** Root UI is a premium collection of Shadcn components, blocks, and themes designed to accelerate modern web development with beautiful, accessible UI patterns.
+
+### Motivation
+
+To create a high-quality component library that showcases best practices in design systems, accessibility, and developer experience.
+
+### Links
+
+- Docs: https://root-ui.com
+
+### **Tech Stack**
+
+- **Framework:** Next.js + TypeScript
+- **Styling:** Tailwind CSS, shadcn/ui
+- **Tooling:** Bun, ESLint, PostCSS
+- **Docs:** FumaDocs
+- **UI Testing:** Storybook
+
+### **Key Features**
+
+- **Premium Components:** Curated collection of production-ready components
+- **Theme System:** Customizable themes with consistent design tokens
+- **Blocks & Templates:** Pre-built page sections and layouts
+- **Developer Experience:** Comprehensive documentation and examples
+
+### **What I Learned**
+
+- How to use Storybook
+- How to write docs for developers (using Fumadocs)
+- Component composition patterns with shadcn/ui
+- Creating reusable UI components and blocks
+
+## Clipzr
+> Mar 2026
+Windows screen recorder with smooth cursor movements.
+**Tech Stack:** nestjs, shadcn
+**Links:**
+- website: https://clipzr.com
+---
+# Clipzr
+
+### Project Summary
+
+- **Date:** Mar 2026
+- **Description:** Create beautiful, high-quality screen recordings on Windows with smooth cursor movements. Screen Studio alternative for Windows. Export up to 60 fps and Full HD.
+
+### Motivation
+
+[Screen Studio](https://screen.studio/) is an amazing app, but it’s only available for Mac, and it’s paid. So I have built this free alternative for Windows users.
+
+### Links
+
+- Download: https://clipzr.com
+
+### **Tech Stack**
+
+- Tauri v2 to create native desktop app
+- Rust for mouse tracking
+- ffmpeg for recording
+- react for UI
+- KonvaJS: canvas API (for preview)
+- mediabunny for stitching and exporting (amazing library)
+
+### **Key Features**
+
+- 60 fps export
+- free (unlimited export)
+- smaller bundle size (compared to other screen recorders - 80mb)
+- fast export time
+
+### **What I Learned**
+
+- How to track cursor movements
+- ffmpeg commands & params
+- Draw cursor using KonvaJs
+- How to create rust functions and call them from react side
+
+## Root UI v1 (React-aria)
+> Jan 2026
+React component library built on top of React Aria & TailwindCSS.
+**Tech Stack:** nextjs, shadcn, tailwindcss, storybook
+**Links:**
+- website: https://rootui-website.vercel.app/
+---
+# Root UI v1 (React-aria)
+
+### **Project Summary**
+
+- **Date:** Jan 2026
+- **Description:** A React component library built on top of React Aria Components, styled via Tailwind CSS v4 with an OKLCH-based CSS-only theming system. Swappable themes as pure CSS files — no runtime JS overhead.
+
+### Motivation
+
+Build a headless-first, accessible component library where **all styling lives in CSS custom properties**. Themes are standalone CSS files that consumers can copy or install. Components reference design tokens through class names — swap the CSS, swap the look.
+
+### Links
+
+- Docs: https://rootui-website.vercel.app/
+
+### **Tech Stack**
+
+- **Runtime:** Bun 1.3.6, Node.js
+- **Frontend:** React 19, React Aria Components 1.14, Next.js 16
+- **Styling:** Tailwind CSS v4, OKLCH colors, **`tailwind-variants`**, **`tw-animate-css`**
+- **Build:** Turborepo, tsup, Bun bundler, PostCSS
+- **State:** Zustand 5, next-themes
+- **Icons:** lucide-react
+
+### **Key Features**
+
+- 13 accessible components (accordion, badge, button, drawer, input, modal, popover, select, slider, switch, tabs, tooltip, typography)
+- CSS-only theme system — swap themes by swapping CSS files
+- Two official themes (Rooty, Layerbase) + experimental Apple theme
+- OKLCH color space for perceptually uniform colors
+- Shadcn-style CLI installation support
+- CSS-keyframe enter/exit animations on overlays
+
+### **What I Learned**
+
+- How to create docs for a UI Component library
+- How to publish a package to the npm registry
+- Turborepo
+- Monorepo orchestration with Turborepo + Bun workspaces
+- React Aria Components accessibility patterns (Disclosure, Dialog, Popover, Select state machines)
+- Tailwind CSS v4 CSS-first configuration (**`@theme`**, **`@utility`**, **`@variant`**)
+- Building a design token architecture with CSS custom properties + OKLCH
+- Writing custom PostCSS plugins for CSS transformation and selector scoping
+- Compound component pattern with Context API
+- Pure CSS animation systems (keyframes, custom easings, enter/exit transitions)
+- Structuring publishable npm packages with tsup + exports maps
+- Building a docs site from scratch in Next.js 16 (no MDX)
+
+## Kolors
+> Dec 2025
+Color palette generator for design systems with primitive shades and semantic mappings.
+**Tech Stack:** nextjs, react, typescript, tailwindcss, zustand, shadcn, motion
+**Links:**
+- website: https://www.kolors.dev/
+- github: https://github.com/benlhachemi/colors.git
+---
+# Kolors
+
+### Project Summary
+
+* **Date:** December 2025
+* **Description:** Color palette generator for design systems. Define base colors and automatically generate a full design token system with primitive shades (50-950) and semantic token mappings (backgrounds, borders, text). Export as CSS custom properties, Tailwind v4 config, or JSON design tokens.
+
+### Motivation
+
+To provide design system engineers with a fast, visual tool for scaffolding a complete color system without manual shade computation or repetitive token mapping.
+
+### Links
+
+- Live demo: https://www.kolors.dev/
+- Github repo: https://github.com/benlhachemi/colors.git
+
+### Tech Stack
+
+* **Framework:** Next.js 16 (App Router), React 19
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS, PostCSS
+* **State:** Zustand
+* **UI:** Shadcn, lucide-react, motion
+* **Syntax Highlighting:** Shiki
+* **Package Manager:** Bun
+* **Analytics:** Google Analytics 4, Microsoft Clarity
+
+### Key Features
+
+* 8 base color pickers (Neutral, Primary, Secondary, Info, Success, Warning, Danger, Magic) with automatic 11-shade generation (50-950)
+* Semantic token mapping across 3 categories (Background, Border, Text) with hover/active/subtle variants
+* 12 pre-built brand palettes (Shopify, Claude, YouTube, Twitch, Stripe, etc.)
+* Multi-format export: CSS custom properties, Tailwind v4 @theme block, JSON design tokens
+
+### What I Learned
+
+* Colors semantic & primitive tokens for design systems.
+* Shiki for syntax-highlighted code previews
+
+## BerryPoints
+> Oct 2025
+Reward-based advertising platform where users earn money by completing offers.
+**Tech Stack:** nextjs, nestjs, typescript, tailwindcss, mongodb, docker
+**Links:**
+- website: https://berrypoints.com
+---
+# BerryPoints
+
+### Project Summary
+
+- **Date:** Oct 2025
+- **Description:** Berrypoints is a full-stack reward-based advertising (GPT) platform where users earn money by completing offers from ad networks (OGAds, AdBluMedia, Notik) and redeem their balance for gift cards and digital rewards. It features Google OAuth login, an offer wall, a reward catalog, an admin dashboard, and analytics/monitoring tools.
+
+### Motivation
+
+To build a scalable "Get-Paid-To" (GPT) website that aggregates offers from multiple CPA ad networks into a unified experience, handles postback webhooks for automatic balance crediting, and provides both a polished user-facing dashboard and a full admin panel for managing rewards, orders, users, and analytics.
+
+### Links
+
+- Website: https://berrypoints.com
+
+### **Tech Stack**
+
+| **Layer** | **Technologies** |
+| --- | --- |
+| **Frontend** | Next.js 15 (App Router), React 19, TypeScript, Tailwind CSS 4, Framer Motion, Zustand, AG Grid, Axios |
+| **Backend** | NestJS 11, TypeScript, MongoDB + Mongoose, Passport.js (Google OAuth + JWT), Axios, class-validator |
+| **Infrastructure** | Docker (Node 22 Alpine), Vercel, MongoDB Atlas |
+| **Monitoring** | Sentry, Google Analytics 4, Microsoft Clarity, Crisp Chat, Neeto |
+
+### **Key Features**
+
+- **Google OAuth authentication** with auto-account creation and JWT session cookies
+- **Aggregated offer wall** from 3 ad networks, filtered by geo/device, sorted by payout
+- **Postback webhook processing** - validates and credits user balance automatically
+- **Reward catalog** with category carousel, point-based redemption, order management
+- **Admin dashboard** with CRUD for rewards/categories/offers, click monitoring, order management, user management, postback logs, and analytics
+- **Scheduled jobs** - hourly offer refresh from Notik, periodic click cleanup
+- **GeoIP targeting** (MaxMind) and user-agent-based device detection
+- **Rate limiting**, role-based access control (User vs Admin), and Sentry error monitoring
+- **Live chat support** (Crisp + Neeto) and analytics (GA4 + Clarity)
+
+### **What I Learned**
+
+- Building a modular NestJS API with domain-driven feature modules (auth, offers, clicks, postbacks, rewards, orders, activities)
+- Integrating with multiple third-party ad network APIs and processing their postback webhooks securely
+- Architecting a commission/reward model with user earnings at 50% of network payouts
+- Implementing SSR with Next.js App Router, fetching data server-side and hydrating client components
+- Managing session/auth tokens as httpOnly cookies across frontend and backend on a custom domain
+- Building a role-based admin panel with AG Grid for full CRUD operations
+- Setting up a complete observability stack: Sentry (backend), GA4 + Clarity (frontend), Crisp/Neeto (customer support)
+
+## Fox Wallpapers
+> Mar 2025
+Windows Live Wallpaper Engine built using Tauri (React + Rust).
+**Tech Stack:** tauri, react, rust
+**Links:**
+- website: https://apps.microsoft.com/detail/9n7r9zf4vsx7
+---
+# Fox Wallpapers
+
+### Project Summary
+
+- **Date:** Mar, 2025
+- **Description:** Windows Live Wallpaper Engine built using TauriJs (React + Rust).
+
+### Motivation
+
+The goal was to learn how to build windows apps and publish to the microsoft app store.
+
+### Links
+
+* Microsoft app store page: https://apps.microsoft.com/detail/9n7r9zf4vsx7
+
+### **Tech Stack**
+
+- TauriJs
+- React
+- Rust
+
+### **Key Features**
+
+- Diverse Collection - Explore a variety of high-quality animated wallpapers.
+- Instant Apply - One-click setup for hassle-free customization.
+- Smooth Performance - Optimized for minimal system impact.
+
+### **What I Learned**
+
+- Rust basics
+- How to package a bundled Tauri app (.exe) to MSIX (using MSIX Packaging Tool) and publish it to the Microsoft App Store.
+- How to create a Windows live wallpaper engine.
+
+## NextJs SaaS Landing Page
+> Mar 2025
+Free saas landing page built using next.js, tailwind and framer-motion (100/100 Lightouse score).
+**Tech Stack:** nextjs, typescript, tailwindcss, shadcn, motion
+**Links:**
+- website: https://next-saas-lp.vercel.app/
+- github: https://github.com/benlhachemi/next-saas-lp
+---
+# Next SaaS Landing Page
+
+### Project Summary
+
+- **Date:** Mar 2025
+- **Description:** Free saas landing page built using next.js, tailwind and framer-motion (100/100 Lightouse score).
+
+### Motivation
+
+I wanted to learn how to create simple, clean, responsive and fast-loading landing pages using Nextjs and Motion.
+
+### Links
+
+- **Live demo:** https://next-saas-lp.vercel.app/
+- **GitHub repo:** https://github.com/benlhachemi/next-saas-lp
+
+### **Tech Stack**
+
+- **Framework:** Next.js 15 (App Router, Turbopack)
+- **Language:** TypeScript 5
+- **Styling:** Tailwind CSS v4, tw-animate-css, PostCSS
+- **Animation:** Framer Motion (motion v12), Lenis (smooth scroll)
+- **UI:** shadcn/ui (New York style), Radix UI primitives
+- **Icons:** Lucide React
+
+### **Key Features**
+
+- Animated smooth-scrolling landing page (Lenis + Framer Motion)
+- Multiple scroll-triggered animation effects (slide, text blur, text reveal, fade)
+- Custom cursor follower effect
+- Animated testimonials carousel with auto-play and word-by-word reveal
+- Infinite-scroll logo carousel (framework/plugin logos)
+- Responsive mobile hamburger menu with full-screen overlay
+- 100/100 Lighthouse score
+- Fully responsive
+- 100% free
+
+### **What I Learned**
+
+- Advanced Framer Motion patterns - scroll-triggered animations, spring physics, per-character text effects
+- Integrating Lenis for smooth scrolling alongside Framer Motion
+
+## Framist
+> Jan 2025
+Rapid prototyping tool to create interactive, native-feeling app prototypes in minutes without code.
+**Tech Stack:** nextjs, react, typescript
+**Links:**
+- website: https://framist.vercel.app/
+- youtube: https://www.youtube.com/watch?v=7BpU-hzctqw
+---
+# Framist
+
+### Project Summary
+
+- **Date:** Jan 2025
+- **Description:** Framist is a rapid prototyping tool that allows users to create interactive, native-feeling app prototypes in minutes without writing code.
+
+### Motivation
+
+This project is an MVP for a SaaS idea: fast prototyping tool that enables founders and developers to build interactive SaaS prototypes quickly.
+
+### Links
+
+- YouTube Demo: https://www.youtube.com/watch?v=7BpU-hzctqw
+- Live Demo: https://framist.vercel.app/
+
+### Tech Stack
+
+- Next.js
+- ReactFlow library
+
+### Key Features
+
+- Predefined screen templates (login screens, dashboards, etc.)
+- Drag-and-drop component system (text, upload boxes, loaders, video players)
+- Editable navigation links and sidebars
+- Visual screen duplication and canvas organization
+- Green dot connection system to link screens and create interactive flows
+- One-click publish to generate live, shareable URLs
+- Automatic transitions between screens (e.g., upload - loader - output)
+- Realistic animations and native app feel
+
+### What I Learned
+
+- how to build a drag-and-drop interface using ReactFlow
+- creating instantly shareable live previews
+
+## PizzaSlice
+> Jan 2025
+ProductHunt for indie game developers. Browse, filter, and discover indie games through video previews.
+**Tech Stack:** nextjs, typescript, tailwindcss, mongodb, framer-motion
+**Links:**
+- website: https://pizzaslice-zeta.vercel.app/
+---
+# PizzaSlice
+
+### Project Summary
+
+- **Date:** Jan 2025
+- **Description:** ProductHunt for indie game developers. A platform that lets users browse, filter, and discover indie games through video previews, with community features like weekly battles, hall of fame, and user submissions.
+
+### Motivation
+
+I have discovered from some reddit communities that indie game developers strugle with launching/market their games. So I created this platform similar to ProductHunt but for indie game devs.
+
+### Links
+
+- Live demo: https://pizzaslice-zeta.vercel.app/
+
+### **Tech Stack**
+
+- Next.js 15 (App Router, Turbopack), TypeScript, Tailwind CSS
+- Prisma + MongoDB
+- NextAuth (Google/Discord OAuth),
+- shadcn/ui, Lucide React
+
+### **Key Features**
+
+- **Battle of the Week**: Weekly voting competitions for user-submitted games
+- **Hall of Fame**: Historical winners ranked by votes with trophy badges
+- **User authentication**: Google and Discord OAuth via NextAuth
+- **Game submissions**: Multi-field form for users to submit games
+
+## Comsep
+> Nov 2024
+AI-powered domain name generator with real-time WHOIS availability checking.
+**Tech Stack:** nextjs, typescript, tailwindcss, mongodb, nextauth, shadcn
+**Links:**
+- website: https://domain-name-generator-iota.vercel.app/
+---
+# Comsep
+
+### Project Summary
+
+- **Date:** Nov 2024
+- **Description:** AI-powered domain name generator SaaS. Users describe their business idea, and the app uses Google Gemini to generate unique, brandable name suggestions (neologisms with suffixes), then checks real-time WHOIS availability across .com, .ai, .io, .co TLDs.
+
+### Motivation
+
+This was another attempt to build a profitable SaaS. The idea of the app was to help entrepreneurs and businesses quickly find creative, available domain names that match their brand identity, without manual brainstorming and tedious WHOIS lookups.
+
+### Links
+
+- Live demo: https://domain-name-generator-iota.vercel.app/
+
+### Tech Stack
+
+- **Framework:** Next.js 14 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS + NextUI component library
+- **Database/ORM:** MongoDB + Prisma
+- **Auth:** NextAuth.js (Google OAuth + email/password with bcryptjs)
+- **AI:** Google Gemini (gemini-1.5-flash-8b) via LangChain
+- **Domain checking:** whoiser library for WHOIS lookups
+- **Payments:** LemonSqueezy (one-time $29 for 2,000 tokens)
+- **Animations:** Framer Motion
+- **Monitoring:** Sentry
+- **Analytics:** Microsoft Clarity, Google Analytics (react-ga4)
+- **Theme:** next-themes (dark/light mode)
+
+### Key Features
+
+- AI generates 20+ unique brandable names from a business description
+- Real-time WHOIS availability check for .com, .ai, .io, .co domains
+- Token-based usage system (10 free on signup, $29 for 2,000 more)
+- Authentication via Google OAuth or email/password
+- One-time payment processing via LemonSqueezy (lifetime membership model)
+- Parallax scrolling landing page with 3-step process
+- Dark/light theme toggle
+- Responsive design across all devices
+
+### What I Learned
+
+- Integrating Google Gemini with LangChain for structured JSON output (domain name generation)
+- Real-time WHOIS domain availability checking at scale
+- Building a token-gated SaaS with Prisma + MongoDB
+- Implementing NextAuth.js with both credential and OAuth providers
+- Processing payments and handling webhooks with LemonSqueezy
+- Setting up Sentry for full-stack error monitoring
+
+## CPAVid
+> Sep 2024
+Automated YouTube video creation and uploading system using Remotion and Puppeteer.
+**Tech Stack:** nextjs, nestjs, typescript, tailwindcss, tauri, rust, mongodb, shadcn
+---
+### **Project Summary**
+
+- **Date:** Late 2023 / Early 2024
+- **Description:** CPAVID is a full-stack automated YouTube video creation and uploading system. It programmatically renders promotional videos using Remotion (React-based video engine), scrapes metadata from competitor YouTube videos via Puppeteer, and automates uploads to YouTube channels - all orchestrated through a Bull/Redis job queue pipeline. The frontend is a Next.js 14 + shadcn/ui dashboard wrapped as a Tauri desktop app.
+
+### Motivation
+
+Automate CPA (Cost Per Action) video marketing on YouTube - eliminating manual video editing, metadata research, and uploading by creating an end-to-end pipeline that generates, optimizes, and publishes promotional content at scale across multiple channels and niches.
+
+### Links
+
+### **Tech Stack**
+
+| **Layer** | **Technology** |
+| --- | --- |
+| **Backend** | TypeScript, NestJS v10, Prisma + MongoDB |
+| **Video Rendering** | Remotion v4, Tailwind CSS |
+| **Browser Automation** | Puppeteer (extra + stealth plugin) |
+| **Job Queue** | Bull + Redis (4 queues: video, thumbnail, metadata, upload) |
+| **Frontend** | Next.js 14 (App Router), React 18 |
+| **UI** | shadcn/ui, Radix primitives, Tailwind CSS, framer-motion |
+| **Desktop Shell** | Tauri 1.5 (Rust) |
+| **Validation** | Zod, react-hook-form |
+| **Data Fetching** | SWR, Axios |
+
+### **Key Features**
+
+- **Programmatic Video Generation** - Remotion-based 90-second promo videos with animated intros, iPhone home screen simulations, browser sequences, hack-proof overlays, and background music (45 tracks)
+- **Automated YouTube Upload** - Puppeteer logs into channels, uploads videos, injects custom thumbnails and metadata, sets visibility, and pins comments
+- **Metadata Scraping** - Crawls competitor YouTube videos to extract relevant titles, tags, and descriptions
+- **Campaign System** - Batch job distribution across channels and niches with configurable limits
+- **Scheduled Visibility Transitions** - Videos uploaded as UNLISTED, then auto-switched to PUBLIC after a configurable delay
+- **Real-time Dashboard** - Job progress tracking (video rendering - thumbnail - metadata - upload - public) with SWR polling
+- **Desktop App** - Tauri-wrapped Next.js app for native OS experience
+
+### **What I Learned**
+
+- **Programmatic video rendering** with Remotion (compositions, Series, animations, chroma-key overlays)
+- **Browser automation at scale** with Puppeteer stealth plugin - YouTube login flows, captcha detection, feature-level scraping
+- **Job queue orchestration** with Bull/Redis - multi-stage pipelines, retry logic (3 attempts), dead-letter handling, cross-queue dependencies
+- **NestJS modular architecture** - dependency injection, module imports, Bull consumer patterns
+- **shadcn/ui + CSS variable theming** - dark/light mode with next-themes, Radix UI accessibility primitives, CVA variant management
+- **Tauri desktop packaging** - wrapping a Next.js static export in a Rust shell with native window management
+- **YouTube Studio automation** - navigating the YouTube UI programmatically: upload flows, metadata injection, thumbnail upload, visibility toggling, comment pinning
+
+## RandomCall
+> Apr 2024
+Full-stack random 1-on-1 video chat app like Omegle/Chatroulette with WebSocket matchmaking.
+**Tech Stack:** nextjs, nestjs, typescript, tailwindcss, shadcn, docker, redis
+**Links:**
+- github: https://github.com/benlhachemi/randomcall.git
+- youtube: https://youtu.be/FamZMfLIYag
+---
+# Randomcall
+
+### Project Summary
+
+- **Date:** Apr 2024
+- **Description:** RandomCall is a full-stack random 1-on-1 video chat application (like Omegle/Chatroulette). Users connect via WebSocket, get matched through a Redis-backed Bull queue, and are placed into a video call room powered by ZegoCloud.
+
+### Motivation
+
+This was a paid sponsorship on my YouTube channel from ZegoCloud. I was asked to create an app to demonstrate ZegoCloud video-call service, so I built a tutorial project to demonstrate real-time WebSocket matchmaking and queue-based user pairing.
+
+### Links
+
+- Github repo: https://github.com/benlhachemi/randomcall.git
+
+- YouTube Tutorial: https://youtu.be/FamZMfLIYag
+
+### Tech Stack
+
+- **Frontend:** Next.js 14 (React 18, TypeScript), Tailwind CSS, shadcn/ui, Lucide Icons, Animate.css
+- **Backend:** NestJS 10 (TypeScript), Socket.IO (WebSocket)
+- **Video:** ZegoUIKit Prebuilt (ZegoCloud SDK)
+- **Queue/Database:** Bull (Redis job queue), Redis via Docker
+- **Infrastructure:** Docker Compose (Redis + RedisInsight)
+
+### Key Features
+
+- **Random Matchmaking** - users are queued via Bull/Redis and paired when two are available
+- **WebSocket Real-Time Communication** - Socket.IO handles handshake, matchmaking events, and room assignment
+- **1-on-1 Video Calls** - powered by ZegoUIKit Prebuilt (mute, camera toggle, screen share, end call)
+- **Animated UI State Machine** - multi-step flow: NOT_STARTED - CONNECTING - CONNECTED - SEARCHING - SEARCH_DONE - room
+- **Dockerized Redis** - one-command setup with RedisInsight for visual queue inspection
+- **Fully Anonymous** - no authentication, users identified by UUID + socket ID
+
+### What I Learned
+
+- Docker-compose
+- Building a real-time WebSocket server with NestJS and Socket.IO
+- Implementing a queue-based matchmaking system using Bull and Redis
+- Integrating a third-party video SDK (ZegoUIKit) into a React/Next.js app
+- Managing state transitions in a real-time application with multiple connection phases
+- Structuring a full-stack TypeScript monorepo with decoupled frontend/backend services
+
+## BestShape
+> Feb 2024
+Personalized fitness program generator in 30 seconds via a multi-step questionnaire.
+**Tech Stack:** nextjs, typescript, tailwindcss, mongodb, shadcn
+**Links:**
+- website: https://best-shape-alpha.vercel.app/
+- github: https://github.com/benlhachemi/BestShape
+- youtube: https://youtu.be/XZBETa-s_mY
+---
+# BestShape
+
+### Project Summary
+
+- **Date:** 2024
+- **Description:** A full-stack web app that generates personalized fitness programs (workout routines, diet plans, sleep recommendations) in ~30 seconds via a multi-step questionnaire. Users input personal info, goals, medical history, and preferences; the app computes a tailored program using fitness formulas (BMI, body composition, caloric needs) and provides shareable links.
+
+### Motivation
+
+This was an attempt to create a profitable SaaS in the fitness category. So I created this tool that generates instant fitness programs without requiring AI or human trainers.
+
+### Links
+
+- Github repo: https://github.com/benlhachemi/BestShape
+
+- Live Demo: https://best-shape-alpha.vercel.app/
+
+- YouTube Tutorial: https://youtu.be/XZBETa-s_mY
+
+### Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS + shadcn/ui + MUI (time picker only)
+- **Database:** MongoDB via Prisma ORM
+- **Animations:** Lottie-react, animate.css
+- **Deployment:** Vercel
+- **Other:** Axios, React Context + useReducer, lucide-react
+
+### Key Features
+
+- 7-step wizard questionnaire (personal info, goals, medical, sleep, lifestyle, availability, diet)
+- Fitness program generation using health calculators (BMI, BMR, body fat %, macro splits)
+- Tailored workout plans (push/pull/legs for muscle, HIIT for fat loss, aerobic for cardio)
+- Diet and sleep recommendations with interactive visual charts
+- Shareable program links (pastebin-style, no authentication required)
+
+### What I Learned
+
+- Building a multi-step form with React Context + useReducer for state management
+- Implementing health/fitness calculations (Mifflin-St Jeor, D.R. Miller, Jackson and Pollock, Navy method)
+- Server-side rendering (RSC) in Next.js App Router for dynamic program pages
+- MongoDB + Prisma integration in a Next.js full-stack app
+- Structuring a portfolio-grade project with Tailwind + shadcn/ui component library
+- Deployment on Vercel with environment variable management
+
+## Edumation
+> Mai 2024
+AI-powered educational assistant platform for students and educators.
+**Tech Stack:** nextjs, nodejs, express, react
+---
+### **Project Summary**
+
+- **Date:** Mai 2024
+- **Description:** An IoT web controller that bridges a Node.js Express backend with an Arduino board via serial communication (Johnny-Five/Firmata), exposing REST endpoints to control an LED on digital pin 8, with a skeleton Next.js + Material UI frontend for browser-based control.
+
+### Motivation
+
+A project that was mandatory in engineering school (4th year). The goal was to connect the physical world (Arduino + sensors) with the web (Node.js, React). Demonstrates full-stack IoT capabilities.
+
+### Links
+
+Github repo: https://github.com/benlhachemi/arduino-nodejs.git
+
+### **Tech Stack**
+
+- **Backend:** Node.js, Express 4.18, Johnny-Five 2.1, Nodemon
+- **Frontend:** Next.js 13, React 18, Material UI 5, Axios, Emotion
+- **Hardware:** Arduino (StandardFirmata firmware over USB/COM6), LED on digital pin 8
+
+### **Key Features**
+
+- REST API to turn an LED on/off (GET /allumer-led, GET /eteindre-led)
+- Server waits for Arduino hardware readiness before accepting requests
+- Next.js frontend with MUI button (stub - ready for API integration)
+- Hot-reload backend via Nodemon
+
+### **What I Learned**
+
+- IoT basics: controlling hardware from JavaScript via Johnny-Five/Firmata
+- Serial communication between Node.js and Arduino over USB
+- REST API design mapping HTTP endpoints to hardware actions
+- Full-stack integration: hardware - Node.js API - React frontend
+- Setting up Material UI with Next.js
+- Handling asynchronous hardware readiness before starting a server
+- Structuring a monorepo with backend + client applications
+
+## Brand Name Generator
+> Sep 2023
+AI-powered brand name generator using fine-tuned GPT-3.5 with domain and social handle checking.
+**Tech Stack:** nextjs, typescript, tailwindcss, shadcn, framer-motion
+**Links:**
+- website: https://brand-name-generator.vercel.app/
+---
+# Brand name generator
+
+### Project Summary
+
+- **Date:** September 12, 2023
+- **Description:** An AI-powered brand name generator built with Next.js 13 and OpenAI's fine-tuned GPT-3.5. Users describe their project idea and get 40 unique brand name suggestions with domain availability, social handle checks, and scoring metrics.
+
+### Motivation
+
+This was an attempt to build a profitable SaaS. I have built this full-stack Next.js 13 app router project integrating OpenAI's API for structured output, with shadcn/ui, Radix UI primitives, Lottie animations, and LLM output sanitization.
+
+### Links
+
+- Live Demo: https://brand-name-generator.vercel.app/
+
+### Tech Stack
+
+- **Framework:** Next.js 13.4 (App Router, experimental Server Actions)
+- **Language:** TypeScript 5.2
+- **Styling:** Tailwind CSS 3.3 + tailwindcss-animate + animate.css
+- **UI:** shadcn/ui (20+ Radix UI primitives: Sheet, Dialog, NavigationMenu, Popover, Command, etc.)
+- **AI:** OpenAI Node SDK v4.8 - fine-tuned gpt-3.5-turbo-0613
+- **Animations:** lottie-react, typewriter-effect, react-text-gradients
+- **Icons:** lucide-react, react-icons
+- **Linting:** ESLint 8 (airbnb + typescript + prettier)
+
+### Key Features
+
+1. **AI Brand Name Generator** - Generates 40 names + TLD rankings from a short project description via fine-tuned GPT-3.5
+2. **Name Detail Sheet** - Slide-out panel with explanation, domains, social handles, and 12 scoring metrics
+3. **Brand Name Checker** - (UI demo) Input a name to check against best-practice metrics
+4. **Typewriter placeholders** - Cycling example hints in search inputs
+5. **Lottie animations** - Animated illustrations on the home and checker pages
+6. **LLM output cleaning pipeline** - JSON repair + dedup/filtering (length, special chars, error messages)
+
+### What I Learned
+
+- Full-stack Next.js 13 App Router patterns (route groups, layouts, API routes)
+- OpenAI API integration with a custom fine-tuned model for structured JSON output
+- Prompt engineering for LLM-structured responses + regex-based JSON repair for malformed output
+- Building accessible UI with shadcn/ui and Radix UI primitives
+- Lottie animations in React
+- Custom typewriter effect implementation
+- What not to do: hardcoding API keys, leaving placeholder components unconnected, duplicating routes
+
+## Modifio
+> Sep 2023
+Client-side file converter powered by FFmpeg WASM.
+**Tech Stack:** nextjs, typescript, tailwindcss, shadcn, ffmpeg, wasm
+**Links:**
+- website: https://modifio.vercel.app/
+- github: https://github.com/benlhachemi/modifio
+- youtube: https://youtu.be/ypYw6Cm6cUk
+---
+# Modifio
+
+### Project Summary
+
+- **Date:** Sep, 2023
+- **Description:** Free, unlimited in-browser multimedia converter powered by FFmpeg WASM. Users drag-and-drop files, select target formats, and convert everything locally - private by design.
+
+### Motivation
+
+Build a zero-server file converter to demonstrate that complex media processing can run entirely client-side using WebAssembly, eliminating privacy concerns and server costs while offering unlimited free usage.
+
+### Links
+
+- Github repo: https://github.com/benlhachemi/modifio
+
+- Live demo: https://modifio.vercel.app/
+
+- YouTube tutorial: https://youtu.be/ypYw6Cm6cUk
+
+### Tech Stack
+
+Next.js 13 (App Router), TypeScript, Tailwind CSS, shadcn/ui, @ffmpeg/ffmpeg (WASM), react-dropzone, next-themes, Lucide React
+
+### Key Features
+
+- **Client-side conversion** - FFmpeg WASM runs in-browser; files never leave the machine
+- **Multi-format support** - Images (JPG, PNG, WEBP, GIF, BMP, SVG, ICO, TIFF...), Video (MP4, AVI, MKV, MOV, WEBM, 3GP...), Audio (MP3, WAV, OGG, AAC, FLAC, M4A...)
+- **Drag-and-drop upload** - Batch file handling with per-file format selection + real-time status badges
+- **Dark mode** - System-aware light/dark toggle via next-themes
+- **Sequential batch conversion** - Files processed one at a time with individual + bulk download
+- **Responsive + accessible** - shadcn/ui primitives, mobile hamburger menu, keyboard-friendly
+
+### What I Learned
+
+- Loading and interacting with FFmpeg via WebAssembly in the browser (singleton pattern, CDN blob loading, virtual filesystem read/write)
+- Managing complex UI state per upload item (conversion status, error handling, progress feedback)
+- Sequential async batch processing with observable per-item state updates
+- Client-side file I/O - reading dropped files, building output filenames, triggering downloads via blob URLs
+- Tailwind CSS + shadcn/ui component composition for a polished, production-grade UI
+- Trade-offs of codec copy for performance vs re-encoding for compatibility
+
+## NextJs Tailwind Portfolio
+> Sep 2023
+Personal dark-themed portfolio with Lottie animations, glassmorphism, and Tailwind CSS.
+**Tech Stack:** nextjs, typescript, tailwindcss, lottie
+**Links:**
+- github: https://github.com/benlhachemi/nextjs-tailwind-portfolio
+- youtube: https://www.youtube.com/watch?v=NGpZcR6dfr8
+---
+### Project Summary
+
+- **Date:** Sep 2023
+- **Description:** A personal dark-themed portfolio website. Built with Next.js 13's App Router, Lottie animations, and Tailwind CSS.
+
+### Motivation
+
+To experiment with and learn Next.js 13's App Router, Lottie animations (lottie-react), and advanced Tailwind CSS (custom keyframes, glassmorphism, responsive design) by building a personal portfolio site from scratch.
+
+### Links
+
+Github Repo: https://github.com/benlhachemi/nextjs-tailwind-portfolio
+
+YouTube Tutorial: https://www.youtube.com/watch?v=NGpZcR6dfr8
+
+### **Tech Stack**
+
+| **Technology** | **Version** |
+| --- | --- |
+| Next.js (App Router) | 13.4.19 |
+| React | 18.2.0 |
+| TypeScript | 5.2.2 |
+| Tailwind CSS | 3.3.3 |
+| lottie-react | ^2.4.0 |
+| react-icons | ^4.10.1 |
+| ESLint (Airbnb + Airbnb-TypeScript) | 8.48.0 |
+
+### **Key Features**
+
+- **Glassmorphism header card** with backdrop blur and Lottie avatar animation
+- **Hero section** with Full Stack Developer / Software Engineer Student tagline
+- **Skills grid** (8 logos: Next.js, Tailwind, NestJS, GraphQL, MongoDB, Redis, Nginx, Docker)
+- **3 placeholder project cards** with alternating layouts and hover effects
+- **About Me section** with stacked profile photos that tilt/float on hover
+- **7 custom Lottie animations** (avatar, waving hand, computer, heart, etc.)
+- **Custom animated backgrounds** (SVG dot-grid patterns) + Tailwind keyframe animations (blob, circle, card float)
+- **Fully responsive** (sm/ md/ lg/ xl/ 2xl breakpoints)
+- **Dark theme**, Inter font, bouncing scroll indicator
+
+### **What I Learned**
+
+- Next.js 13 App Router - using app/ directory, layout.tsx, page.tsx, and next/font for font optimization
+- Lottie animation integration with lottie-react to add rich, lightweight vector animations
+- Custom Tailwind CSS - defining keyframes in tailwind.config.ts, creating complex animations (blob, circle, card), and advanced effects like backdrop-blur glassmorphism
+- Responsive design with Tailwind - using responsive prefixes (lg:, xl:, 2xl:) for layout shifts between mobile/desktop
+- ESLint + Airbnb TypeScript config - setting up strict linting on top of next/core-web-vitals
+- Practical takeaways: Placeholder content first to nail the layout/animation layer, then backfill real content; and that 2-day sprints can yield visually impressive results even with incomplete data
+
+## Nest Cloaker
+> Apr 2023
+Affiliate marketing URL cloaking API with device fingerprinting and network filtering.
+**Tech Stack:** nestjs, typescript, mongodb
+**Links:**
+- github: https://github.com/benlhachemi/nest-cloaker.git
+---
+# Nest Link Cloaker
+
+### Project Summary
+
+- **Date:** Apr 2023
+- **Description:** Affiliate marketing URL cloaking API built with NestJS. Each link has configurable filters (quick + advanced) that validate incoming visitors via device fingerprinting and network data. Real human traffic is redirected to the monetization offer page; bots, reviewers, and competitors are served a harmless white page instead.
+
+### Motivation
+
+Keep affiliate offers hidden from ad network reviewers, competitors, and bots - only real users see the redirect. Bypass affiliate program terms that prohibit direct linking.
+
+### Links
+
+Github repo: https://github.com/benlhachemi/nest-cloaker.git
+
+### **Tech Stack**
+
+NestJS 9, TypeScript, MongoDB + Mongoose, MaxMind GeoIP2 (ISP + Country DBs), class-validator, Helmet, Throttler, express-mongo-sanitize
+
+### **Key Features**
+
+- **Quick filters:** block bots, mobile-only, block direct traffic, block all traffic
+- **Advanced filters:** geo (country), language, referrer/source, OS, browser, timezone, ISP/ASO/ASN, IP, URL queries, scheduling
+- **Bot/browser fingerprinting** - detects headless browsers and automation by analyzing hardwareConcurrency, deviceMemory, screen resolution, connection RTT, touch points, pixel ratio, FCP, FPS, audio, WebGL, and 30+ other signals
+- **Network filtering** - auto-blacklists datacenter IPs (AWS, GCP, Azure, DigitalOcean, etc.) via MaxMind ISP DB
+- **IP middleware** resolves visitor network data (ASN, ASO, ISP, org, country) before validation
+- Request logging to MongoDB
+
+### **What I Learned**
+
+- Building a multi-layered decision engine with fast-fail validation
+- Browser fingerprinting heuristics for distinguishing real users from headless browsers
+- Integrating MaxMind GeoIP2 for ISP-level and country-level network lookups
+- Structuring a NestJS app with middleware, nested MongoDB schemas, and module exports
+
+## One-page e-commerce
+> Apr 2023
+Single-page e-commerce storefront with WhatsApp ordering for a Moroccan business.
+**Tech Stack:** nextjs, typescript, tailwindcss
+**Links:**
+- github: https://github.com/benlhachemi/onepage-ecommerce-shop.git
+- youtube: https://youtu.be/1HzFYpmx_zs
+---
+### **Project Summary**
+
+- **Date:** April 2023
+- **Description:** Single-page e-commerce storefront (catalog + WhatsApp ordering) for a Moroccan business. Products and categories are managed via a Strapi headless CMS and statically generated with Next.js at build time.
+
+### Motivation
+
+Create a simple, no-backend-maintenance product catalog where customers browse products and place orders directly via WhatsApp - a common commerce pattern in Morocco. No cart, no payments, no auth. Just browse-and-chat.
+
+### Links
+
+Github repo: https://github.com/benlhachemi/onepage-ecommerce-shop.git
+
+YouTube tutorial: https://youtu.be/1HzFYpmx_zs
+
+### **Tech Stack**
+
+| **Category** | **Technology** |
+| --- | --- |
+| Framework | Next.js 13 (Pages Router) |
+| Language | TypeScript |
+| Styling | Tailwind CSS + daisyUI |
+| CMS | Strapi (headless, Railway-hosted) |
+| Data Fetching | SSG + ISR (revalidate: 60s) via Axios |
+| Linting | ESLint (next/core-web-vitals) |
+
+### **Key Features**
+
+- Static-generated product catalog grouped by categories
+- WhatsApp ordering - each product card links to wa.me with pre-filled product name
+- Mobile-first responsive grid (1-4 columns)
+- Cover image, avatar, and page title managed via CMS
+- Incremental Static Regeneration (ISR) - content updates within 60s without rebuild
+
+### **What I Learned**
+
+- Integrating a headless CMS (Strapi) with Next.js static generation
+- Using ISR (revalidate) to balance freshness with build-time performance
+- Building a "WhatsApp commerce" flow as an alternative to traditional checkout
+- Structuring a Next.js Pages Router project with TypeScript types for API data
+- Working with Tailwind CSS grid layouts and daisyUI components
+
+## Eagle Browser
+> Mar 2023
+RESTful API for managing browser profiles with proxy, fingerprint, and data directory configuration.
+**Tech Stack:** nodejs, express, mongodb
+**Links:**
+- github: https://github.com/benlhachemi/eagle-browser
+---
+# Eagle Browser
+
+### Project Summary
+
+- **Date:** March 2023
+- **Description:** A RESTful API backend for managing browser profiles with proxy, fingerprint, and data directory configuration (the core backend for an anti-detect/multi-account browser management system).
+
+### Motivation
+
+Managing multiple social accounts using the same browser fingerprint has the risk of accounts being suspended. So the goal was to build a clean, layered backend for managing multiple isolated browser environments, each with its own proxy settings, fingerprint parameters (CPU, memory, user agent), and profile data directory.
+
+### Links
+
+Github repo: https://github.com/benlhachemi/eagle-browser
+
+### **Tech Stack**
+
+- **Runtime:** Node.js, Express 4, Mongoose 7, MongoDB
+- **Security:** Helmet, express-rate-limit, xss-clean, hpp, express-mongo-sanitize
+- **Validation:** express-validator, Joi
+- **Dev:** ESLint + Airbnb style, nodemon, Yarn
+- **Config:** dotenv
+
+### **Key Features**
+
+- CRUD API for browser profiles (name, proxy, dataDir, fingerprints)
+- Layered architecture: routes - controllers - services - models
+- Security middleware stack (Helmet, rate limiting, NoSQL/XSS/HPP protection)
+- Auto-discovery route registration
+- Input validation via express-validator
+
+### **What I Learned**
+
+- Structuring a production-grade Express.js API with separation of concerns
+- MongoDB/Mongoose schema design for nested objects (proxy, fingerprints)
+- Implementing security best practices: rate limiting, input sanitization, HTTP headers
+- Middleware patterns (global, route-level, guard stubs)
+- Request validation strategies and common pitfalls (mismatched validators vs schema)
+- How anti-detect browsers model browser profiles with fingerprints and proxies
+
+## Arduino NodeJs
+> Jan 2023
+IoT web controller bridging Node.js with Arduino via serial communication.
+**Tech Stack:** nextjs, nodejs, express, react
+**Links:**
+- github: https://github.com/benlhachemi/arduino-nodejs.git
+---
+### **Project Summary**
+
+- **Date:** January 5, 2023
+- **Description:** An IoT web controller that bridges a Node.js Express backend with an Arduino board via serial communication (Johnny-Five/Firmata), exposing REST endpoints to control an LED on digital pin 8, with a skeleton Next.js + Material UI frontend for browser-based control.
+
+### Motivation
+
+A project that was mandatory in engineering school (4th year). The goal was to connect the physical world (Arduino + sensors) with the web (Node.js, React). Demonstrates full-stack IoT capabilities.
+
+### Links
+
+Github repo: https://github.com/benlhachemi/arduino-nodejs.git
+
+### **Tech Stack**
+
+- **Backend:** Node.js, Express 4.18, Johnny-Five 2.1, Nodemon
+- **Frontend:** Next.js 13, React 18, Material UI 5, Axios, Emotion
+- **Hardware:** Arduino (StandardFirmata firmware over USB/COM6), LED on digital pin 8
+
+### **Key Features**
+
+- REST API to turn an LED on/off (GET /allumer-led, GET /eteindre-led)
+- Server waits for Arduino hardware readiness before accepting requests
+- Next.js frontend with MUI button (stub - ready for API integration)
+- Hot-reload backend via Nodemon
+
+### **What I Learned**
+
+- IoT basics: controlling hardware from JavaScript via Johnny-Five/Firmata
+- Serial communication between Node.js and Arduino over USB
+- REST API design mapping HTTP endpoints to hardware actions
+- Full-stack integration: hardware - Node.js API - React frontend
+- Setting up Material UI with Next.js
+- Handling asynchronous hardware readiness before starting a server
+- Structuring a monorepo with backend + client applications
+
+## Dofus Marchand Bot
+> Jul 2022
+Desktop automation bot for Dofus using OpenCV template matching to automate merchant mode.
+**Tech Stack:** javascript
+**Links:**
+- github: https://github.com/benlhachemi/dofus-marchand-bot.git
+---
+### **Project Summary**
+
+- **Date:** Jul 13, 2022
+- **Description:** Desktop automation bot for the MMORPG Dofus (Ankama Games) that continuously re-activates the marchand (merchant/trader) mode. Uses image recognition via OpenCV template matching to locate UI buttons on screen, then automates mouse clicks and keyboard inputs (V key) to keep the character in merchant mode in an infinite loop.
+
+### Motivation
+
+Dofus is and still my best video game since my childhood (it's a french MMORPG found in 2003). Playing Dofus as a merchant requires periodically re-entering the marchand mode (the game only allows 6 merchant per map, the goal was to spam the merchant request until one the slots is free). This bot eliminates the need to manually click through the multi-step merchant dialog each time, allowing AFK item selling without interruption.
+
+### Links
+
+Github repo: https://github.com/benlhachemi/dofus-marchand-bot.git
+
+### **Tech Stack**
+
+| **Language/Runtime** | **Libraries** |
+| --- | --- |
+| **JavaScript (Node.js)** | @nut-tree/nut-js (mouse, keyboard, screen), @nut-tree/template-matcher (OpenCV image recognition), sleep-promise (timing) |
+
+### **Key Features**
+
+- **Image-based UI detection** - waits for specific template images (XLII.jpg, marchand.jpg, confirm.jpg) to appear on screen
+- **Automated mouse control** - moves cursor to the center of detected UI regions and clicks
+- **Keyboard simulation** - presses/releases the V key (Dofus marchand shortcut)
+- **Error-resilient infinite loop** - catches errors, logs them, and retries the sequence indefinitely
+
+### **What I Learned**
+
+- Desktop automation with nut.js: mouse movement, clicking, keyboard input, screen region detection
+- Template matching (OpenCV) for UI element recognition in game automation
+- Promise-based sequencing with async/await for step-by-step automation workflows
+- Error handling patterns for fragile UI interactions (transient elements, timing issues)
+- Game bot development patterns - wait for element, interact, confirm, loop
+
+## Era.js
+> Jun 2022
+Opinionated Node.js backend framework and CLI tool for scaffolding Express-based REST APIs.
+**Tech Stack:** nodejs, express, mongodb
+**Links:**
+- github: https://github.com/benlhachemi/era.js
+---
+### **Project Summary**
+
+- **Date:** June 2022 - December 2022
+- **Description:** era.js is an opinionated Node.js backend framework and CLI tool for scaffolding Express-based REST APIs. It provides a zero-config CLI (era dev) that interactively guides setup (database choice, MongoDB URI), pre-configures security middleware (Helmet, CORS, XSS, Mongo sanitization), and offers a modular loader pattern with route abstraction utilities - reducing boilerplate when starting new Node.js backend projects.
+
+### Motivation
+
+Eliminate repetitive setup when starting new Node.js REST APIs by providing a structured, security-hardened skeleton with an interactive CLI, so I can skip boilerplate and dive straight into writing business logic.
+
+### Links
+
+Github repo: https://github.com/benlhachemi/era.js
+
+### **Tech Stack**
+
+- **Runtime:** Node.js (ES Modules)
+- **Web Framework:** Express.js 4.x
+- **Database:** MongoDB (Mongoose 6.x)
+- **Auth:** JWT, bcrypt, Google OAuth
+- **Validation:** Joi
+- **CLI:** Yargs, Inquirer, Boxen, Signale
+- **Security:** Helmet, xss-clean, express-mongo-sanitize
+- **Dev Tools:** ESLint (Airbnb), Nodemon
+
+### **Key Features**
+
+1. **Custom CLI (era dev)** - Interactive setup with DB config prompts, auto-detects missing MongoDB URI, starts dev server via Nodemon with styled startup output.
+2. **Pre-configured Security Pipeline** - Helmet, CORS, body/cookie parsers, XSS sanitization, and MongoDB operator injection protection wired in.
+3. **Modular Loader Architecture** - Clean 3-tier loader (index, middlewares, routes) for pluggable middleware and route mounting.
+4. **Route Abstraction Utilities** - publicRoute() builder maps HTTP methods to controllers with input validation; stubs for authRoute and adminRoute indicate planned auth layers.
+5. **JWT Authentication Plumbing** - Dependencies and partial implementation for JWT, refresh tokens, and Google OAuth login.
+
+### **What I Learned**
+
+- Designing an interactive CLI with Yargs + Inquirer that checks config state before launching a dev server.
+- Structuring a modular Express app with a loader pattern (middleware, routes, server).
+- Building abstract route utilities to keep controller code clean and consistent.
+- Hardening an Express app with security best practices (Helmet, XSS, Mongo sanitization).
+- Scaffolding architecture that balances flexibility with opinionated defaults.
+- Managing an unfinished OSS project - understanding what it takes to go from scaffolding to production readiness.
+
+## CPADominator
+> Mar 2022
+Full-stack SaaS for creating content-locked landing pages used in CPA/affiliate marketing.
+**Tech Stack:** nextjs, typescript, tailwindcss, mongodb
+---
+### **Project Summary**
+
+- **Date:** 03/21/2022 - 2022-08-26
+- **Description:** A full-stack SaaS platform for creating and managing content-locked landing pages ("niches") used in CPA/affiliate marketing. Users build themed landing pages (app installs, codes and coupons, accounts, coin generators), gate content behind offers, and monetize via CPA networks. Built with Next.js 12 + MongoDB, evolved from Strapi CMS to a monolith and then to a separate client/server architecture.
+
+### Motivation
+
+This is my first SaaS built ever, and the first time I worked with a teammate on the same project. The idea of this project came when my co-founder and I were working as affiliate marketers at Ogads; we were creating affiliate landing pages to promote CPA offers manually using HTML, CSS, and JavaScript. But other non-tech affiliate marketers didn't have the coding skills to create custom landing pages, so we knew there was a need for this. So we have built this solution specifically for non-tech affiliate marketers to create themed CPA landing pages without needing technical or design skills.
+
+### Links
+
+### **Tech Stack**
+
+| **Layer** | **Technology** |
+| --- | --- |
+| **Framework** | Next.js 12.1.0 (Pages Router) |
+| **Frontend** | React 17, Tailwind CSS 3, Material UI 5 |
+| **Backend** | Next.js API Routes (monolith) then later refactored into separate client/ + server/ |
+| **Database** | MongoDB + Mongoose (early prototype used Strapi v4 CMS) |
+| **Auth** | JWT (15min) + refresh tokens (24h, httpOnly cookies, rotation), Google OAuth, bcrypt |
+| **Email** | Mailgun / Nodemailer (email verification) |
+| **SMS** | Twilio (phone verification, partial) |
+| **Security** | reCAPTCHA v2, browser fingerprinting, CORS origin validation, server-side Google ID token verification |
+
+### **Key Features**
+
+- **Full auth system** - local (email/password) + Google OAuth, JWT/refresh-token rotation with httpOnly cookies, email verification (Mailgun), phone verification (Twilio), reCAPTCHA protection
+- **Niche (LP) CRUD** - create, edit, delete, search, activate/deactivate landing pages with typed fields (app-install, codes and coupons, accounts, coins-generator), keywords, icons, languages (8), videos, custom paths
+- **Dashboard** - overview, analytics (placeholder), billing (placeholder), niche grid with search, import/export, sidebar navigation
+- **Pricing tiers** - Free (subdomain+SSL, hosting, 3 niches) / Premium ($9.99/mo: unlimited niches, pre-built library, hack-proof generator, import/export)
+- **Multi-step registration** - form, email confirmation (4-digit code), phone confirmation, account suspended handling
+- **Session management** - encrypted localStorage with browser fingerprint, automatic token refresh via useSession hook
+
+### **What I Learned**
+
+- **Auth architecture**: Implementing secure JWT + refresh-token rotation with httpOnly cookies and a client-side React hook that auto-refreshes tokens before expiry using browser fingerprinting for session integrity.
+- **Backend evolution**: Started with Strapi v4 headless CMS as external backend, migrated to Next.js API Routes + MongoDB monolith, later refactored into separate client/ + server/ apps.
+- **Full-stack SaaS patterns**: Building a product with user management, subscription tiers, dashboard routing with catch-all routes, multi-step registration flows, and server-side rendering considerations.
+- **Security hardening**: Server-side Google OAuth token verification, reCAPTCHA validation, CORS origin checks, JWT payload decoding/validation, and preventing user modification of protected fields in CRUD operations.
+- **Content locking business model**: Understanding how niche landing pages, content lockers, and CPA offer walls work together for monetization.
+- **Git branching as experimentation**: The 18+ branches explored parallel ideas (analytics, hosting, refactoring, new templates, next-auth migration, Strapi integration, subdomain routing, new UI templates).
+
+## YouTube Views Bot
+> Mar 2022
+Node.js bot that automates fake YouTube video views using Puppeteer with stealth techniques.
+**Tech Stack:** javascript, nodejs
+**Links:**
+- github: https://github.com/benlhachemi/youtube-cheater
+---
+### **Project Summary**
+
+- **Date:** Mar 11, 2022
+- **Description:** A Node.js bot that automates fake YouTube video views using Puppeteer. It launches 5 parallel headless browser instances that simulate human-like behavior to inflate view counts on a specific YouTube video. Employs stealth techniques (fingerprint randomization, user-agent rotation, ad blocking, and human-like navigation patterns) to evade YouTube's bot detection.
+
+### Motivation
+
+When I was an affiliate marketer at Ogads, my main traffic source was YouTube. I have created this bot to artificially increase view counts on a YouTube video by creating bot traffic that mimics organic human viewing patterns.
+
+### Links
+
+Github repo: https://github.com/benlhachemi/youtube-cheater
+
+### **Tech Stack**
+
+| **Layer** | **Technology** |
+| --- | --- |
+| **Runtime** | Node.js |
+| **Browser Automation** | Puppeteer Extra (puppeteer-extra) |
+| **Anti-detection** | puppeteer-extra-plugin-stealth |
+| **Ad Blocking** | puppeteer-extra-plugin-adblocker |
+| **Fingerprinting** | Custom newFP.js (viewport, timezone, language, navigator overrides) |
+
+### **Key Features**
+
+1. **5 parallel infinite-loop bot instances** - all running concurrently, never stopping
+2. **Fingerprint spoofing** - randomizes viewport, timezone, language, device memory, CPU cores, platform, vendor
+3. **Human-like path randomization** - reaches target video via search, related videos, or homepage browsing
+4. **Human behavior simulation** - watches 1-3 random videos before and after the target
+5. **Stealth + ad blocking** - evades detection and reduces fingerprintability
+6. **Retry logic** - retries YouTube navigation up to 4 times
+
+### **What I Learned**
+
+- How to use puppeteer-extra plugins (stealth, adblocker) for bot detection evasion
+- How browser fingerprinting works and can be spoofed - page.evaluateOnNewDocument() to override navigator properties before the page loads
+- How to simulate organic browsing by randomizing entry paths (search, video, homepage, related, target)
+- How to structure a modular bot with utils for each navigation step (search, homepage, related videos)
+- The mechanics of YouTube's view counting and how view bots attempt to bypass detection through randomization and human-like pauses
+
+## Fingerprint JS
+> Feb 2022
+Client-side browser fingerprinting library generating unique device IDs from 18 browser signals.
+**Tech Stack:** javascript
+**Links:**
+- github: https://github.com/benlhachemi/fingerprint-id-jsFile.git
+---
+### **Project Summary**
+
+- **Date:** Feb 26, 2022
+- **Description:** A client-side browser fingerprinting library that generates a unique device identifier by collecting 18 browser/system signals (all in a single vanilla JS file with zero dependencies).
+
+### Motivation
+
+The goal was to prevent spammers from creating multiple accounts. I didn't like the results of the popular JS package FingerprintJs (free version) so I built my own Fingerprint JS library.
+
+### Links
+
+Github repo: https://github.com/benlhachemi/fingerprint-id-jsFile.git
+
+### **Tech Stack**
+
+- **Language:** JavaScript (ES5 with minor ES6 additions)
+- **Runtime:** Browser (client-side)
+- **Dependencies:** None (zero external libs)
+- **Module System:** UMD (CommonJS + AMD + global script tag)
+
+### **Key Features**
+
+- Canvas fingerprinting (renders text to canvas, exports toDataURL)
+- Installed font detection via width comparison (~200+ fonts checked)
+- User-agent parsing for OS, browser name, and engine detection
+- Plugin/ActiveX enumeration (IE and modern browsers)
+- Screen resolution, color depth, timezone, language, touch support, connection type
+- Cookie, Java, Flash, Silverlight availability checks
+- Legacy browser support (IE4+, Netscape 4, Opera 7+, etc.)
+- Defensive try/catch pattern on every signal collector
+
+### **What I Learned**
+
+- Classic browser fingerprinting techniques (canvas, font list enumeration, UA parsing)
+- UMD module pattern for cross-environment compatibility
+- Legacy browser quirks and fallback handling (IE ActiveX, historic Navigator APIs)
+- How to implement a font detection algorithm using rendered element width comparison
+- Building a library with zero external dependencies
+
+## CPA Analytics
+> Dec 2021
+Full-stack CPA marketing analytics platform to track visitor behavior on landing pages.
+**Tech Stack:** nextjs, react, nodejs, express, mongodb, tailwindcss
+**Links:**
+- github: https://github.com/benlhachemi/cpa-analytics
+---
+### **Project Summary**
+
+- **Date:** Dec 23, 2021 - Dec 29, 2021
+- **Description:** A full-stack CPA (Cost Per Action) marketing analytics platform to track and analyze visitor behavior on CPA landing pages. Consists of a React tracking hook, an Express.js + MongoDB backend, and a Next.js dashboard GUI.
+
+### Motivation
+
+Before beginning my journey as a software engineer, I was an affiliate marketer at Ogads Network. I was promoting CPA offers (Cost Per Action). The goal of this project was to optimize landing page conversions by tracking detailed visitor behavior (device info, scroll depth, button clicks, content locker interactions, time spent, focus changes, traffic sources, and campaign parameters).
+
+### Links
+
+- https://github.com/benlhachemi/cpa-analytics
+- https://github.com/benlhachemi/cpa-analytics-server
+- https://github.com/benlhachemi/cpa-analytics-gui
+- https://github.com/benlhachemi/cpa-analytics-files
+
+### **Tech Stack**
+
+- Client: React hooks (browser fingerprinting, axios, uuid, socket.io-client)
+- Server: Node.js, Express, Socket.IO, Mongoose, MongoDB (DigitalOcean), geoip-country
+- Dashboard: Next.js 12, React 17, Material UI 5, Tailwind CSS, Firebase Auth (Google)
+- Hosting: DigitalOcean App Platform
+
+### **Key Features**
+
+- Visitor fingerprinting and device/browser detection
+- Real-time WebSocket connections with auto-disconnect on inactivity
+- Tracking: scrolls, clicks, content locker events, errors, page visits, focus changes
+- Campaign parameter capture from URL query strings (campName, trafficSource, trafficType)
+- IP geolocation (country-level)
+- REST API for aggregated analytics queries (by domain, campaign, traffic source/type)
+- Firebase-authenticated dashboard (early dev stage)
+
+### **What I Learned**
+
+- Full-stack architecture with real-time communication via Socket.IO
+- Browser fingerprinting and passive visitor tracking techniques
+- CPA marketing domain knowledge (content lockers, OGAds network)
+- Integration of MongoDB with DigitalOcean (TLS, replica sets)
+- Building a dashboard with Next.js + Material UI + Firebase Auth
+- Managing multiple micro-repos (client hook, server, GUI) under one project umbrella
+
+## LME
+> Dec 2021
+Full-stack CMS for a university research laboratory with admin dashboard.
+**Tech Stack:** react, nodejs, express, mongodb, tailwindcss
+---
+### **Project Summary**
+
+- **Date:** November 27, 2021 - December 9, 2021
+- **Description:** Full-stack CMS for a university research laboratory ("Laboratoire Materiaux et Environnement" / UIZ, Morocco). Includes a public-facing website and a password-protected admin dashboard for managing team members, scientific articles, lab news, and informational pages.
+
+### Motivation
+
+This was my first real client project. The job was to build a complete custom web presence and content management system and internal team management for a local university research lab.
+
+### Links
+
+### **Tech Stack**
+
+| **Layer** | **Technology** |
+| --- | --- |
+| **Backend** | Node.js, Express.js 4.17, MongoDB Atlas, Mongoose 6.x |
+| **Auth** | Passport.js (local), bcrypt, express-session, API key validation |
+| **Frontend** | React 17 (Create React App), React Router v6, Axios |
+| **UI (Public)** | Bootstrap 5, Swiper.js, Sass |
+| **UI (Dashboard)** | Material UI 5, React Bootstrap, Font Awesome 5 |
+| **Rich Text** | EditorJS (20+ plugins), Draft.js, react-draft-wysiwyg |
+| **Storage** | AWS S3 (signed upload URLs) |
+| **Other** | date-fns, geoip-lite, uuid, dotenv |
+
+### **Key Features**
+
+- Role-based access control (Director vs Team Leader) with session auth
+- WYSIWYG page editing via EditorJS for static pages and homepage
+- Article management per research team (ECSAE, ECAE, EEMI, EPCME)
+- News/actuality publishing with S3 image uploads
+- User registration with admin approval/rejection workflow
+- Team manager assignment (Director only)
+- Responsive public site with carousels, sliders, and team showcases
+
+### **What I Learned**
+
+- Full-stack MERN architecture (MongoDB, Express, React, Node)
+- Session-based authentication with Passport.js and role-based middleware
+- Integrating EditorJS for rich content management with JSON persistence
+- AWS S3 signed URL generation for secure file uploads
+- Building a dual-application system (public site + admin dashboard) sharing one backend
+- Managing a monorepo with Create React App for two separate React clients
+
+## React Node Auth
+> Nov 2021
+Full-stack MERN authentication app with Passport.js local strategy, session-based auth, and a React frontend.
+**Tech Stack:** react, nodejs, express, passport, mongodb, mongoose, bcrypt, nodemon
+**Links:**
+- github: https://github.com/benlhachemi/React-nodeJs-auth-app
+---
+### Project Summary
+
+- **Date**: Nov 25, 2021
+- **Description**: A full-stack MERN authentication app with Passport.js local strategy, session-based auth, and a React frontend with login/register toggle UI, built as a learning/practice project.
+
+### Motivation
+
+Learn how to build a complete authentication flow from scratch, hashing passwords with bcrypt, managing sessions with Express and Passport.js, connecting a React frontend to a protected Express API, and handling basic security (CORS, API keys, host validation).
+
+### Links
+
+- GitHub repo: https://github.com/benlhachemi/React-nodeJs-auth-app
+
+### **Tech Stack**
+
+| **Layer** | **Technology** |
+| --- | --- |
+| **Frontend** | React 17, Axios, CSS (custom + animate.css) |
+| **Backend** | Node.js, Express 4, Passport.js (local strategy), express-session |
+| **Database** | MongoDB (Atlas) via Mongoose 6 |
+| **Auth** | bcrypt (password hashing), express-session (cookies) |
+| **Dev tools** | Create React App, nodemon, dotenv |
+
+### **Key Features**
+
+- User registration with server-side validation (username, email, password rules, duplicate checks, geo-IP lookup)
+- Local login with Passport.js and persistent sessions via cookies
+- Session-aware auth check (**`/auth`** endpoint) and logout
+- Animated flip-card login/register toggle (pure CSS checkbox trick)
+- Per-request security guards (origin host check + API key in body)
+
+### **What I Learned**
+
+- Setting up Passport **`LocalStrategy`** with serialize/deserialize and session middleware
+- Hashing passwords with bcrypt and storing them securely in MongoDB
+- Structuring a Node/Express project with configs, routes, and middleware
+- Connecting a React SPA to a REST API with Axios and CORS configuration
+- Server-side input validation and basic API security patterns
+- Deploying environment-specific config via JSON fields in **`package.json`** and **`public/env.js`**
+
+## Quotex Auto Trader
+> Oct 2021
+Chrome extension to automate trading actions on the Quotex platform.
+**Tech Stack:** html, css, javascript
+**Links:**
+- github: https://github.com/benlhachemi/quotex_auto_trader
+---
+### **Project Summary**
+
+- **Date:** Oct 21, 2021 → Oct 23, 2021
+- **Description:** Quotex Auto Trader is a browser extension built to automate trading actions on the Quotex platform. The project was developed to help streamline and execute trading strategies without manual intervention.
+
+### Motivation
+
+I was new to trading and started experimenting on various platforms, including Quotex (a fake trading platform for testing strategies). After trying several online strategies, I noticed that some were repetitive and didn't require full human intelligence. Instead of manually repeating the same actions, I built this browser extension to automate the process.
+
+### Links
+
+- **GitHub repo:** https://github.com/benlhachemi/quotex_auto_trader
+
+### **Tech Stack**
+
+- **JavaScript** – core trading logic and automation.
+- **HTML** – extension popup and settings UI.
+- **CSS** – minimal styling for the user interface.
+
+### **Key Features**
+
+- **Automated Trade Execution:** Triggers buy/sell actions on the Quotex platform based on predefined rules, eliminating the need for manual input.
+- **Browser Extension Integration:** Runs as a lightweight browser extension that directly interacts with the Quotex web interface.
+- **Configurable Settings UI:** Includes an extension popup and settings interface (built with HTML/CSS) for user control over automation parameters.
+- **Real-time DOM Monitoring:** Manages asynchronous events and DOM manipulation to capture live trading signals and act on them instantly.
+- **Minimal Overhead:** Built primarily with JavaScript (84.7%) for core logic, ensuring fast performance with little visual footprint (only 0.2% CSS).
+
+### **What I Learned**
+
+- Building browser extensions for financial platforms.
+- Automating repetitive trading tasks.
+- Managing asynchronous events and DOM manipulation for real-time trading signals.
