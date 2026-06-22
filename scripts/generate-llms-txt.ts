@@ -1,0 +1,59 @@
+import fs from 'fs'
+import path from 'path'
+import matter from 'gray-matter'
+
+const projectsDir = path.join(process.cwd(), 'content', 'projects')
+const outputFile = path.join(process.cwd(), 'public', 'llms.txt')
+const { homepage } = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'package.json'), 'utf-8'))
+
+const slugs = fs.readdirSync(projectsDir)
+  .filter(f => f.endsWith('.mdx') && f !== 'index.mdx')
+  .map(f => f.replace(/\.mdx$/, ''))
+
+const projects = slugs.map(slug => {
+  const source = fs.readFileSync(path.join(projectsDir, `${slug}.mdx`), 'utf-8')
+  const { data } = matter(source)
+  return {
+    slug,
+    title: data.title ?? slug,
+    shortDescription: data.shortDescription ?? '',
+    date: data.date ?? '',
+  }
+}).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+
+const projectLines = projects
+  .map(p => `- [${p.title}](${homepage}/llms.txt/projects/${p.slug}): ${p.shortDescription}`)
+  .join('\n')
+
+const content = `# Souhail Benlhachemi
+
+> Full-stack Product Engineer based in Agadir, Morocco — building products from idea to production using the JS/TS ecosystem.
+
+Souhail is a full-stack engineer with 3+ years of experience shipping SaaS platforms, desktop apps, automation tools, and component libraries and 6+ years coding. Former indie founder (20+ projects). Currently part-time technical co-founder at Octolead. Open to remote engineering roles.
+
+## Sitemap
+
+- [Full content](${homepage}/llms-full.txt): Complete text of the entire website
+- [About](${homepage}/llms.txt/about): Background, tech stack, experience, philosophy, and featured projects
+- [Projects](${homepage}/llms.txt/projects): All projects (short version)
+- [Services](${homepage}/llms.txt/services): Available services and what Souhail offers
+- [Contact](${homepage}/llms.txt/contact): How to get in touch
+- [CV](${homepage}/cv.pdf): CV in PDF format
+
+## Projects
+
+List of all projects by details
+
+${projectLines}
+
+## Contact
+
+- Email: benlhachemisouhail@gmail.com
+- LinkedIn: https://www.linkedin.com/in/souhail-benlhachemi
+- GitHub: https://github.com/benlhachemi
+- Twitter/X: https://x.com/souhail_dev
+- YouTube: https://youtube.com/@souhail4dev
+`
+
+fs.writeFileSync(outputFile, content, 'utf-8')
+console.log(`Generated llms.txt with ${projects.length} projects`)

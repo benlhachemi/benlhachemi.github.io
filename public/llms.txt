@@ -17,7 +17,37 @@ Souhail is a full-stack engineer with 3+ years of experience shipping SaaS platf
 
 List of all projects by details
 
+- [DailyHabit](https://benlhachemi.github.io/llms.txt/projects/dailyhabit): Habit tracker app, runs 100% client-side
+- [Root UI v2 (Shadcn)](https://benlhachemi.github.io/llms.txt/projects/root-ui): Premium Shadcn Components, Blocks and Themes.
+- [Clipzr](https://benlhachemi.github.io/llms.txt/projects/clipzr): Windows screen recorder with smooth cursor movements.
+- [Root UI v1 (React-aria)](https://benlhachemi.github.io/llms.txt/projects/root-ui-v1): React component library built on top of React Aria & TailwindCSS.
+- [Kolors](https://benlhachemi.github.io/llms.txt/projects/kolors): Color palette generator for design systems with primitive shades and semantic mappings.
+- [BerryPoints](https://benlhachemi.github.io/llms.txt/projects/berrypoints): Reward-based advertising platform where users earn money by completing offers.
+- [Fox Wallpapers](https://benlhachemi.github.io/llms.txt/projects/fox-wallpapers): Windows Live Wallpaper Engine built using Tauri (React + Rust).
+- [NextJs SaaS Landing Page](https://benlhachemi.github.io/llms.txt/projects/next-saas-landing-page): Free saas landing page built using next.js, tailwind and framer-motion (100/100 Lightouse score).
+- [Framist](https://benlhachemi.github.io/llms.txt/projects/framist): Rapid prototyping tool to create interactive, native-feeling app prototypes in minutes without code.
+- [PizzaSlice](https://benlhachemi.github.io/llms.txt/projects/pizzaslice): ProductHunt for indie game developers. Browse, filter, and discover indie games through video previews.
+- [Comsep](https://benlhachemi.github.io/llms.txt/projects/comsep): AI-powered domain name generator with real-time WHOIS availability checking.
+- [CPAVid](https://benlhachemi.github.io/llms.txt/projects/cpavid): Automated YouTube video creation and uploading system using Remotion and Puppeteer.
+- [RandomCall](https://benlhachemi.github.io/llms.txt/projects/randomcall): Full-stack random 1-on-1 video chat app like Omegle/Chatroulette with WebSocket matchmaking.
+- [BestShape](https://benlhachemi.github.io/llms.txt/projects/bestshape): Personalized fitness program generator in 30 seconds via a multi-step questionnaire.
+- [Edumation](https://benlhachemi.github.io/llms.txt/projects/edumation): AI-powered educational assistant platform for students and educators.
+- [Brand Name Generator](https://benlhachemi.github.io/llms.txt/projects/brand-name-generator): AI-powered brand name generator using fine-tuned GPT-3.5 with domain and social handle checking.
+- [Modifio](https://benlhachemi.github.io/llms.txt/projects/modifio): Client-side file converter powered by FFmpeg WASM.
+- [NextJs Tailwind Portfolio](https://benlhachemi.github.io/llms.txt/projects/nextjs-tailwind-portfolio): Personal dark-themed portfolio with Lottie animations, glassmorphism, and Tailwind CSS.
+- [Nest Cloaker](https://benlhachemi.github.io/llms.txt/projects/nest-cloaker): Affiliate marketing URL cloaking API with device fingerprinting and network filtering.
+- [One-page e-commerce](https://benlhachemi.github.io/llms.txt/projects/one-page-ecommerce): Single-page e-commerce storefront with WhatsApp ordering for a Moroccan business.
+- [Eagle Browser](https://benlhachemi.github.io/llms.txt/projects/eagle-browser): RESTful API for managing browser profiles with proxy, fingerprint, and data directory configuration.
 - [Arduino NodeJs](https://benlhachemi.github.io/llms.txt/projects/arduino-nodejs): IoT web controller bridging Node.js with Arduino via serial communication.
+- [Dofus Marchand Bot](https://benlhachemi.github.io/llms.txt/projects/dofus-marchand-bot): Desktop automation bot for Dofus using OpenCV template matching to automate merchant mode.
+- [Era.js](https://benlhachemi.github.io/llms.txt/projects/era-js): Opinionated Node.js backend framework and CLI tool for scaffolding Express-based REST APIs.
+- [CPADominator](https://benlhachemi.github.io/llms.txt/projects/cpadominator): Full-stack SaaS for creating content-locked landing pages used in CPA/affiliate marketing.
+- [YouTube Views Bot](https://benlhachemi.github.io/llms.txt/projects/youtube-cheater): Node.js bot that automates fake YouTube video views using Puppeteer with stealth techniques.
+- [Fingerprint JS](https://benlhachemi.github.io/llms.txt/projects/fingerprint-js): Client-side browser fingerprinting library generating unique device IDs from 18 browser signals.
+- [CPA Analytics](https://benlhachemi.github.io/llms.txt/projects/cpa-analytics): Full-stack CPA marketing analytics platform to track visitor behavior on landing pages.
+- [LME](https://benlhachemi.github.io/llms.txt/projects/lme): Full-stack CMS for a university research laboratory with admin dashboard.
+- [React Node Auth](https://benlhachemi.github.io/llms.txt/projects/react-node-auth): Full-stack MERN authentication app with Passport.js local strategy, session-based auth, and a React frontend.
+- [Quotex Auto Trader](https://benlhachemi.github.io/llms.txt/projects/quotex-auto-trader): Chrome extension to automate trading actions on the Quotex platform.
 
 ## Contact
 

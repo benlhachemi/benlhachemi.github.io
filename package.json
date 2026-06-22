@@ -5,11 +5,12 @@
   "private": true,
   "scripts": {
     "deploy": "bun run build && touch ./out/.nojekyll && gh-pages -d out --dotfiles",
-    "dev": "bun run generate-registry && next dev",
-    "build": "bun run generate-registry && next build",
+    "dev": "bun run generate-registry && bun run generate-llms-txt && next dev",
+    "build": "bun run generate-registry && bun run generate-llms-txt && next build",
     "start": "next start",
     "lint": "eslint",
-    "generate-registry": "bun scripts/generate-registry.ts"
+    "generate-registry": "bun scripts/generate-registry.ts",
+    "generate-llms-txt": "bun scripts/generate-llms-txt.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.5.0",
