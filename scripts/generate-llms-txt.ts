@@ -27,9 +27,7 @@ const projectLines = projects
 
 const content = `# Souhail Benlhachemi
 
-> Full-stack Product Engineer based in Agadir, Morocco — building products from idea to production using the JS/TS ecosystem.
-
-Souhail is a full-stack engineer with 3+ years of experience shipping SaaS platforms, desktop apps, automation tools, and component libraries and 6+ years coding. Former indie founder (20+ projects). Currently part-time technical co-founder at Octolead. Open to remote engineering roles.
+> Full-stack Product Engineer based in Agadir, Morocco.
 
 ## Sitemap
 
@@ -45,14 +43,6 @@ Souhail is a full-stack engineer with 3+ years of experience shipping SaaS platf
 List of all projects by details
 
 ${projectLines}
-
-## Contact
-
-- Email: benlhachemisouhail@gmail.com
-- LinkedIn: https://www.linkedin.com/in/souhail-benlhachemi
-- GitHub: https://github.com/benlhachemi
-- Twitter/X: https://x.com/souhail_dev
-- YouTube: https://youtube.com/@souhail4dev
 `
 
 fs.writeFileSync(outputFile, content, 'utf-8')

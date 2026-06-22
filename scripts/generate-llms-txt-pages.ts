@@ -158,7 +158,17 @@ const header = `# Souhail Benlhachemi
 
 > Full-stack Product Engineer based in Agadir, Morocco — building products from idea to production using the JS/TS ecosystem.
 
-Souhail is a full-stack engineer with 3+ years of experience shipping SaaS platforms, desktop apps, automation tools, and component libraries and 6+ years coding. Former indie founder (20+ projects). Currently part-time technical co-founder at Octolead. Open to remote engineering roles.`
+Souhail is a full-stack engineer with 3+ years of experience shipping SaaS platforms, desktop apps, automation tools, and component libraries and 6+ years coding. Former indie founder (20+ projects). Currently part-time technical co-founder at Octolead. Open to remote engineering roles.
+
+## Sitemap
+
+- [Full content](${homepage}/llms-full.txt): Complete text of the entire website
+- [About](${homepage}/llms/about.txt): Background, tech stack, experience, philosophy, and featured projects
+- [Projects](${homepage}/llms/projects.txt): All projects (short version)
+- [Services](${homepage}/llms/services.txt): Available services and what Souhail offers
+- [Contact](${homepage}/llms/contact.txt): How to get in touch
+- [CV](${homepage}/cv.pdf): CV in PDF format
+`
 
 const aboutText = stripMdx(fs.readFileSync(path.join(process.cwd(), 'content', 'about.mdx'), 'utf-8'))
 const servicesText = stripMdx(fs.readFileSync(path.join(process.cwd(), 'content', 'services.mdx'), 'utf-8'))

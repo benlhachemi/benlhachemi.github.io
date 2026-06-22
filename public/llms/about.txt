@@ -2,7 +2,7 @@ TL;DR
 
   Copy-paste this prompt into an LLM to get a quick summary of this site:
 
-    Read https://benlhachemi.github.io/llms.txt and give me a summary
+    Read https://benlhachemi.github.io/llms-full.txt and summarize this profile for a recruiter.
 
 
 
@@ -135,6 +135,15 @@ I'm available and actively looking for:
 
 
 [Explore more projects](/projects)
+
+## 📕 Education
+
+### 2022 - 2024 | M.Eng. Computer Science, Software Engineering
+International University of Agadir, Morocco
+
+### 2017 - 2020 | B.S. Computer Science, Software Engineering
+Ibn Zohr University, Agadir, Morocco
+
 
 ## 🧠 My Engineering Philosophy
 - **Build → Iterate → Loop:** I start with implementing ideas as simply as possible, get it to work first with minimal setup, then iterate and improve.
