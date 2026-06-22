@@ -1,0 +1,58 @@
+# Souhail Benlhachemi
+
+> Full-stack Product Engineer based in Agadir, Morocco — building products from idea to production using the JS/TS ecosystem.
+
+Souhail is a full-stack engineer with 3+ years of experience shipping SaaS platforms, desktop apps, automation tools, and component libraries and 6+ years coding. Former indie founder (20+ projects). Currently part-time technical co-founder at Octolead. Open to remote engineering roles.
+
+## Sitemap
+
+- [Full content](https://benlhachemi.github.io/llms-full.txt): Complete text of the entire website
+- [About](https://benlhachemi.github.io/llms/about.txt): Background, tech stack, experience, philosophy, and featured projects
+- [Projects](https://benlhachemi.github.io/llms/projects.txt): All projects (short version)
+- [Services](https://benlhachemi.github.io/llms/services.txt): Available services and what Souhail offers
+- [Contact](https://benlhachemi.github.io/llms/contact.txt): How to get in touch
+- [CV](https://benlhachemi.github.io/cv.pdf): CV in PDF format
+
+## Projects
+
+List of all projects by details
+
+- [DailyHabit](https://benlhachemi.github.io/projects/dailyhabit.txt): Habit tracker app, runs 100% client-side
+- [Root UI v2 (Shadcn)](https://benlhachemi.github.io/projects/root-ui.txt): Premium Shadcn Components, Blocks and Themes.
+- [Clipzr](https://benlhachemi.github.io/projects/clipzr.txt): Windows screen recorder with smooth cursor movements.
+- [Root UI v1 (React-aria)](https://benlhachemi.github.io/projects/root-ui-v1.txt): React component library built on top of React Aria & TailwindCSS.
+- [Kolors](https://benlhachemi.github.io/projects/kolors.txt): Color palette generator for design systems with primitive shades and semantic mappings.
+- [BerryPoints](https://benlhachemi.github.io/projects/berrypoints.txt): Reward-based advertising platform where users earn money by completing offers.
+- [Fox Wallpapers](https://benlhachemi.github.io/projects/fox-wallpapers.txt): Windows Live Wallpaper Engine built using Tauri (React + Rust).
+- [NextJs SaaS Landing Page](https://benlhachemi.github.io/projects/next-saas-landing-page.txt): Free saas landing page built using next.js, tailwind and framer-motion (100/100 Lightouse score).
+- [Framist](https://benlhachemi.github.io/projects/framist.txt): Rapid prototyping tool to create interactive, native-feeling app prototypes in minutes without code.
+- [PizzaSlice](https://benlhachemi.github.io/projects/pizzaslice.txt): ProductHunt for indie game developers. Browse, filter, and discover indie games through video previews.
+- [Comsep](https://benlhachemi.github.io/projects/comsep.txt): AI-powered domain name generator with real-time WHOIS availability checking.
+- [CPAVid](https://benlhachemi.github.io/projects/cpavid.txt): Automated YouTube video creation and uploading system using Remotion and Puppeteer.
+- [RandomCall](https://benlhachemi.github.io/projects/randomcall.txt): Full-stack random 1-on-1 video chat app like Omegle/Chatroulette with WebSocket matchmaking.
+- [BestShape](https://benlhachemi.github.io/projects/bestshape.txt): Personalized fitness program generator in 30 seconds via a multi-step questionnaire.
+- [Edumation](https://benlhachemi.github.io/projects/edumation.txt): AI-powered educational assistant platform for students and educators.
+- [Brand Name Generator](https://benlhachemi.github.io/projects/brand-name-generator.txt): AI-powered brand name generator using fine-tuned GPT-3.5 with domain and social handle checking.
+- [Modifio](https://benlhachemi.github.io/projects/modifio.txt): Client-side file converter powered by FFmpeg WASM.
+- [NextJs Tailwind Portfolio](https://benlhachemi.github.io/projects/nextjs-tailwind-portfolio.txt): Personal dark-themed portfolio with Lottie animations, glassmorphism, and Tailwind CSS.
+- [Nest Cloaker](https://benlhachemi.github.io/projects/nest-cloaker.txt): Affiliate marketing URL cloaking API with device fingerprinting and network filtering.
+- [One-page e-commerce](https://benlhachemi.github.io/projects/one-page-ecommerce.txt): Single-page e-commerce storefront with WhatsApp ordering for a Moroccan business.
+- [Eagle Browser](https://benlhachemi.github.io/projects/eagle-browser.txt): RESTful API for managing browser profiles with proxy, fingerprint, and data directory configuration.
+- [Arduino NodeJs](https://benlhachemi.github.io/projects/arduino-nodejs.txt): IoT web controller bridging Node.js with Arduino via serial communication.
+- [Dofus Marchand Bot](https://benlhachemi.github.io/projects/dofus-marchand-bot.txt): Desktop automation bot for Dofus using OpenCV template matching to automate merchant mode.
+- [Era.js](https://benlhachemi.github.io/projects/era-js.txt): Opinionated Node.js backend framework and CLI tool for scaffolding Express-based REST APIs.
+- [CPADominator](https://benlhachemi.github.io/projects/cpadominator.txt): Full-stack SaaS for creating content-locked landing pages used in CPA/affiliate marketing.
+- [YouTube Views Bot](https://benlhachemi.github.io/projects/youtube-cheater.txt): Node.js bot that automates fake YouTube video views using Puppeteer with stealth techniques.
+- [Fingerprint JS](https://benlhachemi.github.io/projects/fingerprint-js.txt): Client-side browser fingerprinting library generating unique device IDs from 18 browser signals.
+- [CPA Analytics](https://benlhachemi.github.io/projects/cpa-analytics.txt): Full-stack CPA marketing analytics platform to track visitor behavior on landing pages.
+- [LME](https://benlhachemi.github.io/projects/lme.txt): Full-stack CMS for a university research laboratory with admin dashboard.
+- [React Node Auth](https://benlhachemi.github.io/projects/react-node-auth.txt): Full-stack MERN authentication app with Passport.js local strategy, session-based auth, and a React frontend.
+- [Quotex Auto Trader](https://benlhachemi.github.io/projects/quotex-auto-trader.txt): Chrome extension to automate trading actions on the Quotex platform.
+
+## Contact
+
+- Email: benlhachemisouhail@gmail.com
+- LinkedIn: https://www.linkedin.com/in/souhail-benlhachemi
+- GitHub: https://github.com/benlhachemi
+- Twitter/X: https://x.com/souhail_dev
+- YouTube: https://youtube.com/@souhail4dev
