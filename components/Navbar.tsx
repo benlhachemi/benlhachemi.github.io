@@ -1,5 +1,6 @@
 'use client'
 
+import { useEffect, useState } from 'react'
 import { cn } from '@/lib/utils'
 import { usePathname } from 'next/navigation'
 import { Button } from './ui/button'
@@ -20,6 +21,11 @@ const links = [
 export function Navbar() {
   const pathname = usePathname()
   const { theme, setTheme } = useTheme()
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
   return (
     <nav className="w-full flex items-center justify-between py-4 border-b sticky top-0 z-40 bg-background">
@@ -33,7 +39,7 @@ export function Navbar() {
         <ul className="flex gap-6">
           {links.map((link) => (
             <li key={link.href}>
-              <a href={link.href} className={cn("text-muted-foreground hover:text-primary", pathname === link.href && "text-primary")}>
+              <a href={link.href} title={link.name} className={cn("text-muted-foreground hover:text-primary", pathname === link.href && "text-primary")}>
                 {link.name}
               </a>
             </li>
@@ -46,32 +52,34 @@ export function Navbar() {
       </div>
 
       {/* Mobile burger menu */}
-      <Sheet>
-        <SheetTrigger className="md:hidden">
-          <Button variant="ghost" size="icon-sm">
-            <Menu />
-          </Button>
-        </SheetTrigger>
-        <SheetContent side="right">
-          <div className="flex flex-col gap-8 pt-10 px-4">
-            <ul className="flex flex-col gap-4">
-              {links.map((link) => (
-                <li key={link.href}>
-                  <a href={link.href} className={cn("text-lg text-muted-foreground hover:text-primary", pathname === link.href && "text-primary")}>
-                    {link.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-
-            <hr className="border-border" />
-
-            <Button variant="ghost" className="text-muted-foreground" size="icon-sm" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} title="Toggle theme">
-              {theme === 'dark' ? <Sun /> : <Moon />}
+      {mounted && (
+        <Sheet>
+          <SheetTrigger className="md:hidden">
+            <Button variant="ghost" size="icon-sm">
+              <Menu />
             </Button>
-          </div>
-        </SheetContent>
-      </Sheet>
+          </SheetTrigger>
+          <SheetContent side="right">
+            <div className="flex flex-col gap-8 pt-10 px-4">
+              <ul className="flex flex-col gap-4">
+                {links.map((link) => (
+                  <li key={link.href}>
+                    <a href={link.href} className={cn("text-lg text-muted-foreground hover:text-primary", pathname === link.href && "text-primary")}>
+                      {link.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+
+              <hr className="border-border" />
+
+              <Button variant="ghost" className="text-muted-foreground" size="icon-sm" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} title="Toggle theme">
+                {theme === 'dark' ? <Sun /> : <Moon />}
+              </Button>
+            </div>
+          </SheetContent>
+        </Sheet>
+      )}
     </nav>
   )
 }

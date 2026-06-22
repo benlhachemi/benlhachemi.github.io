@@ -96,7 +96,7 @@ export function ProjectCard({ title, slug, className, shortDescription, techStac
             ))}
           </div>
 
-          <Link href={`/projects/${slug}`}>
+          <Link title="More Info" href={`/projects/${slug}`}>
             <Button variant="default" size="default" className="rounded-none cursor-pointer">
               More Info
             </Button>

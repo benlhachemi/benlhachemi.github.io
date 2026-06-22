@@ -27,7 +27,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
 
   return (
     <div className="space-y-16">
-      <Link href="/projects">
+      <Link href="/projects" title="Projects">
         <Button variant="ghost" size="sm" className="gap-2 text-muted-foreground mb-8">
           <ArrowLeft className="size-4" />
           Back to Projects
