@@ -2,7 +2,7 @@ TL;DR
 
   Copy-paste this prompt into an LLM to get a quick summary of this site:
 
-    Read https://benlhachemi.github.io/llms.txt and give me a summary
+    Read https://benlhachemi.github.io/llms-full.txt and summarize this profile for a recruiter.
 
 
 
