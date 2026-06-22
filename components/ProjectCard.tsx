@@ -74,7 +74,9 @@ export function ProjectCard({ title, slug, className, shortDescription, techStac
         <div className="flex items-center justify-between gap-6">
           <h2 className="text-xl font-medium">{title}</h2>
           <div className="flex flex-wrap gap-2 *:size-4">
-            {techStack.map(elt => renderTechStack(elt))}
+            {techStack.map((elt, i) => (
+              <div key={i}>{renderTechStack(elt)}</div>
+            ))}
           </div>
         </div>
 

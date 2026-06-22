@@ -46,7 +46,7 @@ export function Navbar() {
           ))}
         </ul>
 
-        <Button variant="ghost" className="text-muted-foreground" size="icon-sm" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} title="Toggle theme">
+        <Button variant="ghost" className="text-muted-foreground" size="icon-sm" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} title="Toggle theme" aria-label="Toggle theme">
           {theme === 'dark' ? <Sun /> : <Moon />}
         </Button>
       </div>
@@ -55,8 +55,8 @@ export function Navbar() {
       {mounted && (
         <Sheet>
           <SheetTrigger className="md:hidden">
-            <Button variant="ghost" size="icon-sm">
-              <Menu />
+            <Button variant="ghost" size="lg" aria-label="Toggle mobile menu">
+              <Menu size="icon-sm" />
             </Button>
           </SheetTrigger>
           <SheetContent side="right">
