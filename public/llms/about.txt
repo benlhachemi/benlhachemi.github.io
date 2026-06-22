@@ -44,9 +44,9 @@ TL;DR
 
 
 
-  View Projects
-  View PDF CV
-  Contact Me
+  [View Projects](/projects)
+  [View PDF CV](/cv.pdf)
+  [Contact Me](/contact)
 
 
 ---
@@ -127,16 +127,14 @@ I'm available and actively looking for:
 ## ⭐ Featured Projects
 
 
+  - **Root UI v2 (Shadcn)** (*Apr 2026*): Premium Shadcn Components, Blocks and Themes.
+  - **BerryPoints** (*Oct 2025*): Reward-based advertising platform where users earn money by completing offers.
+  - **CPAVid** (*Sep 2024*): Automated YouTube video creation and uploading system using Remotion and Puppeteer.
+  - **Clipzr** (*Mar 2026*): Windows screen recorder with smooth cursor movements.
+  - **Edumation** (*Mai 2024*): AI-powered educational assistant platform for students and educators.
 
 
-
-
-
-
-
-
-  Explore more projects
-
+[Explore more projects](/projects)
 
 ## 🧠 My Engineering Philosophy
 - **Build → Iterate → Loop:** I start with implementing ideas as simply as possible, get it to work first with minimal setup, then iterate and improve.
