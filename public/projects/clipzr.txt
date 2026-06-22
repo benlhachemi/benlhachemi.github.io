@@ -1,0 +1,44 @@
+# Clipzr
+> Mar 2026
+Windows screen recorder with smooth cursor movements.
+**Tech Stack:** nestjs, shadcn
+**Links:**
+- website: https://clipzr.com
+---
+# Clipzr
+
+### Project Summary
+
+- **Date:** Mar 2026
+- **Description:** Create beautiful, high-quality screen recordings on Windows with smooth cursor movements. Screen Studio alternative for Windows. Export up to 60 fps and Full HD.
+
+### Motivation
+
+[Screen Studio](https://screen.studio/) is an amazing app, but it’s only available for Mac, and it’s paid. So I have built this free alternative for Windows users.
+
+### Links
+
+- Download: https://clipzr.com
+
+### **Tech Stack**
+
+- Tauri v2 to create native desktop app
+- Rust for mouse tracking
+- ffmpeg for recording
+- react for UI
+- KonvaJS: canvas API (for preview)
+- mediabunny for stitching and exporting (amazing library)
+
+### **Key Features**
+
+- 60 fps export
+- free (unlimited export)
+- smaller bundle size (compared to other screen recorders - 80mb)
+- fast export time
+
+### **What I Learned**
+
+- How to track cursor movements
+- ffmpeg commands & params
+- Draw cursor using KonvaJs
+- How to create rust functions and call them from react side

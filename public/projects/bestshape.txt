@@ -1,0 +1,54 @@
+# BestShape
+> Feb 2024
+Personalized fitness program generator in 30 seconds via a multi-step questionnaire.
+**Tech Stack:** nextjs, typescript, tailwindcss, mongodb, shadcn
+**Links:**
+- website: https://best-shape-alpha.vercel.app/
+- github: https://github.com/benlhachemi/BestShape
+- youtube: https://youtu.be/XZBETa-s_mY
+---
+# BestShape
+
+### Project Summary
+
+- **Date:** 2024
+- **Description:** A full-stack web app that generates personalized fitness programs (workout routines, diet plans, sleep recommendations) in ~30 seconds via a multi-step questionnaire. Users input personal info, goals, medical history, and preferences; the app computes a tailored program using fitness formulas (BMI, body composition, caloric needs) and provides shareable links.
+
+### Motivation
+
+This was an attempt to create a profitable SaaS in the fitness category. So I created this tool that generates instant fitness programs without requiring AI or human trainers.
+
+### Links
+
+- Github repo: https://github.com/benlhachemi/BestShape
+
+- Live Demo: https://best-shape-alpha.vercel.app/
+
+- YouTube Tutorial: https://youtu.be/XZBETa-s_mY
+
+### Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS + shadcn/ui + MUI (time picker only)
+- **Database:** MongoDB via Prisma ORM
+- **Animations:** Lottie-react, animate.css
+- **Deployment:** Vercel
+- **Other:** Axios, React Context + useReducer, lucide-react
+
+### Key Features
+
+- 7-step wizard questionnaire (personal info, goals, medical, sleep, lifestyle, availability, diet)
+- Fitness program generation using health calculators (BMI, BMR, body fat %, macro splits)
+- Tailored workout plans (push/pull/legs for muscle, HIIT for fat loss, aerobic for cardio)
+- Diet and sleep recommendations with interactive visual charts
+- Shareable program links (pastebin-style, no authentication required)
+
+### What I Learned
+
+- Building a multi-step form with React Context + useReducer for state management
+- Implementing health/fitness calculations (Mifflin-St Jeor, D.R. Miller, Jackson and Pollock, Navy method)
+- Server-side rendering (RSC) in Next.js App Router for dynamic program pages
+- MongoDB + Prisma integration in a Next.js full-stack app
+- Structuring a portfolio-grade project with Tailwind + shadcn/ui component library
+- Deployment on Vercel with environment variable management

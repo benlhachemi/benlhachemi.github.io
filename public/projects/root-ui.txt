@@ -1,0 +1,43 @@
+# Root UI v2 (Shadcn)
+> Apr 2026
+Premium Shadcn Components, Blocks and Themes.
+**Tech Stack:** nextjs, shadcn, tailwindcss, storybook
+**Links:**
+- website: https://root-ui.com
+---
+# Root UI v2 (Shadcn)
+
+### Project Summary
+
+- **Date:** April, 2026
+- **Description:** Root UI is a premium collection of Shadcn components, blocks, and themes designed to accelerate modern web development with beautiful, accessible UI patterns.
+
+### Motivation
+
+To create a high-quality component library that showcases best practices in design systems, accessibility, and developer experience.
+
+### Links
+
+- Docs: https://root-ui.com
+
+### **Tech Stack**
+
+- **Framework:** Next.js + TypeScript
+- **Styling:** Tailwind CSS, shadcn/ui
+- **Tooling:** Bun, ESLint, PostCSS
+- **Docs:** FumaDocs
+- **UI Testing:** Storybook
+
+### **Key Features**
+
+- **Premium Components:** Curated collection of production-ready components
+- **Theme System:** Customizable themes with consistent design tokens
+- **Blocks & Templates:** Pre-built page sections and layouts
+- **Developer Experience:** Comprehensive documentation and examples
+
+### **What I Learned**
+
+- How to use Storybook
+- How to write docs for developers (using Fumadocs)
+- Component composition patterns with shadcn/ui
+- Creating reusable UI components and blocks

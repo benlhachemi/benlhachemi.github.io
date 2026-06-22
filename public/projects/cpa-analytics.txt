@@ -1,0 +1,48 @@
+# CPA Analytics
+> Dec 2021
+Full-stack CPA marketing analytics platform to track visitor behavior on landing pages.
+**Tech Stack:** nextjs, react, nodejs, express, mongodb, tailwindcss
+**Links:**
+- github: https://github.com/benlhachemi/cpa-analytics
+---
+### **Project Summary**
+
+- **Date:** Dec 23, 2021 - Dec 29, 2021
+- **Description:** A full-stack CPA (Cost Per Action) marketing analytics platform to track and analyze visitor behavior on CPA landing pages. Consists of a React tracking hook, an Express.js + MongoDB backend, and a Next.js dashboard GUI.
+
+### Motivation
+
+Before beginning my journey as a software engineer, I was an affiliate marketer at Ogads Network. I was promoting CPA offers (Cost Per Action). The goal of this project was to optimize landing page conversions by tracking detailed visitor behavior (device info, scroll depth, button clicks, content locker interactions, time spent, focus changes, traffic sources, and campaign parameters).
+
+### Links
+
+- https://github.com/benlhachemi/cpa-analytics
+- https://github.com/benlhachemi/cpa-analytics-server
+- https://github.com/benlhachemi/cpa-analytics-gui
+- https://github.com/benlhachemi/cpa-analytics-files
+
+### **Tech Stack**
+
+- Client: React hooks (browser fingerprinting, axios, uuid, socket.io-client)
+- Server: Node.js, Express, Socket.IO, Mongoose, MongoDB (DigitalOcean), geoip-country
+- Dashboard: Next.js 12, React 17, Material UI 5, Tailwind CSS, Firebase Auth (Google)
+- Hosting: DigitalOcean App Platform
+
+### **Key Features**
+
+- Visitor fingerprinting and device/browser detection
+- Real-time WebSocket connections with auto-disconnect on inactivity
+- Tracking: scrolls, clicks, content locker events, errors, page visits, focus changes
+- Campaign parameter capture from URL query strings (campName, trafficSource, trafficType)
+- IP geolocation (country-level)
+- REST API for aggregated analytics queries (by domain, campaign, traffic source/type)
+- Firebase-authenticated dashboard (early dev stage)
+
+### **What I Learned**
+
+- Full-stack architecture with real-time communication via Socket.IO
+- Browser fingerprinting and passive visitor tracking techniques
+- CPA marketing domain knowledge (content lockers, OGAds network)
+- Integration of MongoDB with DigitalOcean (TLS, replica sets)
+- Building a dashboard with Next.js + Material UI + Firebase Auth
+- Managing multiple micro-repos (client hook, server, GUI) under one project umbrella

@@ -1,0 +1,47 @@
+# DailyHabit
+> May 2026
+Habit tracker app, runs 100% client-side
+**Tech Stack:** nextjs, shadcn, tailwindcss, rxdb, motion, lottie
+**Links:**
+- github: https://github.com/benlhachemi/daily-habit
+- youtube: https://youtu.be/U6cd310jHC8
+- website: https://daily-habit-umber.vercel.app/
+---
+# DailyHabit
+
+### Project Summary
+
+- **Date:** May, 2026
+- **Description:** DailyHabit is a beautiful, feature-rich habit tracking application designed to help users build and maintain daily habits through an intuitive interface and powerful analytics.
+
+### Motivation
+
+This is a small project to practice building apps with AI Coding Agents while also promoting [Root UI](/projects/root-ui).
+
+### Links
+
+- Live demo: https://daily-habit-umber.vercel.app/
+
+- GitHub repo: https://github.com/benlhachemi/daily-habit
+
+- YouTube tutorial: https://youtu.be/U6cd310jHC8
+
+### **Tech Stack**
+
+- **Framework:** Next.js 16 + React 19 + TypeScript 5
+- **Styling:** Tailwind CSS 4, Shadcn (Base UI)
+- **Database:** RxDB
+- **Animations:** Motion, Lottie React, canvas-confetti
+- **Tooling:** Bun, ESLint, PostCSS
+
+### **Key Features**
+
+- **Habit Management:** Create custom habits with goals, units, emojis, and 11 color options; daily tracking with satisfying interactions; archive system
+- **Analytics Dashboard:** Streak tracking, completion rates, progress charts, historical trends
+- **UX:** Dark/light theme (next-themes), responsive design, keyboard navigation, celebration animations on completion
+- **Data Privacy:** 100% local storage via RxDB (no accounts, no cloud, fully offline)
+
+### **What I Learned**
+
+- How to build apps using AI Coding Agents
+- Browser IndexedDB using RxDB

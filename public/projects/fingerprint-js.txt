@@ -1,0 +1,45 @@
+# Fingerprint JS
+> Feb 2022
+Client-side browser fingerprinting library generating unique device IDs from 18 browser signals.
+**Tech Stack:** javascript
+**Links:**
+- github: https://github.com/benlhachemi/fingerprint-id-jsFile.git
+---
+### **Project Summary**
+
+- **Date:** Feb 26, 2022
+- **Description:** A client-side browser fingerprinting library that generates a unique device identifier by collecting 18 browser/system signals (all in a single vanilla JS file with zero dependencies).
+
+### Motivation
+
+The goal was to prevent spammers from creating multiple accounts. I didn't like the results of the popular JS package FingerprintJs (free version) so I built my own Fingerprint JS library.
+
+### Links
+
+Github repo: https://github.com/benlhachemi/fingerprint-id-jsFile.git
+
+### **Tech Stack**
+
+- **Language:** JavaScript (ES5 with minor ES6 additions)
+- **Runtime:** Browser (client-side)
+- **Dependencies:** None (zero external libs)
+- **Module System:** UMD (CommonJS + AMD + global script tag)
+
+### **Key Features**
+
+- Canvas fingerprinting (renders text to canvas, exports toDataURL)
+- Installed font detection via width comparison (~200+ fonts checked)
+- User-agent parsing for OS, browser name, and engine detection
+- Plugin/ActiveX enumeration (IE and modern browsers)
+- Screen resolution, color depth, timezone, language, touch support, connection type
+- Cookie, Java, Flash, Silverlight availability checks
+- Legacy browser support (IE4+, Netscape 4, Opera 7+, etc.)
+- Defensive try/catch pattern on every signal collector
+
+### **What I Learned**
+
+- Classic browser fingerprinting techniques (canvas, font list enumeration, UA parsing)
+- UMD module pattern for cross-environment compatibility
+- Legacy browser quirks and fallback handling (IE ActiveX, historic Navigator APIs)
+- How to implement a font detection algorithm using rendered element width comparison
+- Building a library with zero external dependencies

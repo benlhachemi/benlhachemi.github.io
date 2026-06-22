@@ -59,7 +59,7 @@ function stripMdx(mdx: string): string {
 
   // <Link href="...">inner</Link> → [inner](href)
   content = content.replace(
-    /<Link\s+href=["']([^"']*)["'][^>]*>(.*?)<\/Link>/gs,
+    /<Link\s+href=["']([^"']*)["'][^>]*>([\s\S]*?)<\/Link>/g,
     (_, href, inner) => {
       const clean = inner.replace(/<[^>]+>/g, '').trim()
       return clean ? `[${clean}](${href})` : ''
@@ -67,7 +67,7 @@ function stripMdx(mdx: string): string {
   )
 
   // <Button>text</Button> → text
-  content = content.replace(/<Button[^>]*>(.*?)<\/Button>/gs, '$1')
+  content = content.replace(/<Button[^>]*>([\s\S]*?)<\/Button>/g, '$1')
 
   // <CopyButton ... /> → remove entirely
   content = content.replace(/<CopyButton[^>]*\/\s*>/g, '')
@@ -112,9 +112,9 @@ const contactSource = fs.readFileSync(path.join(process.cwd(), 'content', 'conta
 fs.writeFileSync(path.join(outDir, 'contact.txt'), stripMdx(contactSource), 'utf-8')
 console.log('Generated llms/contact.txt')
 
-// --- projects ---
+// --- projects listing ---
 const projectList = allProjects
-  .map(p => `- [${p.title}](${homepage}/llms/projects/${p.slug}.txt): ${p.shortDescription}`)
+  .map(p => `- [${p.title}](${homepage}/projects/${p.slug}.txt): ${p.shortDescription}`)
   .join('\n')
 
 const projectsBody = `# Projects
@@ -125,3 +125,80 @@ ${projectList}
 `
 fs.writeFileSync(path.join(outDir, 'projects.txt'), projectsBody, 'utf-8')
 console.log(`Generated llms/projects.txt with ${allProjects.length} projects`)
+
+// --- individual project pages ---
+const projOutDir = path.join(process.cwd(), 'public', 'projects')
+fs.mkdirSync(projOutDir, { recursive: true })
+
+for (const p of allProjects) {
+  const source = fs.readFileSync(path.join(projectsDir, `${p.slug}.mdx`), 'utf-8')
+  const { data, content: body } = matter(source)
+
+  const techStack = data.techStack?.length ? data.techStack.join(', ') : ''
+  const links = data.links?.length
+    ? data.links.map((l: { type: string; url: string }) => `- ${l.type}: ${l.url}`).join('\n')
+    : ''
+
+  const bodyText = stripMdx(body)
+
+  const parts = [`# ${p.title}`, p.date ? `> ${p.date}` : '']
+  if (p.shortDescription) parts.push(``, p.shortDescription)
+  if (techStack) parts.push(``, `**Tech Stack:** ${techStack}`)
+  if (links) parts.push(``, `**Links:**`, links)
+  if (bodyText) parts.push(``, `---`, '', bodyText)
+
+  const content = parts.filter(Boolean).join('\n')
+
+  fs.writeFileSync(path.join(projOutDir, `${p.slug}.txt`), content, 'utf-8')
+  console.log(`  Generated projects/${p.slug}.txt`)
+}
+
+// --- llms-full.txt (complete website text) ---
+const header = `# Souhail Benlhachemi
+
+> Full-stack Product Engineer based in Agadir, Morocco — building products from idea to production using the JS/TS ecosystem.
+
+Souhail is a full-stack engineer with 3+ years of experience shipping SaaS platforms, desktop apps, automation tools, and component libraries and 6+ years coding. Former indie founder (20+ projects). Currently part-time technical co-founder at Octolead. Open to remote engineering roles.`
+
+const aboutText = stripMdx(fs.readFileSync(path.join(process.cwd(), 'content', 'about.mdx'), 'utf-8'))
+const servicesText = stripMdx(fs.readFileSync(path.join(process.cwd(), 'content', 'services.mdx'), 'utf-8'))
+const contactText = stripMdx(fs.readFileSync(path.join(process.cwd(), 'content', 'contact.mdx'), 'utf-8'))
+
+const projectTexts = allProjects.map(p => {
+  const source = fs.readFileSync(path.join(projectsDir, `${p.slug}.mdx`), 'utf-8')
+  const { data, content: body } = matter(source)
+  const techStack = data.techStack?.length ? data.techStack.join(', ') : ''
+  const links = data.links?.length
+    ? data.links.map((l: { type: string; url: string }) => `- ${l.type}: ${l.url}`).join('\n')
+    : ''
+  const bodyText = stripMdx(body)
+  const parts = [`## ${p.title}`, p.date ? `> ${p.date}` : '']
+  if (p.shortDescription) parts.push('', p.shortDescription)
+  if (techStack) parts.push('', `**Tech Stack:** ${techStack}`)
+  if (links) parts.push('', `**Links:**`, links)
+  if (bodyText) parts.push('', `---`, '', bodyText)
+  return parts.filter(Boolean).join('\n')
+}).join('\n\n')
+
+const fullContent = [
+  header,
+  '',
+  '## About',
+  '',
+  aboutText,
+  '',
+  '## Services',
+  '',
+  servicesText,
+  '',
+  '## Contact',
+  '',
+  contactText,
+  '',
+  '## Projects',
+  '',
+  projectTexts,
+].join('\n')
+
+fs.writeFileSync(path.join(process.cwd(), 'public', 'llms-full.txt'), fullContent, 'utf-8')
+console.log('Generated llms-full.txt')

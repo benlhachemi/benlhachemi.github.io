@@ -1,0 +1,35 @@
+# PizzaSlice
+> Jan 2025
+ProductHunt for indie game developers. Browse, filter, and discover indie games through video previews.
+**Tech Stack:** nextjs, typescript, tailwindcss, mongodb, framer-motion
+**Links:**
+- website: https://pizzaslice-zeta.vercel.app/
+---
+# PizzaSlice
+
+### Project Summary
+
+- **Date:** Jan 2025
+- **Description:** ProductHunt for indie game developers. A platform that lets users browse, filter, and discover indie games through video previews, with community features like weekly battles, hall of fame, and user submissions.
+
+### Motivation
+
+I have discovered from some reddit communities that indie game developers strugle with launching/market their games. So I created this platform similar to ProductHunt but for indie game devs.
+
+### Links
+
+- Live demo: https://pizzaslice-zeta.vercel.app/
+
+### **Tech Stack**
+
+- Next.js 15 (App Router, Turbopack), TypeScript, Tailwind CSS
+- Prisma + MongoDB
+- NextAuth (Google/Discord OAuth),
+- shadcn/ui, Lucide React
+
+### **Key Features**
+
+- **Battle of the Week**: Weekly voting competitions for user-submitted games
+- **Hall of Fame**: Historical winners ranked by votes with trophy badges
+- **User authentication**: Google and Discord OAuth via NextAuth
+- **Game submissions**: Multi-field form for users to submit games

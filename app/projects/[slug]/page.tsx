@@ -6,20 +6,24 @@ import { ArrowLeft } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
+function normalizeSlug(raw: string) {
+  return raw.replace(/\.txt$/, '')
+}
+
 export async function generateStaticParams() {
   return getProjectSlugs().map((slug) => ({ slug }))
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params
-  const project = getProjectBySlug(slug)
+  const project = getProjectBySlug(normalizeSlug(slug))
   if (!project) return {}
   return { title: project.title, description: project.shortDescription }
 }
 
 export default async function ProjectPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
-  const project = getProjectBySlug(slug)
+  const project = getProjectBySlug(normalizeSlug(slug))
   if (!project) notFound()
 
   const Content = projectRegistry[slug]

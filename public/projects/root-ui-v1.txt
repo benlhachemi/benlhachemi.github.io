@@ -1,0 +1,54 @@
+# Root UI v1 (React-aria)
+> Jan 2026
+React component library built on top of React Aria & TailwindCSS.
+**Tech Stack:** nextjs, shadcn, tailwindcss, storybook
+**Links:**
+- website: https://rootui-website.vercel.app/
+---
+# Root UI v1 (React-aria)
+
+### **Project Summary**
+
+- **Date:** Jan 2026
+- **Description:** A React component library built on top of React Aria Components, styled via Tailwind CSS v4 with an OKLCH-based CSS-only theming system. Swappable themes as pure CSS files — no runtime JS overhead.
+
+### Motivation
+
+Build a headless-first, accessible component library where **all styling lives in CSS custom properties**. Themes are standalone CSS files that consumers can copy or install. Components reference design tokens through class names — swap the CSS, swap the look.
+
+### Links
+
+- Docs: https://rootui-website.vercel.app/
+
+### **Tech Stack**
+
+- **Runtime:** Bun 1.3.6, Node.js
+- **Frontend:** React 19, React Aria Components 1.14, Next.js 16
+- **Styling:** Tailwind CSS v4, OKLCH colors, **`tailwind-variants`**, **`tw-animate-css`**
+- **Build:** Turborepo, tsup, Bun bundler, PostCSS
+- **State:** Zustand 5, next-themes
+- **Icons:** lucide-react
+
+### **Key Features**
+
+- 13 accessible components (accordion, badge, button, drawer, input, modal, popover, select, slider, switch, tabs, tooltip, typography)
+- CSS-only theme system — swap themes by swapping CSS files
+- Two official themes (Rooty, Layerbase) + experimental Apple theme
+- OKLCH color space for perceptually uniform colors
+- Shadcn-style CLI installation support
+- CSS-keyframe enter/exit animations on overlays
+
+### **What I Learned**
+
+- How to create docs for a UI Component library
+- How to publish a package to the npm registry
+- Turborepo
+- Monorepo orchestration with Turborepo + Bun workspaces
+- React Aria Components accessibility patterns (Disclosure, Dialog, Popover, Select state machines)
+- Tailwind CSS v4 CSS-first configuration (**`@theme`**, **`@utility`**, **`@variant`**)
+- Building a design token architecture with CSS custom properties + OKLCH
+- Writing custom PostCSS plugins for CSS transformation and selector scoping
+- Compound component pattern with Context API
+- Pure CSS animation systems (keyframes, custom easings, enter/exit transitions)
+- Structuring publishable npm packages with tsup + exports maps
+- Building a docs site from scratch in Next.js 16 (no MDX)

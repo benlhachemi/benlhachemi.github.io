@@ -1,0 +1,49 @@
+# Modifio
+> Sep 2023
+Client-side file converter powered by FFmpeg WASM.
+**Tech Stack:** nextjs, typescript, tailwindcss, shadcn, ffmpeg, wasm
+**Links:**
+- website: https://modifio.vercel.app/
+- github: https://github.com/benlhachemi/modifio
+- youtube: https://youtu.be/ypYw6Cm6cUk
+---
+# Modifio
+
+### Project Summary
+
+- **Date:** Sep, 2023
+- **Description:** Free, unlimited in-browser multimedia converter powered by FFmpeg WASM. Users drag-and-drop files, select target formats, and convert everything locally - private by design.
+
+### Motivation
+
+Build a zero-server file converter to demonstrate that complex media processing can run entirely client-side using WebAssembly, eliminating privacy concerns and server costs while offering unlimited free usage.
+
+### Links
+
+- Github repo: https://github.com/benlhachemi/modifio
+
+- Live demo: https://modifio.vercel.app/
+
+- YouTube tutorial: https://youtu.be/ypYw6Cm6cUk
+
+### Tech Stack
+
+Next.js 13 (App Router), TypeScript, Tailwind CSS, shadcn/ui, @ffmpeg/ffmpeg (WASM), react-dropzone, next-themes, Lucide React
+
+### Key Features
+
+- **Client-side conversion** - FFmpeg WASM runs in-browser; files never leave the machine
+- **Multi-format support** - Images (JPG, PNG, WEBP, GIF, BMP, SVG, ICO, TIFF...), Video (MP4, AVI, MKV, MOV, WEBM, 3GP...), Audio (MP3, WAV, OGG, AAC, FLAC, M4A...)
+- **Drag-and-drop upload** - Batch file handling with per-file format selection + real-time status badges
+- **Dark mode** - System-aware light/dark toggle via next-themes
+- **Sequential batch conversion** - Files processed one at a time with individual + bulk download
+- **Responsive + accessible** - shadcn/ui primitives, mobile hamburger menu, keyboard-friendly
+
+### What I Learned
+
+- Loading and interacting with FFmpeg via WebAssembly in the browser (singleton pattern, CDN blob loading, virtual filesystem read/write)
+- Managing complex UI state per upload item (conversion status, error handling, progress feedback)
+- Sequential async batch processing with observable per-item state updates
+- Client-side file I/O - reading dropped files, building output filenames, triggering downloads via blob URLs
+- Tailwind CSS + shadcn/ui component composition for a polished, production-grade UI
+- Trade-offs of codec copy for performance vs re-encoding for compatibility

@@ -1,0 +1,52 @@
+# BerryPoints
+> Oct 2025
+Reward-based advertising platform where users earn money by completing offers.
+**Tech Stack:** nextjs, nestjs, typescript, tailwindcss, mongodb, docker
+**Links:**
+- website: https://berrypoints.com
+---
+# BerryPoints
+
+### Project Summary
+
+- **Date:** Oct 2025
+- **Description:** Berrypoints is a full-stack reward-based advertising (GPT) platform where users earn money by completing offers from ad networks (OGAds, AdBluMedia, Notik) and redeem their balance for gift cards and digital rewards. It features Google OAuth login, an offer wall, a reward catalog, an admin dashboard, and analytics/monitoring tools.
+
+### Motivation
+
+To build a scalable "Get-Paid-To" (GPT) website that aggregates offers from multiple CPA ad networks into a unified experience, handles postback webhooks for automatic balance crediting, and provides both a polished user-facing dashboard and a full admin panel for managing rewards, orders, users, and analytics.
+
+### Links
+
+- Website: https://berrypoints.com
+
+### **Tech Stack**
+
+| **Layer** | **Technologies** |
+| --- | --- |
+| **Frontend** | Next.js 15 (App Router), React 19, TypeScript, Tailwind CSS 4, Framer Motion, Zustand, AG Grid, Axios |
+| **Backend** | NestJS 11, TypeScript, MongoDB + Mongoose, Passport.js (Google OAuth + JWT), Axios, class-validator |
+| **Infrastructure** | Docker (Node 22 Alpine), Vercel, MongoDB Atlas |
+| **Monitoring** | Sentry, Google Analytics 4, Microsoft Clarity, Crisp Chat, Neeto |
+
+### **Key Features**
+
+- **Google OAuth authentication** with auto-account creation and JWT session cookies
+- **Aggregated offer wall** from 3 ad networks, filtered by geo/device, sorted by payout
+- **Postback webhook processing** - validates and credits user balance automatically
+- **Reward catalog** with category carousel, point-based redemption, order management
+- **Admin dashboard** with CRUD for rewards/categories/offers, click monitoring, order management, user management, postback logs, and analytics
+- **Scheduled jobs** - hourly offer refresh from Notik, periodic click cleanup
+- **GeoIP targeting** (MaxMind) and user-agent-based device detection
+- **Rate limiting**, role-based access control (User vs Admin), and Sentry error monitoring
+- **Live chat support** (Crisp + Neeto) and analytics (GA4 + Clarity)
+
+### **What I Learned**
+
+- Building a modular NestJS API with domain-driven feature modules (auth, offers, clicks, postbacks, rewards, orders, activities)
+- Integrating with multiple third-party ad network APIs and processing their postback webhooks securely
+- Architecting a commission/reward model with user earnings at 50% of network payouts
+- Implementing SSR with Next.js App Router, fetching data server-side and hydrating client components
+- Managing session/auth tokens as httpOnly cookies across frontend and backend on a custom domain
+- Building a role-based admin panel with AG Grid for full CRUD operations
+- Setting up a complete observability stack: Sentry (backend), GA4 + Clarity (frontend), Crisp/Neeto (customer support)

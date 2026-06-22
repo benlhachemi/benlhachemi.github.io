@@ -22,7 +22,7 @@ const projects = slugs.map(slug => {
 }).sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 
 const projectLines = projects
-  .map(p => `- [${p.title}](${homepage}/llms/projects/${p.slug}.txt): ${p.shortDescription}`)
+  .map(p => `- [${p.title}](${homepage}/projects/${p.slug}.txt): ${p.shortDescription}`)
   .join('\n')
 
 const content = `# Souhail Benlhachemi

@@ -1,0 +1,44 @@
+# Framist
+> Jan 2025
+Rapid prototyping tool to create interactive, native-feeling app prototypes in minutes without code.
+**Tech Stack:** nextjs, react, typescript
+**Links:**
+- website: https://framist.vercel.app/
+- youtube: https://www.youtube.com/watch?v=7BpU-hzctqw
+---
+# Framist
+
+### Project Summary
+
+- **Date:** Jan 2025
+- **Description:** Framist is a rapid prototyping tool that allows users to create interactive, native-feeling app prototypes in minutes without writing code.
+
+### Motivation
+
+This project is an MVP for a SaaS idea: fast prototyping tool that enables founders and developers to build interactive SaaS prototypes quickly.
+
+### Links
+
+- YouTube Demo: https://www.youtube.com/watch?v=7BpU-hzctqw
+- Live Demo: https://framist.vercel.app/
+
+### Tech Stack
+
+- Next.js
+- ReactFlow library
+
+### Key Features
+
+- Predefined screen templates (login screens, dashboards, etc.)
+- Drag-and-drop component system (text, upload boxes, loaders, video players)
+- Editable navigation links and sidebars
+- Visual screen duplication and canvas organization
+- Green dot connection system to link screens and create interactive flows
+- One-click publish to generate live, shareable URLs
+- Automatic transitions between screens (e.g., upload - loader - output)
+- Realistic animations and native app feel
+
+### What I Learned
+
+- how to build a drag-and-drop interface using ReactFlow
+- creating instantly shareable live previews

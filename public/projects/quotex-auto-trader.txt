@@ -1,0 +1,39 @@
+# Quotex Auto Trader
+> Oct 2021
+Chrome extension to automate trading actions on the Quotex platform.
+**Tech Stack:** html, css, javascript
+**Links:**
+- github: https://github.com/benlhachemi/quotex_auto_trader
+---
+### **Project Summary**
+
+- **Date:** Oct 21, 2021 → Oct 23, 2021
+- **Description:** Quotex Auto Trader is a browser extension built to automate trading actions on the Quotex platform. The project was developed to help streamline and execute trading strategies without manual intervention.
+
+### Motivation
+
+I was new to trading and started experimenting on various platforms, including Quotex (a fake trading platform for testing strategies). After trying several online strategies, I noticed that some were repetitive and didn't require full human intelligence. Instead of manually repeating the same actions, I built this browser extension to automate the process.
+
+### Links
+
+- **GitHub repo:** https://github.com/benlhachemi/quotex_auto_trader
+
+### **Tech Stack**
+
+- **JavaScript** – core trading logic and automation.
+- **HTML** – extension popup and settings UI.
+- **CSS** – minimal styling for the user interface.
+
+### **Key Features**
+
+- **Automated Trade Execution:** Triggers buy/sell actions on the Quotex platform based on predefined rules, eliminating the need for manual input.
+- **Browser Extension Integration:** Runs as a lightweight browser extension that directly interacts with the Quotex web interface.
+- **Configurable Settings UI:** Includes an extension popup and settings interface (built with HTML/CSS) for user control over automation parameters.
+- **Real-time DOM Monitoring:** Manages asynchronous events and DOM manipulation to capture live trading signals and act on them instantly.
+- **Minimal Overhead:** Built primarily with JavaScript (84.7%) for core logic, ensuring fast performance with little visual footprint (only 0.2% CSS).
+
+### **What I Learned**
+
+- Building browser extensions for financial platforms.
+- Automating repetitive trading tasks.
+- Managing asynchronous events and DOM manipulation for real-time trading signals.

@@ -1,0 +1,46 @@
+# Kolors
+> Dec 2025
+Color palette generator for design systems with primitive shades and semantic mappings.
+**Tech Stack:** nextjs, react, typescript, tailwindcss, zustand, shadcn, motion
+**Links:**
+- website: https://www.kolors.dev/
+- github: https://github.com/benlhachemi/colors.git
+---
+# Kolors
+
+### Project Summary
+
+* **Date:** December 2025
+* **Description:** Color palette generator for design systems. Define base colors and automatically generate a full design token system with primitive shades (50-950) and semantic token mappings (backgrounds, borders, text). Export as CSS custom properties, Tailwind v4 config, or JSON design tokens.
+
+### Motivation
+
+To provide design system engineers with a fast, visual tool for scaffolding a complete color system without manual shade computation or repetitive token mapping.
+
+### Links
+
+- Live demo: https://www.kolors.dev/
+- Github repo: https://github.com/benlhachemi/colors.git
+
+### Tech Stack
+
+* **Framework:** Next.js 16 (App Router), React 19
+* **Language:** TypeScript
+* **Styling:** Tailwind CSS, PostCSS
+* **State:** Zustand
+* **UI:** Shadcn, lucide-react, motion
+* **Syntax Highlighting:** Shiki
+* **Package Manager:** Bun
+* **Analytics:** Google Analytics 4, Microsoft Clarity
+
+### Key Features
+
+* 8 base color pickers (Neutral, Primary, Secondary, Info, Success, Warning, Danger, Magic) with automatic 11-shade generation (50-950)
+* Semantic token mapping across 3 categories (Background, Border, Text) with hover/active/subtle variants
+* 12 pre-built brand palettes (Shopify, Claude, YouTube, Twitch, Stripe, etc.)
+* Multi-format export: CSS custom properties, Tailwind v4 @theme block, JSON design tokens
+
+### What I Learned
+
+* Colors semantic & primitive tokens for design systems.
+* Shiki for syntax-highlighted code previews

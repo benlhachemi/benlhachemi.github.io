@@ -1,0 +1,47 @@
+# LME
+> Dec 2021
+Full-stack CMS for a university research laboratory with admin dashboard.
+**Tech Stack:** react, nodejs, express, mongodb, tailwindcss
+---
+### **Project Summary**
+
+- **Date:** November 27, 2021 - December 9, 2021
+- **Description:** Full-stack CMS for a university research laboratory ("Laboratoire Materiaux et Environnement" / UIZ, Morocco). Includes a public-facing website and a password-protected admin dashboard for managing team members, scientific articles, lab news, and informational pages.
+
+### Motivation
+
+This was my first real client project. The job was to build a complete custom web presence and content management system and internal team management for a local university research lab.
+
+### Links
+
+### **Tech Stack**
+
+| **Layer** | **Technology** |
+| --- | --- |
+| **Backend** | Node.js, Express.js 4.17, MongoDB Atlas, Mongoose 6.x |
+| **Auth** | Passport.js (local), bcrypt, express-session, API key validation |
+| **Frontend** | React 17 (Create React App), React Router v6, Axios |
+| **UI (Public)** | Bootstrap 5, Swiper.js, Sass |
+| **UI (Dashboard)** | Material UI 5, React Bootstrap, Font Awesome 5 |
+| **Rich Text** | EditorJS (20+ plugins), Draft.js, react-draft-wysiwyg |
+| **Storage** | AWS S3 (signed upload URLs) |
+| **Other** | date-fns, geoip-lite, uuid, dotenv |
+
+### **Key Features**
+
+- Role-based access control (Director vs Team Leader) with session auth
+- WYSIWYG page editing via EditorJS for static pages and homepage
+- Article management per research team (ECSAE, ECAE, EEMI, EPCME)
+- News/actuality publishing with S3 image uploads
+- User registration with admin approval/rejection workflow
+- Team manager assignment (Director only)
+- Responsive public site with carousels, sliders, and team showcases
+
+### **What I Learned**
+
+- Full-stack MERN architecture (MongoDB, Express, React, Node)
+- Session-based authentication with Passport.js and role-based middleware
+- Integrating EditorJS for rich content management with JSON persistence
+- AWS S3 signed URL generation for secure file uploads
+- Building a dual-application system (public site + admin dashboard) sharing one backend
+- Managing a monorepo with Create React App for two separate React clients

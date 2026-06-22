@@ -1,0 +1,40 @@
+# Dofus Marchand Bot
+> Jul 2022
+Desktop automation bot for Dofus using OpenCV template matching to automate merchant mode.
+**Tech Stack:** javascript
+**Links:**
+- github: https://github.com/benlhachemi/dofus-marchand-bot.git
+---
+### **Project Summary**
+
+- **Date:** Jul 13, 2022
+- **Description:** Desktop automation bot for the MMORPG Dofus (Ankama Games) that continuously re-activates the marchand (merchant/trader) mode. Uses image recognition via OpenCV template matching to locate UI buttons on screen, then automates mouse clicks and keyboard inputs (V key) to keep the character in merchant mode in an infinite loop.
+
+### Motivation
+
+Dofus is and still my best video game since my childhood (it's a french MMORPG found in 2003). Playing Dofus as a merchant requires periodically re-entering the marchand mode (the game only allows 6 merchant per map, the goal was to spam the merchant request until one the slots is free). This bot eliminates the need to manually click through the multi-step merchant dialog each time, allowing AFK item selling without interruption.
+
+### Links
+
+Github repo: https://github.com/benlhachemi/dofus-marchand-bot.git
+
+### **Tech Stack**
+
+| **Language/Runtime** | **Libraries** |
+| --- | --- |
+| **JavaScript (Node.js)** | @nut-tree/nut-js (mouse, keyboard, screen), @nut-tree/template-matcher (OpenCV image recognition), sleep-promise (timing) |
+
+### **Key Features**
+
+- **Image-based UI detection** - waits for specific template images (XLII.jpg, marchand.jpg, confirm.jpg) to appear on screen
+- **Automated mouse control** - moves cursor to the center of detected UI regions and clicks
+- **Keyboard simulation** - presses/releases the V key (Dofus marchand shortcut)
+- **Error-resilient infinite loop** - catches errors, logs them, and retries the sequence indefinitely
+
+### **What I Learned**
+
+- Desktop automation with nut.js: mouse movement, clicking, keyboard input, screen region detection
+- Template matching (OpenCV) for UI element recognition in game automation
+- Promise-based sequencing with async/await for step-by-step automation workflows
+- Error handling patterns for fragile UI interactions (transient elements, timing issues)
+- Game bot development patterns - wait for element, interact, confirm, loop

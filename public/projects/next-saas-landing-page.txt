@@ -1,0 +1,49 @@
+# NextJs SaaS Landing Page
+> Mar 2025
+Free saas landing page built using next.js, tailwind and framer-motion (100/100 Lightouse score).
+**Tech Stack:** nextjs, typescript, tailwindcss, shadcn, motion
+**Links:**
+- website: https://next-saas-lp.vercel.app/
+- github: https://github.com/benlhachemi/next-saas-lp
+---
+# Next SaaS Landing Page
+
+### Project Summary
+
+- **Date:** Mar 2025
+- **Description:** Free saas landing page built using next.js, tailwind and framer-motion (100/100 Lightouse score).
+
+### Motivation
+
+I wanted to learn how to create simple, clean, responsive and fast-loading landing pages using Nextjs and Motion.
+
+### Links
+
+- **Live demo:** https://next-saas-lp.vercel.app/
+- **GitHub repo:** https://github.com/benlhachemi/next-saas-lp
+
+### **Tech Stack**
+
+- **Framework:** Next.js 15 (App Router, Turbopack)
+- **Language:** TypeScript 5
+- **Styling:** Tailwind CSS v4, tw-animate-css, PostCSS
+- **Animation:** Framer Motion (motion v12), Lenis (smooth scroll)
+- **UI:** shadcn/ui (New York style), Radix UI primitives
+- **Icons:** Lucide React
+
+### **Key Features**
+
+- Animated smooth-scrolling landing page (Lenis + Framer Motion)
+- Multiple scroll-triggered animation effects (slide, text blur, text reveal, fade)
+- Custom cursor follower effect
+- Animated testimonials carousel with auto-play and word-by-word reveal
+- Infinite-scroll logo carousel (framework/plugin logos)
+- Responsive mobile hamburger menu with full-screen overlay
+- 100/100 Lighthouse score
+- Fully responsive
+- 100% free
+
+### **What I Learned**
+
+- Advanced Framer Motion patterns - scroll-triggered animations, spring physics, per-character text effects
+- Integrating Lenis for smooth scrolling alongside Framer Motion

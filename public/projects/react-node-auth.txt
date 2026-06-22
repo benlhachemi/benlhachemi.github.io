@@ -1,0 +1,46 @@
+# React Node Auth
+> Nov 2021
+Full-stack MERN authentication app with Passport.js local strategy, session-based auth, and a React frontend.
+**Tech Stack:** react, nodejs, express, passport, mongodb, mongoose, bcrypt, nodemon
+**Links:**
+- github: https://github.com/benlhachemi/React-nodeJs-auth-app
+---
+### Project Summary
+
+- **Date**: Nov 25, 2021
+- **Description**: A full-stack MERN authentication app with Passport.js local strategy, session-based auth, and a React frontend with login/register toggle UI, built as a learning/practice project.
+
+### Motivation
+
+Learn how to build a complete authentication flow from scratch, hashing passwords with bcrypt, managing sessions with Express and Passport.js, connecting a React frontend to a protected Express API, and handling basic security (CORS, API keys, host validation).
+
+### Links
+
+- GitHub repo: https://github.com/benlhachemi/React-nodeJs-auth-app
+
+### **Tech Stack**
+
+| **Layer** | **Technology** |
+| --- | --- |
+| **Frontend** | React 17, Axios, CSS (custom + animate.css) |
+| **Backend** | Node.js, Express 4, Passport.js (local strategy), express-session |
+| **Database** | MongoDB (Atlas) via Mongoose 6 |
+| **Auth** | bcrypt (password hashing), express-session (cookies) |
+| **Dev tools** | Create React App, nodemon, dotenv |
+
+### **Key Features**
+
+- User registration with server-side validation (username, email, password rules, duplicate checks, geo-IP lookup)
+- Local login with Passport.js and persistent sessions via cookies
+- Session-aware auth check (**`/auth`** endpoint) and logout
+- Animated flip-card login/register toggle (pure CSS checkbox trick)
+- Per-request security guards (origin host check + API key in body)
+
+### **What I Learned**
+
+- Setting up Passport **`LocalStrategy`** with serialize/deserialize and session middleware
+- Hashing passwords with bcrypt and storing them securely in MongoDB
+- Structuring a Node/Express project with configs, routes, and middleware
+- Connecting a React SPA to a REST API with Axios and CORS configuration
+- Server-side input validation and basic API security patterns
+- Deploying environment-specific config via JSON fields in **`package.json`** and **`public/env.js`**

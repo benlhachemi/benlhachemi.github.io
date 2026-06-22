@@ -1,0 +1,55 @@
+# NextJs Tailwind Portfolio
+> Sep 2023
+Personal dark-themed portfolio with Lottie animations, glassmorphism, and Tailwind CSS.
+**Tech Stack:** nextjs, typescript, tailwindcss, lottie
+**Links:**
+- github: https://github.com/benlhachemi/nextjs-tailwind-portfolio
+- youtube: https://www.youtube.com/watch?v=NGpZcR6dfr8
+---
+### Project Summary
+
+- **Date:** Sep 2023
+- **Description:** A personal dark-themed portfolio website. Built with Next.js 13's App Router, Lottie animations, and Tailwind CSS.
+
+### Motivation
+
+To experiment with and learn Next.js 13's App Router, Lottie animations (lottie-react), and advanced Tailwind CSS (custom keyframes, glassmorphism, responsive design) by building a personal portfolio site from scratch.
+
+### Links
+
+Github Repo: https://github.com/benlhachemi/nextjs-tailwind-portfolio
+
+YouTube Tutorial: https://www.youtube.com/watch?v=NGpZcR6dfr8
+
+### **Tech Stack**
+
+| **Technology** | **Version** |
+| --- | --- |
+| Next.js (App Router) | 13.4.19 |
+| React | 18.2.0 |
+| TypeScript | 5.2.2 |
+| Tailwind CSS | 3.3.3 |
+| lottie-react | ^2.4.0 |
+| react-icons | ^4.10.1 |
+| ESLint (Airbnb + Airbnb-TypeScript) | 8.48.0 |
+
+### **Key Features**
+
+- **Glassmorphism header card** with backdrop blur and Lottie avatar animation
+- **Hero section** with Full Stack Developer / Software Engineer Student tagline
+- **Skills grid** (8 logos: Next.js, Tailwind, NestJS, GraphQL, MongoDB, Redis, Nginx, Docker)
+- **3 placeholder project cards** with alternating layouts and hover effects
+- **About Me section** with stacked profile photos that tilt/float on hover
+- **7 custom Lottie animations** (avatar, waving hand, computer, heart, etc.)
+- **Custom animated backgrounds** (SVG dot-grid patterns) + Tailwind keyframe animations (blob, circle, card float)
+- **Fully responsive** (sm/ md/ lg/ xl/ 2xl breakpoints)
+- **Dark theme**, Inter font, bouncing scroll indicator
+
+### **What I Learned**
+
+- Next.js 13 App Router - using app/ directory, layout.tsx, page.tsx, and next/font for font optimization
+- Lottie animation integration with lottie-react to add rich, lightweight vector animations
+- Custom Tailwind CSS - defining keyframes in tailwind.config.ts, creating complex animations (blob, circle, card), and advanced effects like backdrop-blur glassmorphism
+- Responsive design with Tailwind - using responsive prefixes (lg:, xl:, 2xl:) for layout shifts between mobile/desktop
+- ESLint + Airbnb TypeScript config - setting up strict linting on top of next/core-web-vitals
+- Practical takeaways: Placeholder content first to nail the layout/animation layer, then backfill real content; and that 2-day sprints can yield visually impressive results even with incomplete data
